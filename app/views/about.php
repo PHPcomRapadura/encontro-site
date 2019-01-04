@@ -30,7 +30,7 @@
 
                     <p class="font-marron center">
                         <strong>Detalhe!</strong><br>
-                        O valor do ingresso é para que haja um belo e gostoso Coffee Break. Vale ressaltar que o local foi cedido gratuitamente pela Faculdade Metropolitana da Grande Fortaleza - FAMETRO.
+                        O valor do ingresso é para que haja um belo e gostoso Coffee Break. Vale ressaltar que o local foi cedido gratuitamente pelo <strong>Centro universitário Unifametro.</strong>
                     </p>
 
                 </div>
