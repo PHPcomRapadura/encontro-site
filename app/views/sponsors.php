@@ -19,7 +19,7 @@
                         <p class="font-marron">Saiba como a sua empresa pode ajudar-nos a realizar um evento fantástico.</p>
                     </div>
                     <div class="card-action font-marron">
-                        <a class="waves-effect waves-light btn color-marron" target="_blank" href="http://encontro.phpcomrapadura.org/public/assets/files/kit_patrocinio.pdf">
+                        <a class="waves-effect waves-light btn color-marron" target="_blank" href="http://encontro.phpcomrapadura.org/app/public/assets/files/kit_patrocinio.pdf">
                             <i class="fa fa-plus-circle"></i> Saiba mais
                         </a>
                     </div>
@@ -36,7 +36,7 @@
                         <p class="font-marron">Saiba como sua empresa pode nos ajudar a realizar um evento arretado.</p>
                     </div>
                     <div class="card-action font-marron">
-                        <a class="waves-effect waves-light btn color-marron" target="_blank" href="http://encontro.phpcomrapadura.org/public/assets/files/kit_patrocinio.pdf">
+                        <a class="waves-effect waves-light btn color-marron" target="_blank" href="http://encontro.phpcomrapadura.org/app/public/assets/files/kit_patrocinio.pdf">
                             <i class="fa fa-plus-circle"></i> Saiba mais
                         </a>
                     </div>
@@ -51,7 +51,7 @@
                         <p class="font-marron">Saiba como a sua empresa pode ajudar-nos a realizar um evento jóiado.</p>
                     </div>
                     <div class="card-action font-marron">
-                        <a class="waves-effect waves-light btn color-marron" target="_blank" href="http://encontro.phpcomrapadura.org/public/assets/files/kit_patrocinio.pdf">
+                        <a class="waves-effect waves-light btn color-marron" target="_blank" href="http://encontro.phpcomrapadura.org/app/public/assets/files/kit_patrocinio.pdf">
                             <i class="fa fa-plus-circle"></i> Saiba mais
                         </a>
                     </div>
