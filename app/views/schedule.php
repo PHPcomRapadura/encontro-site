@@ -71,7 +71,7 @@
                   </tr>
                   <tr>
                     <td>14:30 - 15:15</td>
-                    <td>Kahoot (quizz)</td>
+                    <td>Kahoot (quiz)</td>
                     <td>Comunidade PHP com Rapadura</td>
                   </tr> 
                   <tr>
