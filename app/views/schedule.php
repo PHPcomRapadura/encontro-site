@@ -25,49 +25,58 @@
                     <td>Comunidade PHP com Rapadura</td>
                   </tr>
                   <tr>
-                    <td>08:20 - 08:40</td>
+                    <td>08:00 - 08:30</td>
                     <td>Abertura</td>
                     <td>Comunidade PHP com Rapadura e FAMETRO</td>
                   </tr>
                   <tr>
-                    <td>08:45  - 09:25</td>
+                    <td>08:30  - 09:15</td>
                     <td>Em breve</td>
                     <td>Em breve</td>
                   </tr>
                   <tr>
-                    <td>09:30 - 10:10</td>
+                    <td>09:15 - 10:00</td>
                     <td>Em breve</td>
                     <td>Em breve</td>
                   </tr>
                   <tr>
-                    <td>10:15 - 10:55</td>
-                    <td>Em breve</td>
-                    <td>Em breve</td>
-                  </tr>
-                  <tr>
-                    <td>11:00 - 12:00</td>
-                    <td>Intervalo para coffee break</td>
+                    <td>10:00 - 10:30</td>
+                    <td>Coffe break</td>
                     <td>Comunidade PHP com Rapadura</td>
                   </tr>
                   <tr>
-                    <td>12:00 - 12:40</td>
+                    <td>10:30 - 11:25</td>
+                    <td>Em breve</td>
+                    <td>Em breve</td>
+                  </tr>
+                  <tr>
+                    <td>11:25 - 12:15</td>
                     <td>Em breve</td>
                     <td>Keynote</td>
                   </tr>
                   <tr>
-                    <td>13:40 - 14:05</td>
+                    <td>12:15 - 13:00</td>
+                    <td>Almoço</td>
+                    <td>Todo mundo</td>
+                  </tr>
+                  <tr>
+                    <td>13:00 - 13:45</td>
                     <td>Em breve</td>
                     <td>Em breve</td>
                   </tr>
                   <tr>
-                    <td>13:40 - 14:05</td>
+                    <td>13:45 - 14:30</td>
                     <td>Em breve</td>
                     <td>Em breve</td>
                   </tr>
-
                   <tr>
-                    <td>14:05 - 15:00</td>
-                    <td>Encerramento: Agradecimentos e sorteio de brindes</td>
+                    <td>14:30 - 15:15</td>
+                    <td>Kahoot (quizz)</td>
+                    <td>Comunidade PHP com Rapadura</td>
+                  </tr> 
+                  <tr>
+                    <td>14:30 - 15:15</td>
+                    <td>Encerramento: agradecimentos e sorteio de brindes</td>
                     <td>Comunidade PHP com Rapadura</td>
                   </tr> 
                 </tbody>
@@ -77,4 +86,4 @@
         </div>
       </div>
     </div>
-  </div>
+  </div>  
