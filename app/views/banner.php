@@ -23,7 +23,7 @@
         </div>
     </div>
     <div class="parallax">
-        <img src="app/public/assets/img/banner-site.png" alt="PHP com Rapadura CONFERENCE 2018" />
+        <img src="app/public/assets/img/banner-site.png" alt="Encontro de devs PHP com Rapadura" />
     </div>
 
 </div>

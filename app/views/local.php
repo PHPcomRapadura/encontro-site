@@ -10,7 +10,7 @@
               <div class="col s12 m8">
                 <div class="icon-block">
                   <br><br>
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15925.571095793417!2d-38.5430483!3d-3.7242306!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x76da9a5f2841a532!2sUnifametro+-+Campus+Carneiro+da+Cunha!5e0!3m2!1spt-BR!2sbr!4v1546468141608" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15925.571095793417!2d-38.5430483!3d-3.7242306!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x76da9a5f2841a532!2sUnifametro+-+Campus+Carneiro+da+Cunha!5e0!3m2!1spt-BR!2sbr!4v1546468141608" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
                 </div>
               </div>
 
