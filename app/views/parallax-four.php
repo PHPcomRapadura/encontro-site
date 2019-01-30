@@ -5,6 +5,11 @@
                 <h2 class="header col s12 light text-parallax"><strong>INSCREVA-SE!</strong></h2>
                 <!--<div id="sympla-widget-288555"></div> -->
                 <!--<a target="_blank" href="http://bit.ly/rapaduraconf" class="waves-effect waves-light btn-large color-marron">Clique aqui para comprar o seu ingresso</a>-->
+
+                <div id="sympla-widget-433123" height="auto"></div> 
+                
+                <script src="https://www.sympla.com.br/js/sympla.widget-pt.js/433123"></script>
+            
             </div>
         </div>
     </div>
