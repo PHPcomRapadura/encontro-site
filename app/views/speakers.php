@@ -12,20 +12,20 @@
             <div class="col s12 m6">
                 <div class="card grey lighten-4">
                     <div class="card-content white-text">
-                        <span class="card-title font-marron center"><strong>Keynote</strong></span>
+                        <span class="card-title font-marron center"><strong>Nanderson Castro</strong></span>
                         <hr></hr>
                         <div class="center">
                             <br>
-                            <img class="responsive-img" id="img-speakers" src="app/public/assets/img/speakers/user.png" alt="Keynote" title="Em breve">
+                            <img class="responsive-img" id="img-speakers" src="app/public/assets/img/speakers/nanderson-castro.jpg" alt="Keynote" title="Nanderson Castro">
                         </div>
 
                     </div>
                     <div class="card-action center">
-                        <a class="grey-text text-darken-4" title="Github" target="_blank" href="https://github.com/"><i class="fa fa-github fa-3x" aria-hidden="true"></i>
+                        <a class="grey-text text-darken-4" title="Github" target="_blank" href="https://github.com/NandoKstroNet"><i class="fa fa-github fa-3x" aria-hidden="true"></i>
                         </a>
-                        <a class="grey-text text-darken-4" title="Twitter" target="_blank" href="https://twitter.com/"><i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i>
+                        <a class="grey-text text-darken-4" title="Twitter" target="_blank" href="https://twitter.com/NandoKstroNet"><i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i>
                         </a>
-                        <a class="grey-text text-darken-4" title="Facebook" target="_blank" href="https://www.facebook.com/"><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i>
+                        <a class="grey-text text-darken-4" title="Facebook" target="_blank" href="https://www.facebook.com/NandoKstroNet"><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i>
                         </a>
                     </div>
                 </div>
