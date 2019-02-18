@@ -34,20 +34,20 @@
             <div class="col s12 m6">
                 <div class="card grey lighten-4">
                     <div class="card-content white-text">
-                        <span class="card-title font-marron center"><strong>Em breve</strong></span>
+                        <span class="card-title font-marron center"><strong>Prof. Júlio Alcântara</strong></span>
                         <hr></hr>
                         <div class="center">
                             <br>
-                            <img class="responsive-img" id="img-speakers" src="app/public/assets/img/speakers/user.png" alt="Em breve" title="Em breve">
+                            <img class="responsive-img" id="img-speakers" src="app/public/assets/img/speakers/julio-alcantara.jpg" alt="Prof. Júlio Alcântara" title="Prof. Júlio Alcântara">
                         </div>
 
                     </div>
                     <div class="card-action center">
-                        <a class="grey-text text-darken-4" title="Github" target="_blank" href="https://github.com/"><i class="fa fa-github fa-3x" aria-hidden="true"></i>
+                        <a class="grey-text text-darken-4" title="Github" target="_blank" href="https://github.com/juliotavares"><i class="fa fa-github fa-3x" aria-hidden="true"></i>
                         </a>
-                        <a class="grey-text text-darken-4" title="Twitter" target="_blank" href="https://twitter.com/"><i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i>
+                        <a class="grey-text text-darken-4" title="Twitter" target="_blank" href="https://twitter.com/julio_alcantara"><i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i>
                         </a>
-                        <a class="grey-text text-darken-4" title="Facebook" target="_blank" href="https://www.facebook.com/"><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i>
+                        <a class="grey-text text-darken-4" title="Facebook" target="_blank" href="https://www.facebook.com/julio.alcantara.tavares"><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i>
                         </a>
                     </div>
                 </div>
