@@ -102,20 +102,20 @@
             <div class="col s12 m6">
                 <div class="card grey lighten-4">
                     <div class="card-content white-text">
-                        <span class="card-title font-marron center"><strong>Em breve</strong></span>
+                        <span class="card-title font-marron center"><strong>Lucas Cavalcante</strong></span>
                         <hr></hr>
                         <div class="center">
                             <br>
-                            <img class="responsive-img" id="img-speakers" src="app/public/assets/img/speakers/user.png" alt="Em breve" title="Em breve">
+                            <img class="responsive-img" id="img-speakers" src="app/public/assets/img/speakers/lucas-cavalcante.jpg" alt="Lucas Cavalcante" title="Lucas Cavalcante">
                         </div>
 
                     </div>
                     <div class="card-action center">
-                        <a class="grey-text text-darken-4" title="Github" target="_blank" href="https://github.com/"><i class="fa fa-github fa-3x" aria-hidden="true"></i>
+                        <a class="grey-text text-darken-4" title="Github" target="_blank" href="https://github.com/lucascavalcante"><i class="fa fa-github fa-3x" aria-hidden="true"></i>
                         </a>
-                        <a class="grey-text text-darken-4" title="Twitter" target="_blank" href="https://twitter.com/"><i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i>
+                        <a class="grey-text text-darken-4" title="Twitter" target="_blank" href="https://twitter.com/lucascgomes"><i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i>
                         </a>
-                        <a class="grey-text text-darken-4" title="Facebook" target="_blank" href="https://www.facebook.com/"><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i>
+                        <a class="grey-text text-darken-4" title="Facebook" target="_blank" href="https://www.facebook.com/lucascavalcante81"><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i>
                         </a>
                     </div>
                 </div>
@@ -124,20 +124,20 @@
              <div class="col s12 m6">
                 <div class="card grey lighten-4">
                     <div class="card-content white-text">
-                        <span class="card-title font-marron center"><strong>Em breve</strong></span>
+                        <span class="card-title font-marron center"><strong>Ian Rodrigues</strong></span>
                         <hr></hr>
                         <div class="center">
                             <br>
-                            <img class="responsive-img" id="img-speakers" src="app/public/assets/img/speakers/user.png" alt="Em breve" title="Em breve">
+                            <img class="responsive-img" id="img-speakers" src="app/public/assets/img/speakers/ian-rodrigues.jpg" alt="Ian Rodrigues" title="Ian Rodrigues">
                         </div>
 
                     </div>
                     <div class="card-action center">
-                        <a class="grey-text text-darken-4" title="Github" target="_blank" href="https://github.com/"><i class="fa fa-github fa-3x" aria-hidden="true"></i>
+                        <a class="grey-text text-darken-4" title="Github" target="_blank" href="https://github.com/ianrodrigues"><i class="fa fa-github fa-3x" aria-hidden="true"></i>
                         </a>
-                        <a class="grey-text text-darken-4" title="Twitter" target="_blank" href="https://twitter.com/"><i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i>
+                        <a class="grey-text text-darken-4" title="Twitter" target="_blank" href="https://twitter.com/ianwhocodes"><i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i>
                         </a>
-                        <a class="grey-text text-darken-4" title="Facebook" target="_blank" href="https://www.facebook.com/"><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i>
+                        <a class="grey-text text-darken-4" title="Facebook" target="_blank" href="https://www.facebook.com/ianwhocodes"><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i>
                         </a>
                     </div>
                 </div>
