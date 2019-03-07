@@ -20,7 +20,7 @@
                     <h4 class="font-marron"><strong>UNIFAMETRO</strong></h4> 
                     <h5 class="font-marron">Centro universitário Unifametro</h5>
                     <p class="light font-marron">
-                    Rua Carneiro da Cunha, 180 - Jacarecanga, Fortaleza - CE - Auditório I.
+                    Rua Carneiro da Cunha, 180 - Jacarecanga, Fortaleza - CE - Auditório I - Estacionamento no subsolo.
                     </p>
                 </div>
               </div>
