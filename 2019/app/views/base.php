@@ -4,12 +4,9 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link rel="icon" href="app/public/assets/img/favicon.png">
-    <title>6º Encontro de devs PHP com Rapadura 2025</title>
+    <title>5º Encontro de devs PHP com Rapadura 2019</title>
 
     <!-- CSS  -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="https://use.fontawesome.com/6c531641d9.js"></script>
     <link href="app/public/assets/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
@@ -60,6 +57,7 @@
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="app/public/assets/js/materialize.js"></script>
     <script src="app/public/assets/js/init.js"></script>
+    <script src="https://www.sympla.com.br/js/sympla.widget-pt.js/288555"></script>
 
 </body>
 </html>

@@ -11,8 +11,8 @@
         
             </div>
             <div class="row center">
-                <h2 class="header col s12 light font-marron"><strong>05 de Abril de 2025</strong></h2>
-                <h5 class="header col s12 light font-marron"><strong>Unichristus - Campus Dom Luís - Fortaleza/CE.</strong></h5>
+                <h2 class="header col s12 light font-marron"><strong>16 de Março de 2019</strong></h2>
+                <h5 class="header col s12 light font-marron"><strong>Centro universitário Unifametro</strong></h5>
             </div>
 
             <div class="row center">

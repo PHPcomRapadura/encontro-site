@@ -27,17 +27,17 @@
                   <tr>
                     <td>08:00 - 08:30</td>
                     <td>Abertura</td>
-                    <td>Comunidade PHP com Rapadura e Unichristus</td>
+                    <td>Comunidade PHP com Rapadura e FAMETRO</td>
                   </tr>
                   <tr>
                     <td>08:30  - 09:10</td>
-                    <td></td>
-                    <td></td>
+                    <td>PHP e Machine Learning</td>
+                    <td>Prof. Júlio Alcântara</td>
                   </tr>
                   <tr>
                     <td>09:10 - 09:50</td>
-                    <td></td>
-                    <td></td>
+                    <td>Dependecy Injection e seus conceitos</td>
+                    <td>Erison Silva</td>
                   </tr>
                   <tr>
                     <td>09:50 - 10:30</td>
@@ -46,13 +46,13 @@
                   </tr>
                   <tr>
                     <td>10:30 - 11:10</td>
-                    <td></td>
-                    <td></td>
+                    <td>Entendendo as PSR's</td>
+                    <td>Lucas Cavalcante</td>
                   </tr>
                   <tr>
                     <td>11:10 - 11:55</td>
-                    <td></td>
-                    <td></td>
+                    <td>Descomplicando o Symfony 4</td>
+                    <td>Nanderson de Castro</td>
                   </tr>
                   <tr>
                     <td>11:55 - 13:00</td>
@@ -61,25 +61,25 @@
                   </tr>
                   <tr>
                     <td>13:00 - 13:40</td>
-                    <td></td>
-                    <td></td>
+                    <td>QAops e a sua importância para qualidade de software</td>
+                    <td>Sandy Maciel</td>
                   </tr>
                   <tr>
                     <td>13:40 - 14:20</td>
-                    <td></td>
-                    <td></td>
+                    <td>Eu Sei que POO é a pedra no teu sapato</td>
+                    <td>Kilderson Sena</td>
                   </tr>
                   
                   <tr>
                     <td>14:20 - 15:00</td>
-                    <td></td>
-                    <td></td>
+                    <td>PHP Testing Prátice</td>
+                    <td>Ian Rodrigues</td>
                   </tr>
                   
                   <tr>
                     <td>15:00 - 15:30</td>
-                    <td></td>
-                    <td></td>
+                    <td>Kahoot (quiz)</td>
+                    <td>Comunidade PHP com Rapadura</td>
                   </tr> 
 
                   <tr>
