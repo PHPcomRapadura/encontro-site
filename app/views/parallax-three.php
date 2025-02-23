@@ -6,7 +6,7 @@
         </div>
       </div>
     </div>
-    <div class="parallax"><img class="img-parallax" src="app/public/assets/img/parallax-three.jpg" alt="Unsplashed background img 2"></div>
+    <div class="parallax"><img class="img-parallax" src="app/public/assets/img/parallax-four.jpg" alt="Unsplashed background img 2"></div>
   </div>
 
  

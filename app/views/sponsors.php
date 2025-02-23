@@ -67,14 +67,14 @@
                         <hr></hr>
                         <div class="center">
                         <br>
-                            <img class="responsive-img" id="img-sponsors" src="app/public/assets/img/sponsors/logo-unifametro.png" alt="Unifametro" title="Centro universitário Unifametro.">
+                            <img class="responsive-img  z-depth-1" id="img-sponsors" src="app/public/assets/img/sponsors/logo-unichristus.png" alt="Unichristus" title="Centro universitário Unichristus.">
                         </div>
 
                     </div>
                     <div class="card-action center">
-                        <a class="grey-text text-darken-4" title="website" target="_blank" href="http://www.unifametro.edu.br/"><i class="fa fa-globe fa-3x" aria-hidden="true"></i>
+                        <a class="grey-text text-darken-4" title="website" target="_blank" href="http://www.unichristus.edu.br/"><i class="fa fa-globe fa-3x" aria-hidden="true"></i>
                         </a>
-                        <a class="grey-text text-darken-4" title="facebook" target="_blank" href="https://www.facebook.com/unifametro/"><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i>
+                        <a class="grey-text text-darken-4" title="facebook" target="_blank" href="https://www.facebook.com/unichristus/"><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i>
                         </a>
                     </div>
                 </div>

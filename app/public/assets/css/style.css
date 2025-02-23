@@ -13,10 +13,9 @@ nav .brand-logo {
 }
 
 #img-sponsors{
-  border-width: medium;
+  border: #f6f6f6 1px solid !important;
   border-style: solid;
-  border-radius: 10%;
-  border-color: #212121;
+  border-radius: 2%;
 }
 
 #img-speakers{
@@ -39,6 +38,10 @@ nav.color-marron {
 
 .font-marron{
   color: #212121 !important;
+}
+
+.font-about {
+  font-size: 18px;
 }
 
 p {
@@ -64,7 +67,7 @@ p {
 }
 
 .parallax-container {
-  min-height: 695px;
+  min-height: 1024px;
   line-height: 0;
   height: auto;
   color: rgba(255,255,255,.9);
@@ -117,9 +120,35 @@ div#sympla-widget-288555 iframe {
   max-width: 600px !important;
 }
 
-.lexend-<uniquifier> {
-  font-family: "Lexend", serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
+  /* Container principal */
+  .video-section {
+    position: relative;
+    width: 100%;
+    height: 1024px; /* Ajuste a altura conforme necessário */
+    overflow: hidden; /* Garante que nada vaze para fora */
+  }
+
+  /* Texto sobreposto */
+  .text-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 10; /* Garante que o texto fique acima do vídeo */
+    color: white;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para melhor leitura */
+    border-radius: 10px;
+    width: 80%;
+  }
+
+  /* Estilo do vídeo */
+  .video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Garante que o vídeo cubra todo o espaço */
+  }

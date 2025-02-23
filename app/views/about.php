@@ -10,29 +10,24 @@
 
             <div class="col s12">
                 <div class="icon-block">
-                    <h5 class="center brown-text"><br><br></h5>
-                    <p class="font-marron center">
-                        É um evento que proporciona um dia de aprendizado teremos no palco os melhores profissionais do mercado compartilhando conhecimento, e você que nunca palestrou em um grande evento será a sua oportunidade teremos em breve a submissão de palestras.
-                    </p>
-                    <p class="font-marron center">
-                        A principal finalidade é a interação, networking e colaboração, que contribuem de forma eficiente na formação de melhores pessoas e profissionais.
-                    </p>
+                    <h5 class="center brown-text"><br></h5>
+                    <p class="font-marron center font-about">
+                    Prepare-se para um dia repleto de aprendizado, troca de experiências e muita interação! <br>
+                    No <b>Encontro de Devs PHP com Rapadura</b>, reunimos no palco os melhores profissionais do mercado para compartilhar conhecimento prático e inspirador. Se você nunca palestrou em um grande evento, essa é a sua chance – em breve abriremos a submissão de palestras, e você pode ser o próximo a brilhar!
+<br><br>
+🚀 Por que participar?<br>
+Além de se atualizar com as últimas tendências do universo PHP, nossa missão é fortalecer a comunidade através da interação, networking e colaboração – ingredientes essenciais para formar não apenas melhores profissionais, mas também melhores pessoas.
+<br><br>
+🍬 E a rapadura?<br>
+Mas é claro, jovem! Não seria PHP com Rapadura se não tivesse rapadura, né? Hehehe. Aqui, o clima é descontraído, acolhedor e cheio de sabor nordestino!
 
-                    <p class="font-marron center">
-                        <strong>Terá Rapadura?</strong><br>
-                        Claro que sim jovem, pois não seria PHP com Rapadura se não tivesse rapadura hehehe.
+<br><br>
+📚 Amplie seus conhecimentos!<br>
+Aprender novas tecnologias é sempre uma aventura – e com uma comunidade arretada como a nossa, o aprendizado fica ainda mais leve e divertido. Seja você um dev iniciante ou experiente, temos um espaço para você crescer e se conectar com pessoas incríveis.
+<br><br>
+☕ Detalhe importante!<br>
+O valor do ingresso é para garantir um belo e gostoso Coffee Break – porque ninguém merece absorver tanto conhecimento de barriga vazia! Ah, e um agradecimento especial ao Centro Universitário Unichristus, que gentilmente cedeu o espaço para que esse encontro aconteça.
                     </p>
-
-                    <p class="font-marron center">
-                        <strong>Amplie seus conhecimentos!</strong><br>
-                        Aprender uma nova tecnologia sempre é legal, ainda mais quando existe uma comunidade tão arretada e disposta a te ajudar. 
-                    </p>
-
-                    <p class="font-marron center">
-                        <strong>Detalhe!</strong><br>
-                        O valor do ingresso é para que haja um belo e gostoso Coffee Break. Vale ressaltar que o local foi cedido gratuitamente pelo <strong>Centro universitário Unichristus.</strong>
-                    </p>
-
                 </div>
             </div>
 

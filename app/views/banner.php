@@ -16,9 +16,7 @@
             </div>
 
             <div class="row center">
-    
-  <a href="#about" title="Saiba mais" id="download-button" class="btn-floating btn-large waves-effect waves-light black scrollSuave"><i class="material-icons">arrow_downward</i></a>
-        
+                <a href="#about" title="Saiba mais" id="download-button" class="btn-floating btn-large waves-effect waves-light black scrollSuave"><i class="material-icons">arrow_downward</i></a>
             </div>
         </div>
     </div>
