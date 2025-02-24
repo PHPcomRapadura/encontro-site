@@ -61,15 +61,15 @@
     <script src="app/public/assets/js/materialize.js"></script>
     <script src="app/public/assets/js/init.js"></script>
 
+    <script>
+        var $doc = $('html, body');
+        $('.scrollSuave').click(function() {
+            $doc.animate({
+                scrollTop: $( $.attr(this, 'href') ).offset().top
+            }, 2000);
+            return false;
+        });
+        
+    </script>
 </body>
 </html>
-<script>
-    var $doc = $('html, body');
-    $('.scrollSuave').click(function() {
-        $doc.animate({
-            scrollTop: $( $.attr(this, 'href') ).offset().top
-        }, 2000);
-        return false;
-    });
-    
-</script>

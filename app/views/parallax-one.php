@@ -6,7 +6,7 @@
   </div>
 
   <video id="hoverVideo" class="video-background" autoplay loop muted playsinline>
-    <source src="app/public/assets/video/PHPeste23.MP4" type="video/mp4">
+    <source src="app/public/assets/video/phpest2023-480p.mov" type="video/mp4">
     Seu navegador não suporta vídeos em HTML5.
   </video>
 </div>
