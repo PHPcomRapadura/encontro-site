@@ -1,0 +1,58 @@
+/* Icons from: https://tabler.io/icons */
+i {
+  display: inline-block;
+  
+  -webkit-mask-size: cover;
+  mask-size: cover;
+  
+  mask-repeat: no-repeat;
+  -webkit-mask-repeat: no-repeat;
+  
+  mask-position: 50% 50%;
+  -webkit-mask-position: 50% 50%;
+
+  width: 1.25rem;
+  height: 1.25rem;
+
+  background-color: white;
+}
+
+.icon--menu {
+  mask-image: url('/assets/svg/menu.svg');
+  -webkit-mask-image: url('/assets/svg/menu.svg');
+}
+
+.icon--menu-close {
+  mask-image: url('/assets/svg/arrow-bar-left.svg');
+  -webkit-mask-image: url('/assets/svg/arrow-bar-left.svg');
+}
+
+.icon--home {
+  mask-image: url('/assets/svg/home.svg');
+  -webkit-mask-image: url('/assets/svg/home.svg');
+}
+
+.icon--php-file {
+  mask-image: url('/assets/svg/file-type-php.svg');
+  -webkit-mask-image: url('/assets/svg/file-type-php.svg');
+}
+
+.icon--message-user {
+  mask-image: url('/assets/svg/message-user.svg');
+  -webkit-mask-image: url('/assets/svg/message-user.svg');
+}
+
+.icon--map-route {
+  mask-image: url('/assets/svg/map-route.svg');
+  -webkit-mask-image: url('/assets/svg/map-route.svg');
+}
+
+.icon--list-details {
+  mask-image: url('/assets/svg/list-details.svg');
+  -webkit-mask-image: url('/assets/svg/list-details.svg');
+}
+
+.icon--cash {
+mask-image: url('/assets/svg/cash.svg');
+  -webkit-mask-image: url('/assets/svg/cash.svg');
+}

@@ -1,636 +1,104 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" href="app/public/assets/img/favicon.png" />
-    <title>6º Encontro de devs PHP com Rapadura 2025</title>
-
-    <!-- CSS  -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet"
-    />
-    <script src="https://use.fontawesome.com/6c531641d9.js"></script>
-    <link
-      href="app/public/assets/css/materialize.css"
-      type="text/css"
-      rel="stylesheet"
-      media="screen,projection"
-    />
-    <link
-      href="app/public/assets/css/style.css"
-      type="text/css"
-      rel="stylesheet"
-      media="screen,projection"
-    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/windi.css" />
+    <link rel="stylesheet" href="assets/css/icons.css" />
   </head>
   <body>
-    <!-- NAV -->
-    <header>
-      <nav class="color-marron" role="navigation">
-        <div class="nav-wrapper container">
-          <a id="logo-container" href="#home" class="brand-logo scrollSuave">
+    <header class="fixed top-0 left-0 z-10 w-full bg-gray-700 py-4">
+      <div
+        class="relative w-full lg:flex lg:justify-between lg:items-center lg:align-middle lg:container lg:mx-auto"
+      >
+        <div class="relative flex justify-center">
+          <div class="lg:hidden absolute top-0 left-4 z-{51}">
+            <button
+              id="nav-mobile-button"
+              onclick="document.getElementById('nav-mobile').classList.toggle('hidden')"
+            >
+              <i class="icon--menu bg-white" aria-hidden="true"></i>
+            </button>
+          </div>
+
+          <a id="logo-container" href="#home">
             <img
               class="responsive-img"
-              src="app/public/assets/img/logo-encontro-de-devs-php-white.png"
+              src="assets/img/logo-encontro-de-devs-php-white.png"
             />
           </a>
-          <ul class="right hide-on-med-and-down">
-            <li>
-              <a href="#home" class="scrollSuave"><strong>Início</strong></a>
-            </li>
-            <li>
-              <a href="#about" class="scrollSuave"><strong>Sobre</strong></a>
-            </li>
-            <li>
-              <a href="#speakers" class="scrollSuave"
-                ><strong>Palestrantes</strong></a
-              >
-            </li>
-            <li>
-              <a href="#local" class="scrollSuave"><strong>Local</strong></a>
-            </li>
-            <li>
-              <a href="#schedule" class="scrollSuave"
-                ><strong>Programação</strong></a
-              >
-            </li>
-            <li>
-              <a href="#sponsors" class="scrollSuave"
-                ><strong>Patrocinadores</strong></a
-              >
-            </li>
-          </ul>
-
-          <ul id="nav-mobile" class="sidenav color-marron">
-            <li>
-              <a href="#home" class="scrollSuave"><strong>Início</strong></a>
-            </li>
-            <li>
-              <a href="#about" class="scrollSuave"><strong>Sobre</strong></a>
-            </li>
-            <li>
-              <a href="#speakers" class="scrollSuave"
-                ><strong>Palestrantes</strong></a
-              >
-            </li>
-            <li>
-              <a href="#local" class="scrollSuave"><strong>Local</strong></a>
-            </li>
-            <li>
-              <a href="#schedule" class="scrollSuave"
-                ><strong>Programação</strong></a
-              >
-            </li>
-            <li>
-              <a href="#sponsors" class="scrollSuave"
-                ><strong>Patrocinadores</strong></a
-              >
-            </li>
-          </ul>
-          <a href="#" data-target="nav-mobile" class="sidenav-trigger"
-            ><i class="material-icons">menu</i></a
-          >
         </div>
-      </nav>
-    </header>
-    <!-- END OF NAV -->
 
-    <!-- BANNER -->
-    <section id="index-banner" class="parallax-container">
-      <div class="section no-pad-bot" id="home">
-        <div class="container">
-          <div class="row center">
-            <img
-              id="img-banner"
-              class="responsive-img"
-              src="app/public/assets/img/logo-rapadura.png"
-              alt="PHP com Rapadura"
-            />
-          </div>
+        <nav
+          id="nav-mobile"
+          class="fixed lg:relative top-0 left-0 z-50 text-white bg-black lg:bg-transparent bg-opacity-20 w-full hidden lg:flex lg:justify-end lg:items-center lg:gap-6 lg:py-0 lg:px-0"
+        >
+          <div
+            class="relative max-w-72 lg:max-w-none bg-gray-800 lg:bg-transparent lg:flex lg:justify-center lg:items-center lg:gap-6 lg:py-0 lg:px-0 lg:rounded-lg lg:shadow-lg"
+          >
+            <div class="lg:hidden absolute top-0 right-0 z-{51} p-4 text-white">
+              <button
+                onclick="document.getElementById('nav-mobile').classList.toggle('hidden')"
+              >
+                <i class="icon--menu-close bg-white" aria-hidden="true"></i>
+              </button>
+            </div>
 
-          <div class="row center logo-conference">
-            <img
-              id="img-banner"
-              class="responsive-img"
-              src="app/public/assets/img/logo-encontro-de-devs-php-black.png"
-              alt="Encontro de Dev's PHP com Rapadura"
-            />
-          </div>
-          <div class="row center">
-            <h2 class="header col s12 light font-marron">
-              <strong>05 de Abril de 2025</strong>
-            </h2>
-            <h5 class="header col s12 light font-marron">
-              <strong>Unichristus - Campus Dom Luís - Fortaleza/CE.</strong>
-            </h5>
-          </div>
-
-          <div class="row center">
-            <a
-              href="#about"
-              title="Saiba mais"
-              id="download-button"
-              class="btn-floating btn-large waves-effect waves-light black scrollSuave"
-              ><i class="material-icons">arrow_downward</i></a
+            <ul
+              id="nav-mobile-list"
+              class="w-10/12 sm:w-72 lg:w-full flex flex-col lg:flex-row items-start gap-6 pl-8 py-8 lg:py-0 min-h-screen lg:h-auto lg:min-h-0 font-bold"
             >
-          </div>
-        </div>
-      </div>
-      <div class="parallax">
-        <img
-          src="app/public/assets/img/banner-site.png"
-          alt="Encontro de devs PHP com Rapadura"
-        />
-      </div>
-    </section>
-
-    <!-- END OF BANNER -->
-
-    <!-- VIDEO -->
-    <section class="video-section">
-      <div class="text-container">
-        <h4>
-          <strong
-            >Evento que proporciona a reunião de vários desenvolvedores,
-            entusiastas, amantes e estudantes do PHP do estado do Ceará.</strong
-          >
-        </h4>
-      </div>
-
-      <video
-        id="hoverVideo"
-        class="video-background"
-        autoplay
-        loop
-        muted
-        playsinline
-      >
-        <source
-          src="app/public/assets/video/phpest2023-480p.webm"
-          type="video/webm"
-        />
-        Seu navegador não suporta vídeos em HTML5.
-      </video>
-      <div class="video--overlay"></div>
-    </section>
-    <!-- END OF VIDEO -->
-
-    <!-- ABOUT -->
-    <section class="container" id="about">
-      <div class="section">
-        <div class="row">
-          <div class="col s12">
-            <div class="icon-block">
-              <img
-                id="img-banner"
-                class="responsive-img"
-                src="app/public/assets/img/logo-encontro-de-devs-php-black.png"
-                alt="Encontro de Dev's PHP com Rapadura"
-              />
-            </div>
-          </div>
-
-          <div class="col s12">
-            <div class="icon-block">
-              <h5 class="center brown-text"><br /></h5>
-              <p class="font-marron center font-about">
-                Prepare-se para um dia repleto de aprendizado, troca de
-                experiências e muita interação! <br />
-                No <b>Encontro de Devs PHP com Rapadura</b>, reunimos no palco
-                os melhores profissionais do mercado para compartilhar
-                conhecimento prático e inspirador. Se você nunca palestrou em um
-                grande evento, essa é a sua chance – em breve abriremos a
-                submissão de palestras, e você pode ser o próximo a brilhar!
-                <br /><br />
-                🚀 Por que participar?<br />
-                Além de se atualizar com as últimas tendências do universo PHP,
-                nossa missão é fortalecer a comunidade através da interação,
-                networking e colaboração – ingredientes essenciais para formar
-                não apenas melhores profissionais, mas também melhores pessoas.
-                <br /><br />
-                🍬 E a rapadura?<br />
-                Mas é claro, jovem! Não seria PHP com Rapadura se não tivesse
-                rapadura, né? Hehehe. Aqui, o clima é descontraído, acolhedor e
-                cheio de sabor nordestino!
-
-                <br /><br />
-                📚 Amplie seus conhecimentos!<br />
-                Aprender novas tecnologias é sempre uma aventura – e com uma
-                comunidade arretada como a nossa, o aprendizado fica ainda mais
-                leve e divertido. Seja você um dev iniciante ou experiente,
-                temos um espaço para você crescer e se conectar com pessoas
-                incríveis.
-                <br /><br />
-                ☕ Detalhe importante!<br />
-                O valor do ingresso é para garantir um belo e gostoso Coffee
-                Break – porque ninguém merece absorver tanto conhecimento de
-                barriga vazia! Ah, e um agradecimento especial ao Centro
-                Universitário Unichristus, que gentilmente cedeu o espaço para
-                que esse encontro aconteça.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- END OF ABOUT -->
-
-    <!-- SPEAKERS -->
-    <section class="container" id="speakers">
-      <div class="section">
-        <br /><br />
-        <div class="row">
-          <div class="col s12 center">
-            <h3 class="font-marron"><strong>Palestrantes</strong></h3>
-            <h5 class="font-marron">Conheça as autoridades em breve!</h5>
-          </div>
-        </div>
-
-        <div class="row"></div>
-      </div>
-    </section>
-    <!-- END OF SPEAKERS -->
-
-    <!-- STAGES -->
-    <section class="parallax-container valign-wrapper" id="stages">
-      <div class="section no-pad-bot">
-        <div class="container">
-          <div class="row center">
-            <h4 class="header col s12 light text-parallax">
-              <strong
-                >Teremos no palco os melhores profissionais do mercado
-                compartilhando conhecimento!</strong
-              >
-            </h4>
-          </div>
-        </div>
-      </div>
-      <div class="parallax">
-        <img
-          class="img-parallax"
-          src="app/public/assets/img/parallax-two.jpg"
-          alt="Unsplashed background img 2"
-        />
-      </div>
-    </section>
-    <!-- END OF STAGES -->
-
-    <!-- MAP -->
-    <section class="container" id="local">
-      <div class="section">
-        <div class="row">
-          <div class="col s12 center">
-            <h3 class="font-marron"><strong>Local</strong></h3>
-            <h5 class="font-marron">Veja em detalhes onde será o evento</h5>
-          </div>
-
-          <div class="col s12 m8">
-            <div class="icon-block">
-              <br /><br />
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.3472453197937!2d-38.49319200000001!3d-3.7342828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c7487da7865e59%3A0xfe7a1ed055e337f1!2sUnichristus%20-%20Campus%20Dom%20Lu%C3%ADs!5e0!3m2!1spt-BR!2sbr!4v1739971024116!5m2!1spt-BR!2sbr"
-                width="100%"
-                height="450"
-                style="border: 0"
-                allowfullscreen=""
-                loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
-              ></iframe>
-            </div>
-          </div>
-
-          <div class="col s12 m4">
-            <div class="icon-block">
-              <h1><br /></h1>
-              <h4 class="font-marron"><strong>Unichristus</strong></h4>
-              <h5 class="font-marron">Centro Universitário Christus</h5>
-              <p class="light font-marron">
-                Av. Dom Luís, 911 - Meireles, Fortaleza - CE.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- END OF MAP -->
-
-    <!-- INVITE TO SPEAK -->
-    <section class="parallax-container valign-wrapper" id="invite-speakers">
-      <div class="section no-pad-bot">
-        <div class="container">
-          <div class="row center">
-            <h4 class="header col s12 light text-parallax">
-              <strong
-                >Faça parte do evento, nosso objetivo é impulsionar novos
-                palestrantes!</strong
-              >
-            </h4>
-          </div>
-        </div>
-      </div>
-      <div class="parallax">
-        <img
-          class="img-parallax"
-          src="app/public/assets/img/parallax-four.jpg"
-          alt="Unsplashed background img 2"
-        />
-      </div>
-    </section>
-    <!-- END INVITE TO SPEAK -->
-
-    <!-- SCHEDULE -->
-    <section class="container" id="schedule">
-      <div class="section">
-        <br /><br />
-        <div class="row">
-          <div class="col s12 center">
-            <h3 class="font-marron"><strong>Programação</strong></h3>
-            <h5 class="font-marron">E o que vai ter de bom?</h5>
-
-            <div class="col s12 center card brown lighten-4">
-              <table class="responsive-table highlight">
-                <thead>
-                  <tr>
-                    <th><strong>Horário</strong></th>
-                    <th><strong>Atividade</strong></th>
-                    <th><strong>Facilitador</strong></th>
-                  </tr>
-                </thead>
-
-                <tbody>
-                  <tr>
-                    <td>07:30 - 08:00</td>
-                    <td>Credenciamento</td>
-                    <td>Comunidade PHP com Rapadura</td>
-                  </tr>
-                  <tr>
-                    <td>08:00 - 08:30</td>
-                    <td>Abertura</td>
-                    <td>Comunidade PHP com Rapadura e Unichristus</td>
-                  </tr>
-                  <tr>
-                    <td>08:30 - 09:10</td>
-                    <td></td>
-                    <td></td>
-                  </tr>
-                  <tr>
-                    <td>09:10 - 09:50</td>
-                    <td></td>
-                    <td></td>
-                  </tr>
-                  <tr>
-                    <td>09:50 - 10:30</td>
-                    <td>Coffe break</td>
-                    <td>Comunidade PHP com Rapadura</td>
-                  </tr>
-                  <tr>
-                    <td>10:30 - 11:10</td>
-                    <td></td>
-                    <td></td>
-                  </tr>
-                  <tr>
-                    <td>11:10 - 11:55</td>
-                    <td></td>
-                    <td></td>
-                  </tr>
-                  <tr>
-                    <td>11:55 - 13:00</td>
-                    <td>Almoço</td>
-                    <td>Todo mundo</td>
-                  </tr>
-                  <tr>
-                    <td>13:00 - 13:40</td>
-                    <td></td>
-                    <td></td>
-                  </tr>
-                  <tr>
-                    <td>13:40 - 14:20</td>
-                    <td></td>
-                    <td></td>
-                  </tr>
-
-                  <tr>
-                    <td>14:20 - 15:00</td>
-                    <td></td>
-                    <td></td>
-                  </tr>
-
-                  <tr>
-                    <td>15:00 - 15:30</td>
-                    <td></td>
-                    <td></td>
-                  </tr>
-
-                  <tr>
-                    <td>15:30 - 16:00</td>
-                    <td>Encerramento: agradecimentos e sorteio de brindes</td>
-                    <td>Comunidade PHP com Rapadura</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- END OF SCHEDULE -->
-
-    <!-- SPONSORS -->
-    <section class="container" id="sponsors">
-      <div class="section">
-          <div class="row">
-          <br><br>
-              <div class="col s12 m12">
-                  <div class="icon-block">
-                      <h3 class="center font-marron"><strong>Patrocinadores e Apoios</strong></h3>
-                      <h5 class="center font-marron">Quem torna isso possível?</h5>
-                  </div>
-              </div>
-          </div>
-  
-          <div class="row">
-              <div class="col s12 m12">
-                  <div class="card grey lighten-4">
-                      <div class="card-content white-text">
-                          <span class="card-title font-marron"><strong>Patrocínio Rapadura Preta</strong></span>
-                          <hr />
-                          <p class="font-marron">Saiba como a sua empresa pode ajudar-nos a realizar um evento fantástico.</p>
-                      </div>
-                      <div class="card-action font-marron">
-                          <a class="waves-effect waves-light btn color-marron" target="_blank" href="http://encontro.phpcomrapadura.org/app/public/assets/files/kit_patrocinio.pdf">
-                              <i class="fa fa-plus-circle"></i> Saiba mais
-                          </a>
-                      </div>
-                  </div>
-              </div>
-          </div>
-  
-          <div class="row">
-              <div class="col s12 m6">
-                  <div class="card grey lighten-4">
-                      <div class="card-content white-text">
-                          <span class="card-title font-marron"><strong>Patrocínio Rapadura de castanha</strong></span>
-                          <hr />
-                          <p class="font-marron">Saiba como sua empresa pode nos ajudar a realizar um evento arretado.</p>
-                      </div>
-                      <div class="card-action font-marron">
-                          <a class="waves-effect waves-light btn color-marron" target="_blank" href="http://encontro.phpcomrapadura.org/app/public/assets/files/kit_patrocinio.pdf">
-                              <i class="fa fa-plus-circle"></i> Saiba mais
-                          </a>
-                      </div>
-                  </div>
-              </div>
-  
-              <div class="col s12 m6">
-                  <div class="card grey lighten-4">
-                      <div class="card-content white-text">
-                          <span class="card-title font-marron"><strong>Patrocínio Rapadura batida</strong></span>
-                          <hr />
-                          <p class="font-marron">Saiba como a sua empresa pode ajudar-nos a realizar um evento jóiado.</p>
-                      </div>
-                      <div class="card-action font-marron">
-                          <a class="waves-effect waves-light btn color-marron" target="_blank" href="http://encontro.phpcomrapadura.org/app/public/assets/files/kit_patrocinio.pdf">
-                              <i class="fa fa-plus-circle"></i> Saiba mais
-                          </a>
-                      </div>
-                  </div>
-              </div>
-          </div>
-  
-          <div class="row">
-              <div class="col s12 m6">
-                  <div class="card grey lighten-4">
-                      <div class="card-content white-text">
-                          <span class="card-title font-marron"><strong>Apoio Institucional</strong></span>
-                          <hr></hr>
-                          <div class="center">
-                          <br>
-                              <img class="responsive-img  z-depth-1" id="img-sponsors" src="app/public/assets/img/sponsors/logo-unichristus.png" alt="Unichristus" title="Centro universitário Unichristus.">
-                          </div>
-  
-                      </div>
-                      <div class="card-action center">
-                          <a class="grey-text text-darken-4" title="website" target="_blank" href="http://www.unichristus.edu.br/"><i class="fa fa-globe fa-3x" aria-hidden="true"></i>
-                          </a>
-                          <a class="grey-text text-darken-4" title="facebook" target="_blank" href="https://www.facebook.com/unichristus/"><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i>
-                          </a>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div>
-    </section>
-     <!-- END OF SPONSORS -->
-      <!-- CODE OF CONDUT -->
-      <section class="container" id="about">
-        <div class="section" id="about">
-    
-            <div class="row">
-    
-            <br><br>
-                <div class="col s12 center">
-                    <h3 class="font-marron"><strong>Código de conduta</strong></h3>
-                </div>
-    
-                <div class="col s12">   
-        <p>
-           A Comunidade PHP com Rapadura está comprometida a ser uma comunidade livre de discriminação para todos, independente de gênero, identidade e expressão de gênero, orientação sexual, deficiência, aparência física, raça, idade, origem ou religião. Não será tolerado, sob nenhuma circunstância, o constrangimento de participantes em eventos e canais organizados pela comunidade. Linguagem e/ou exposição de imagens sexuais ou de cunho discriminatório não serão apropriadas no âmbito de nossa comunidade - isto inclui os eventos, as palestras, apresentações, exemplos ou demonstrações, site, emails, chat e quaisquer outro canal da comunidade. Os participantes que violarem estas regras podem ser repreendidos ou expulsos do canal e/ou evento sem direito a reembolso, a critério da organização. Entendemos como assédio e constrangimento:
-        
-            <li>Comentários que reforçam estruturas sociais de dominação, sejam relacionados a gênero, identidade e expressão de gênero, orientação sexual, deficiência, aparência física, raça, idade, origem ou religião;</li>
-            <li>Imagens sexuais em espaços públicos;</li>
-            <li>Comentários de cunho sexual;</li>
-            <li>Intimidação intencional;</li>
-            <li>Perseguição;</li>
-            <li>Obtenção de som ou imagem constrangedores;</li>
-            <li>Interrupção continuada e intencional de palestras e/ou eventos paralelos;</li>
-            <li>Contato físico inapropriado; atenção sexual não solicitada;</li>
-        <br>
-        Se você estiver sendo assediado(a) ou se sentir constrangido(a), ou perceber alguém nesta condição, ou se tiver qualquer preocupação a respeito deste tema, não deixe de contatar um dos evangelistas da comunidade imediatamente. As pessoas responsáveis pela organização em eventos serão apresentadas ao início dos eventos e podem ser facilmente identificados por camisetas e/ou crachás. Nos canais oficiais da comunidade procure um dos evangelistas da comunidade.
-        Embora o desejo seja de que isso não venha a ser necessário, caso seja preciso a organização ajudará os participantes no contato com a segurança do local ou com a polícia ou mesmo providenciando escolta. Faremos o possível para que todos sintam-se confortáveis e seguros.
-        <br>
-        Contamos com sua compreensão e participação.
-        <br>
-        Contato para eventos da PHP com Rapadura: contato@phpcomrapadura.org<br>
-        Polícia: 190<br>
-        Central de Atendimento à Mulher: 180<br>
-        SAMU: 192
-        <br>
-    Esperamos que todos os participantes sigam estas recomendações em todos os locais onde a PHP com Rapadura estiver levando um evento.
-    <br>
-    Créditos e fonte original: <a target="_blank" href="https://github.com/PHPSP/docs/blob/master/codigo-de-conduta-eventos.md">PHPSP</a>
-    <br>
-    <strong>Aproveitem saudavelmente o evento!</p>
-        </p>
-    
-            </div>
-    
-            </div>
-        </div>
-      </section>
-       <!-- END OF CODE OF CONDUT -->
-
-    <!-- FOOTER -->
-    <footer class="page-footer grey darken-4">
-      <div class="container">
-        <div class="row">
-          <div class="col l6 s12">
-          <h5 class="white-text">Organizado por:</h5>
-            <img class="responsive-img" src="app/public/assets/img/logo-rapadura-white.png" alt="PHP com Rapadura">
-  
-          </div>
-          <div class="col l3 s12">
-            <h5 class="white-text">Encontre-nos:</h5>
-            <ul>
-            <a class="white-text text-darken-4" title="website" target="_blank" href="http://phpcomrapadura.org"><i class="fa fa-globe fa-3x" aria-hidden="true"></i>
-  </a>&nbsp;&nbsp;
-              <a class="white-text" title="twitter" target="_blank" href="https://twitter.com/phpcomrapadura"><i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i>
-  </a>&nbsp;&nbsp;
-              <a class="white-text text-darken-4" title="facebook" target="_blank" href="https://www.facebook.com/rapaduradopoder/"><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i>
-  </a>
+              <li>
+                <a href="#home" class="flex items-center gap-3"
+                  ><i class="lg:hidden icon--home"></i>Início</a
+                >
+              </li>
+              <li>
+                <a href="#about" class="flex items-center gap-3"
+                  ><i class="lg:hidden icon--php-file"></i>Sobre</a
+                >
+              </li>
+              <li>
+                <a href="#speakers" class="flex items-center gap-3"
+                  ><i class="lg:hidden icon--message-user"></i>Palestrantes</a
+                >
+              </li>
+              <li>
+                <a href="#local" class="flex items-center gap-3"
+                  ><i class="lg:hidden icon--map-route"></i>Local</a
+                >
+              </li>
+              <li>
+                <a href="#schedule" class="flex items-center gap-3"
+                  ><i class="lg:hidden icon--list-details"></i>Programação</a
+                >
+              </li>
+              <li>
+                <a href="#sponsors" class="flex items-center gap-3"
+                  ><i class="lg:hidden icon--cash"></i>Patrocinadores</a
+                >
+              </li>
             </ul>
           </div>
-          <div class="col l3 s12">
-          <h5 class="white-text"><br></h5>
-          <a href='https://app.umbler.com/u/2j3g7r5k'>
-              <img src='https://static.umbler.com/brand/umbler-badges/umbler-badge-hostedby-dark-bg.png' 
-          width='100%' alt='Hosted by Umbler'>
-          </a>
-          </div>
-        </div>
+        </nav>
       </div>
-      <div class="footer-copyright">
-        <div class="container">
-        Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
-        </div>
-      </div>
-    </footer>
-  
-     <!-- END OF FOOTEr -->
-    <!-- SCRIPTS -->
-    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="app/public/assets/js/materialize.js"></script>
-    <script src="app/public/assets/js/init.js"></script>
+    </header>
 
-    <script>
-      var $doc = $("html, body");
-      $(".scrollSuave").click(function () {
-        $doc.animate(
-          {
-            scrollTop: $($.attr(this, "href")).offset().top,
-          },
-          2000
-        );
-        return false;
-      });
-    </script>
-    <!-- END OF SCRIPTS -->
+    <main>
+      <section></section>
+      <section></section>
+      <section></section>
+      <section></section>
+      <section></section>
+      <section></section>
+      <section></section>
+      <section></section>
+      <section></section>
+      <section></section>
+    </main>
+    <footer></footer>
+
+    <script src="assets/js/events.js"></script>
   </body>
 </html>
