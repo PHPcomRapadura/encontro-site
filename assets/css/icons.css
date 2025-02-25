@@ -1,13 +1,13 @@
 /* Icons from: https://tabler.io/icons */
 i {
   display: inline-block;
-  
+
   -webkit-mask-size: cover;
   mask-size: cover;
-  
+
   mask-repeat: no-repeat;
   -webkit-mask-repeat: no-repeat;
-  
+
   mask-position: 50% 50%;
   -webkit-mask-position: 50% 50%;
 
@@ -53,11 +53,31 @@ i {
 }
 
 .icon--cash {
-mask-image: url('/assets/svg/cash.svg');
+  mask-image: url('/assets/svg/cash.svg');
   -webkit-mask-image: url('/assets/svg/cash.svg');
 }
 
 .icon--arrow-down {
-mask-image: url('/assets/svg/circle-arrow-down.svg');
+  mask-image: url('/assets/svg/circle-arrow-down.svg');
   -webkit-mask-image: url('/assets/svg/circle-arrow-down.svg');
+}
+
+.icon--speakerphone {
+  mask-image: url('/assets/svg/speakerphone.svg');
+  -webkit-mask-image: url('/assets/svg/speakerphone.svg');
+}
+
+.icon--theater {
+  mask-image: url('/assets/svg/theater.svg');
+  -webkit-mask-image: url('/assets/svg/theater.svg');
+}
+
+.icon--device-projector {
+  mask-image: url('/assets/svg/device-projector.svg');
+  -webkit-mask-image: url('/assets/svg/device-projector.svg');
+}
+
+.icon--arrow-merge-both {
+  mask-image: url('/assets/svg/arrow-merge-both.svg');
+  -webkit-mask-image: url('/assets/svg/arrow-merge-both.svg');
 }

@@ -1,3 +1,15 @@
 .bg--banner {
-    background-image: url(/assets/img/banner-site.png);
+  background-image: url(/assets/img/banner-site.png);
+}
+
+.bg--speakers-2 {
+  background-image: url(/assets/img/speakers-2.jpg);
+}
+
+.bg--questions-1 {
+  background-image: url(/assets/img/questions-1.jpg);
+}
+
+.bg--invite-1 {
+  background-image: url(/assets/img/invite-1.jpg);
 }
