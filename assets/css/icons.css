@@ -56,3 +56,8 @@ i {
 mask-image: url('/assets/svg/cash.svg');
   -webkit-mask-image: url('/assets/svg/cash.svg');
 }
+
+.icon--arrow-down {
+mask-image: url('/assets/svg/circle-arrow-down.svg');
+  -webkit-mask-image: url('/assets/svg/circle-arrow-down.svg');
+}

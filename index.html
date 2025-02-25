@@ -6,9 +6,10 @@
     <title>Document</title>
     <link rel="stylesheet" href="assets/css/windi-min.css" />
     <link rel="stylesheet" href="assets/css/icons.css" />
+    <link rel="stylesheet" href="assets/css/backgrounds.css" />
   </head>
   <body>
-    <header class="fixed top-0 left-0 z-10 w-full bg-gray-700 py-4">
+    <header class="fixed top-0 left-0 z-10 w-full bg-dark-700 py-4">
       <div
         class="relative w-full lg:flex lg:justify-between lg:items-center lg:align-middle lg:container lg:mx-auto"
       >
@@ -35,7 +36,7 @@
           class="fixed lg:relative top-0 left-0 z-50 text-white bg-black lg:bg-transparent bg-opacity-20 w-full hidden lg:flex lg:justify-end lg:items-center lg:gap-6 lg:py-0 lg:px-0"
         >
           <div
-            class="relative max-w-72 lg:max-w-none bg-gray-800 lg:bg-transparent lg:flex lg:justify-center lg:items-center lg:gap-6 lg:py-0 lg:px-0 lg:rounded-lg lg:shadow-lg"
+            class="relative max-w-72 lg:max-w-none bg-gray-800 lg:bg-transparent lg:flex lg:justify-center lg:items-center lg:gap-6 lg:py-0 lg:px-0 lg:rounded-lg"
           >
             <div class="lg:hidden absolute top-0 right-0 z-{51} p-4 text-white">
               <button
@@ -86,16 +87,88 @@
     </header>
 
     <main>
-      <section></section>
-      <section></section>
-      <section></section>
-      <section></section>
-      <section></section>
-      <section></section>
-      <section></section>
-      <section></section>
-      <section></section>
-      <section></section>
+      <section id="home" class="relative w-full">
+        <div class="relative overflow-hidden block h-auto">
+          <div
+            class="flex flex-col align-middle justify-center items-center w-full px-10 gap-16 min-h-screen"
+          >
+            <div>
+              <img
+                id="img-banner"
+                class="bg-cover bg-center"
+                src="assets/img/logo-rapadura.png"
+                alt="PHP com Rapadura"
+              />
+            </div>
+            <div>
+              <img
+                id="img-banner"
+                class="responsive-img"
+                src="assets/img/logo-encontro-de-devs-php-black.png"
+                alt="Encontro de Dev's PHP com Rapadura"
+              />
+            </div>
+            <div class="text-center">
+              <p class="text-5xl font-bold">05 de Abril de 2025</p>
+              <p class="flex items-center gap-2 mt-5">
+                <i class="icon--map-route bg-black w-8 h-8"></i>
+                <span class="text-2xl font-bold"
+                  >Unichristus - Campus Dom Luís - Fortaleza/CE.</span
+                >
+              </p>
+            </div>
+            <div class="relative w-14 h-14">
+              <a href="#about">
+                <i class="icon--arrow-down bg-black w-14 h-14"></i>
+                <div
+                  class="absolute -z-1 bg-white top-3 left-3 rounded-1 border-transparent w-9 h-9"
+                ></div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="absolute top-0 left-0 bottom-0 right-0 -z-2 bg--banner w-full h-screen max-h-screen bg-cover bg-center"
+        ></div>
+      </section>
+
+      <!-- VIDEO -->
+      <section id="section--video" class="relative w-full h-screen">
+        <div
+          class="h-screen w-full flex justify-center align-middle items-center"
+        >
+          <p
+            class="w-10/12 text-white text-3xl text-center font-bolder bg-dark-800 bg-opacity-70 p-7 rounded-lg"
+          >
+            Evento que proporciona a reunião de vários desenvolvedores,
+            entusiastas, amantes e estudantes do PHP do estado do Ceará.
+          </p>
+        </div>
+
+        <video
+          id="hoverVideo"
+          class="absolute top-0 left-0 -z-2 w-full h-full object-cover"
+          autoplay
+          loop
+          muted
+          playsinline
+        >
+          <source src="assets/video/phpest2023-480p.webm" type="video/webm" />
+          Seu navegador não suporta vídeos em HTML5.
+        </video>
+        <div
+          class="absolute top-0 left-0 -z-1 bg-black opacity-50 w-full h-screen"
+        ></div>
+      </section>
+      <!-- END OF VIDEO -->
+
+      <section id="about"></section>
+      <section id="speakers"></section>
+      <section id="local"></section>
+      <section id="section--banner-2"></section>
+      <section id="schedule"></section>
+      <section id="sponsors"></section>
+      <section id="code-condute"></section>
     </main>
     <footer></footer>
 
