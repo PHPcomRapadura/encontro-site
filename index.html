@@ -253,10 +253,11 @@
     <!-- SCHEDULE -->
     <section id="schedule">
       <div class="flex justify-center w-full align-middle items-center overflow-x-auto sm:rounded-lg py-10">
-        <div class="container flex flex-col px-6 gap-6 justify-center items-center">
+        <div class="container flex flex-col gap-6 justify-center items-center">
           <h2>Programação</h2>
           <p class="font-bold text-center text-2xl ">E o que vai ter de bom?</p>
-          <table class="w-full max-w-5xl text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
+          <table
+            class="w-full max-w-5xl text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400 table-fixed sm:table-auto">
             <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
               <tr>
                 <th scope="col" class="px-6 py-3">
@@ -308,8 +309,8 @@
               </tr>
               <tr class="table--row">
                 <th class="table--fixed-cell">09:50 - 10:30</th>
-                <td>Coffe break</td>
-                <td>Comunidade PHP com Rapadura</td>
+                <td class="table--cell">Coffe break</td>
+                <td class="table--cell">Comunidade PHP com Rapadura</td>
               </tr>
               <tr class="table--row">
                 <th class="table--fixed-cell">10:30 - 11:10</th>
@@ -400,13 +401,27 @@
 
         <div class="card--content col-span-2">
           <p class="text-lg font-bold border-b">
-            APOIOS
+            APOIO
           </p>
-          <div>
-            
+          <div class="w-full grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div class="card--content col-span-3">
+              <p class="text-lg font-bold border-b">
+                Apoio Institucional
+              </p>
+              <div class="w-full flex justify-center mt-4 ">
+                <img class="max-w-sm w-full" id="img-sponsors" src="assets/img/sponsors/logo-unichristus.png"
+                  alt="Unichristus" title="Centro universitário Unichristus.">
+              </div>
+              <p class="text-center mt-4">
+                <a class="grey-text text-darken-4" title="website" target="_blank"
+                  href="http://www.unichristus.edu.br/"><i class="icon--www !bg-black !w-10 !h-10 mr-2"></i></a>
+                <a class="grey-text text-darken-4" title="facebook" target="_blank"
+                  href="https://www.facebook.com/unichristus/"><i
+                    class="icon--facebook !bg-black !w-10 !h-10 ml-2"></i></a>
+              </p>
+            </div>
           </div>
         </div>
-      </div>
     </section>
     <!-- END OF SPONSORS -->
 

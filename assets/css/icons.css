@@ -86,3 +86,13 @@ i {
   mask-image: url("/assets/svg/circle-plus.svg");
   -webkit-mask-image: url("/assets/svg/circle-plus.svg");
 }
+
+.icon--facebook {
+  mask-image: url("/assets/svg/brand-facebook.svg");
+  -webkit-mask-image: url("/assets/svg/brand-facebook.svg");
+}
+
+.icon--www {
+  mask-image: url("/assets/svg/world-www.svg");
+  -webkit-mask-image: url("/assets/svg/world-www.svg");
+}

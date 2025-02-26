@@ -9,8 +9,19 @@ h2 {
   @apply absolute top-0 left-0 -z-1 bg-neutral-900 opacity-40 w-full h-screen;
 }
 
+.section--with-content {
+  @apply py-14 flex flex-col align-middle justify-center items-center gap-10 w-full;
+}
+
+.link--button {
+  @apply px-4 py-2 bg-slate-700 text-white font-bold w-36 gap-2 text-center flex justify-center items-center;
+}
+
+/**
+* Background sections
+*/
 .background--full-screen {
-  @apply absolute top-0 left-0 bottom-0 right-0 -z-2  w-full h-screen max-h-screen bg-cover bg-center;
+  @apply absolute top-0 left-0 bottom-0 right-0 -z-2 w-full h-screen max-h-screen bg-cover bg-center;
 }
 
 .background--overlay--light {
@@ -24,16 +35,22 @@ h2 {
 .background--content-wrapper {
   @apply flex flex-col align-middle justify-center items-center w-full px-10 gap-16 min-h-screen;
 }
+
 .background--description--light {
   @apply container p-4 grid grid-cols-1 gap-6 bg-stone-50/90 rounded-lg;
 }
+
 .background--description--dark {
   @apply container p-4 grid grid-cols-1 gap-6 bg-neutral-900/80 rounded-lg text-white;
 }
+
 .background--description-text {
   @apply text-xl font-bold text-center flex justify-center gap-3 items-center;
 }
 
+/*
+  Table
+*/
 .table--row {
   @apply bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200 hover:bg-gray-50 dark:hover:bg-gray-600;
 }
@@ -46,18 +63,13 @@ h2 {
   @apply px-6 py-4;
 }
 
+/*
+  Card
+*/
 .card--content {
   @apply bg-white border border-stone-100 flex flex-col gap-3 p-6;
 }
 
 .card--wrapper {
   @apply container px-4 sm:px-2 md:px-0 grid grid-cols-1 sm:grid-cols-2 gap-6;
-}
-
-.section--with-content {
-  @apply py-14 flex flex-col align-middle justify-center items-center gap-10 w-full;
-}
-
-.link--button {
-  @apply px-4 py-2 bg-slate-700 text-white font-bold w-36 gap-2 text-center flex justify-center items-center;
 }
