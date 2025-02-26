@@ -81,3 +81,8 @@ i {
   mask-image: url("/assets/svg/arrow-merge-both.svg");
   -webkit-mask-image: url("/assets/svg/arrow-merge-both.svg");
 }
+
+.icon--circle-plus {
+  mask-image: url("/assets/svg/circle-plus.svg");
+  -webkit-mask-image: url("/assets/svg/circle-plus.svg");
+}

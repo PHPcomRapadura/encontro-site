@@ -113,11 +113,11 @@
     <!-- END OF VIDEO -->
 
     <!-- ABOUT -->
-    <section id="about" class="py-14 flex flex-col align-middle justify-center items-center gap-10 w-full">
+    <section id="about" class="section--with-content">
       <img id="img-banner" class="max-w-xl w-10/12" src="assets/img/logo-encontro-de-devs-php-black.png"
         alt="Encontro de Dev's PHP com Rapadura" />
-      <div class="container px-4 sm:px-2 md:px-0 grid grid-cols-1 sm:grid-cols-2 gap-6">
-        <div class="sm:col-span-2 card--wrapper">
+      <div class="card--wrapper">
+        <div class="sm:col-span-2 card--content">
           <p class="text-xl font-bold text-center mb-4">
             Prepare-se para um dia repleto de aprendizado, troca de
             experiências e muita interação!
@@ -132,7 +132,7 @@
             brilhar!
           </p>
         </div>
-        <div class="card--wrapper">
+        <div class="card--content">
           <p class="text-lg font-bold border-b">🚀 Por que participar?</p>
           <p>
             Além de se atualizar com as últimas tendências do universo PHP,
@@ -141,7 +141,7 @@
             apenas melhores profissionais, mas também melhores pessoas.
           </p>
         </div>
-        <div class="card--wrapper">
+        <div class="card--content">
           <p class="text-lg font-bold border-b">🍬 E a rapadura?</p>
           <p>
             Mas é claro, jovem! Não seria PHP com Rapadura se não tivesse
@@ -149,7 +149,7 @@
             cheio de sabor nordestino!
           </p>
         </div>
-        <div class="card--wrapper">
+        <div class="card--content">
           <p class="text-lg font-bold border-b">
             📚 Amplie seus conhecimentos!
           </p>
@@ -160,7 +160,7 @@
             um espaço para você crescer e se conectar com pessoas incríveis.
           </p>
         </div>
-        <div class="card--wrapper">
+        <div class="card--content">
           <p class="text-lg font-bold border-b">
             ☕ Detalhe importante!<br />
           </p>
@@ -178,62 +178,53 @@
 
     <!-- SPEAKERS -->
     <section id="speakers" class="relative w-full">
-      <div class="relative overflow-hidden block h-auto"></div>
-      <div class="flex flex-col align-middle justify-center items-center w-full px-10 gap-16 min-h-screen">
-        <div class="container p-4 grid grid-cols-1 gap-6 bg-stone-50 rounded-lg bg-opacity-90">
-          <p class="text-xl font-bold text-center flex justify-center gap-3 items-center">
-            <i class="icon--speakerphone bg-black"></i>Palestrantes<i class="icon--speakerphone bg-black"
+      <div class="background--content-wrapper">
+        <div class="container background--description--light">
+          <p class="background--description-text">
+            <i class="icon--speakerphone !bg-black"></i>Palestrantes<i class="icon--speakerphone !bg-black"
               style="transform: scaleX(-1)"></i>
           </p>
           <p class="text-lg text-center">Conheça as autoridades em breve!</p>
         </div>
       </div>
-      <div
-        class="bg--speakers-2 absolute top-0 left-0 bottom-0 right-0 w-full h-screen max-h-screen bg-cover bg-center -z-2">
+      <div class="bg--speakers-2 background--full-screen">
       </div>
-      <div
-        class="absolute -z-1 top-0 left-0 w-full h-screen max-h-screen bg-cover bg-center bg-neutral-400 bg-opacity-50">
+      <div class="background--overlay--light">
       </div>
     </section>
     <!-- END OF SPEAKER -->
 
     <!-- STAGES -->
     <section id="stages" class="relative w-full">
-      <div class="relative overflow-hidden block h-auto px-4">
-        <div class="flex flex-col align-middle justify-center items-center w-full min-h-screen">
-          <div class="container p-4 grid grid-cols-1 gap-6 bg-black rounded-lg bg-opacity-60 text-white">
-            <p class="text-xl font-bold text-center flex flex-col justify-center gap-3 items-center">
-              <i class="icon--theater bg-light-50 w-24 h-24"></i>Teremos no
-              palco os melhores profissionais do mercado compartilhando
-              conhecimento!
-            </p>
-          </div>
+      <div class="background--content-wrapper">
+        <div class="background--description--dark">
+          <p class="text-xl font-bold text-center flex flex-col justify-center gap-3 items-center">
+            <i class="icon--theater !bg-light-50 !w-12 !h-12"></i>Teremos no
+            palco os melhores profissionais do mercado compartilhando
+            conhecimento!
+          </p>
         </div>
       </div>
-      <div
-        class="bg--questions-1 absolute top-0 left-0 bottom-0 right-0 w-full h-screen max-h-screen bg-cover bg-center -z-2">
+      <div class="bg--questions-1 background--full-screen">
       </div>
-      <div
-        class="absolute -z-1 top-0 left-0 w-full h-screen max-h-screen bg-cover bg-center bg-neutral-900 bg-opacity-70">
+      <div class="background--overlay--dark">
       </div>
     </section>
     <!-- END OF TAGES -->
 
     <!-- LOCAL - MAPS -->
     <section id="local" class="flex flex-col align-middle justify-center items-center w-full py-10 gap-6">
-      <h2 class="font-bold text-2xl">Local</h2>
+      <h2>Local</h2>
       <p>Veja em detalhes onde será o evento</p>
-      <div class="section">
+      <div class="container px-2 md:px-0">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.3472453197937!2d-38.49319200000001!3d-3.7342828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c7487da7865e59%3A0xfe7a1ed055e337f1!2sUnichristus%20-%20Campus%20Dom%20Lu%C3%ADs!5e0!3m2!1spt-BR!2sbr!4v1739971024116!5m2!1spt-BR!2sbr"
           width="100%" height="450" style="border: 0" allowfullscreen="" loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
-      <div class="grid grid-cols-3 bg-light-50 p-4">
-        <div class="flex justify-center align-middle items-center w-full">
-          <i class="icon--map-route max-h-14 max-w-14 w-10/12 h-10/12 bg-neutral-50"></i>
-        </div>
-        <div class="col-span-2">
+      <div class="w-full flex justify-center align-middle items-center gap-4 bg-neutral-50 py-4">
+        <i class="icon--map-route !w-10 !h-10 !bg-neutral-800"></i>
+        <div>
           <p class="font-bold text-xl">Unichristus</p>
           <p>Centro Universitário Christus</p>
           <p>Av. Dom Luís, 911 - Meireles, Fortaleza - CE.</p>
@@ -245,26 +236,183 @@
     <!-- INVITE SPEAKER -->
     <section id="invite-speaker"
       class="h-md md:h-lg lg:h-xl flex flex-col justify-center align-middle items-center relative">
-      <div class="relative overflow-hidden block h-auto">
-        <div class="flex flex-col align-middle justify-center items-center w-full px-10 gap-16 min-h-screen px-4">
-          <div class="container p-4 grid grid-cols-1 gap-6 bg-black rounded-lg bg-opacity-60 text-white">
-            <p class="text-xl font-bold text-center flex justify-center gap-3 items-center">
-              Faça parte do evento, nosso objetivo é impulsionar novos
-              palestrantes!
-            </p>
-          </div>
+      <div class="background--content-wrapper">
+        <div class="background--description--dark">
+          <p class="background--description-text">
+            Faça parte do evento, nosso objetivo é impulsionar novos
+            palestrantes!
+          </p>
         </div>
       </div>
-      <div
-        class="bg--invite-1 absolute top-0 left-0 bottom-0 right-0 w-full h-screen max-h-screen bg-cover bg-right -z-2">
+      <div class="bg--invite-1 background--full-screen">
       </div>
-      <div class="absolute -z-1 top-0 left-0 w-full h-screen max-h-screen bg-cover bg-neutral-900 bg-opacity-70"></div>
+      <div class="background--overlay--dark"></div>
     </section>
     <!-- END OF INVITE SPEAKER -->
 
-    <section id="schedule"></section>
-    <section id="sponsors"></section>
+    <!-- SCHEDULE -->
+    <section id="schedule">
+      <div class="flex justify-center w-full align-middle items-center overflow-x-auto sm:rounded-lg py-10">
+        <div class="container flex flex-col px-6 gap-6 justify-center items-center">
+          <h2>Programação</h2>
+          <p class="font-bold text-center text-2xl ">E o que vai ter de bom?</p>
+          <table class="w-full max-w-5xl text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
+            <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+              <tr>
+                <th scope="col" class="px-6 py-3">
+                  Horário
+                </th>
+                <th scope="col" class="px-6 py-3">
+                  Atividade
+                </th>
+                <th scope="col" class="px-6 py-3">
+                  Facilitador
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="table--row">
+                <th scope="row" class="table--fixed-cell">
+                  07:30 - 08:00
+                </th>
+                <td class="table--cell">
+                  Credenciamento
+                </td>
+                <td class="table--cell">
+                  Comunidade PHP com Rapadura
+                </td>
+              </tr>
+              <tr class="table--row">
+                <th scope="row" class="table--fixed-cell">08:00 - 08:30</th>
+                <td class="table--cell">Abertura</td>
+                <td class="table--cell">Comunidade PHP com Rapadura e Unichristus</td>
+              </tr>
+              <tr class="table--row">
+                <th scope="row" class="table--fixed-cell">
+                  08:30 - 09:10
+                </th>
+                <td class="table--cell">
+                </td>
+                <td class="table--cell">
+                </td>
+              </tr>
+              <tr class="table--row">
+                <th class="table--fixed-cell">08:30 - 09:10</th>
+                <td class="table--cell"></td>
+                <td class="table--cell"></td>
+              </tr>
+              <tr class="table--row">
+                <th class="table--fixed-cell">09:10 - 09:50</th>
+                <td class="table--cell"></td>
+                <td class="table--cell"></td>
+              </tr>
+              <tr class="table--row">
+                <th class="table--fixed-cell">09:50 - 10:30</th>
+                <td>Coffe break</td>
+                <td>Comunidade PHP com Rapadura</td>
+              </tr>
+              <tr class="table--row">
+                <th class="table--fixed-cell">10:30 - 11:10</th>
+                <td class="table--cell"></td>
+                <td class="table--cell"></td>
+              </tr>
+              <tr class="table--row">
+                <th class="table--fixed-cell">11:10 - 11:55</th>
+                <td class="table--cell"></td>
+                <td class="table--cell"></td>
+              </tr>
+              <tr class="table--row">
+                <th class="table--fixed-cell">11:55 - 13:00</th>
+                <td class="table--cell">Almoço</td>
+                <td class="table--cell">Todo mundo</td>
+              </tr>
+              <tr class="table--row">
+                <th class="table--fixed-cell">13:00 - 13:40</th>
+                <td class="table--cell"></td>
+                <td class="table--cell"></td>
+              </tr>
+              <tr class="table--row">
+                <th class="table--fixed-cell">13:40 - 14:20</th>
+                <td class="table--cell"></td>
+                <td class="table--cell"></td>
+              </tr>
+              <tr class="table--row">
+                <th class="table--fixed-cell">14:20 - 15:00</th>
+                <td class="table--cell"></td>
+                <td class="table--cell"></td>
+              </tr>
+              <tr class="table--row">
+                <th class="table--fixed-cell">15:00 - 15:30</th>
+                <td class="table--cell"></td>
+                <td class="table--cell"></td>
+              </tr>
+              <tr class="table--row">
+                <th class="table--fixed-cell">15:30 - 16:00</th>
+                <td class="table--cell">Encerramento: agradecimentos e sorteio de brindes</td>
+                <td class="table--cell">Comunidade PHP com Rapadura</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+    </section>
+    <!-- END OF SCHEDULE -->
+
+    <!-- SPONSORS -->
+    <section id="sponsors" class="section--with-content bg-stone-900 text-white">
+      <h2>Patrocínios e Apoios</h2>
+      <p>Quem torna isso possível?</p>
+      <div class="card--wrapper text-black">
+        <div class="card--content col-span-2">
+          <p class="text-lg font-bold border-b">
+            Patrocínio Rapadura Preta
+          </p>
+          <p>
+            Saiba como a sua empresa pode ajudar-nos a realizar um evento fantástico.
+          </p>
+          <a class="link--button" target="_blank"
+            href="http://encontro.phpcomrapadura.org/public/assets/files/kit_patrocinio.pdf">
+            <i class="icon--circle-plus !w-4 !h-4"></i>Saiba mais </a>
+        </div>
+        <div class="card--content">
+          <p class="text-lg font-bold border-b">
+            Patrocínio Rapadura Castanha
+          </p>
+          <p>
+            Saiba como sua empresa pode nos ajudar a realizar um evento arretado.
+          </p>
+          <a class="link--button" target="_blank"
+            href="http://encontro.phpcomrapadura.org/public/assets/files/kit_patrocinio.pdf">
+            <i class="icon--circle-plus !w-4 !h-4"></i>Saiba mais</a>
+        </div>
+        <div class="card--content">
+          <p class="text-lg font-bold border-b">
+            Patrocínio Rapadura Batida
+          </p>
+          <p>
+            Saiba como a sua empresa pode ajudar-nos a realizar um evento jóiado.
+          </p>
+          <a class="link--button" target="_blank"
+            href="http://encontro.phpcomrapadura.org/public/assets/files/kit_patrocinio.pdf">
+            <i class="icon--circle-plus"></i>Saiba mais</a>
+        </div>
+
+        <div class="card--content col-span-2">
+          <p class="text-lg font-bold border-b">
+            APOIOS
+          </p>
+          <div>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END OF SPONSORS -->
+
+    <!-- CODE OF CONDUCT -->
     <section id="code-condute"></section>
+    <!-- END OF CODE OF CONDUCT -->
   </main>
   <footer></footer>
 
