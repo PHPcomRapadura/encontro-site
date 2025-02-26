@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="assets/css/backgrounds.css" />
 </head>
 
-<body class="bg-stone-200">
+<body class="bg-stone-200 scroll-smooth">
   <header class="fixed top-0 left-0 z-10 w-full bg-zinc-800 py-4">
     <div class="relative w-full lg:flex lg:justify-between lg:items-center lg:align-middle lg:container lg:mx-auto">
       <div class="relative flex justify-center">
@@ -20,15 +20,15 @@
           </button>
         </div>
 
-        <a id="logo-container" href="#home" class="w-8/12 md:w-auto">
-          <img class="responsive-img" src="assets/img/logo-encontro-de-devs-php-white.png" />
+        <a id="logo-container" href="#home" class="w-auto">
+          <img class="" src="assets/img/logo-encontro-de-devs-php-white.png" />
         </a>
       </div>
 
       <nav id="nav-mobile"
-        class="fixed lg:relative top-0 left-0 z-50 text-white bg-black lg:bg-transparent bg-opacity-20 w-full hidden lg:flex lg:justify-end lg:items-center lg:gap-6 lg:py-0 lg:px-0">
+        class="fixed lg:relative top-0 left-0 z-50 text-white bg-neutral-900/80 lg:bg-transparent w-full hidden lg:flex lg:justify-end lg:items-center lg:gap-6 lg:py-0 lg:px-0">
         <div
-          class="relative max-w-72 lg:max-w-none bg-gray-800 lg:bg-transparent lg:flex lg:justify-center lg:items-center lg:gap-6 lg:py-0 lg:px-0 lg:rounded-lg">
+          class="relative max-w-72 lg:max-w-none bg-zinc-800 lg:bg-transparent lg:flex lg:justify-center lg:items-center lg:gap-6 lg:py-0 lg:px-0 lg:rounded-lg">
           <div class="lg:hidden absolute top-0 right-0 z-{51} p-4 text-white">
             <button onclick="document.getElementById('nav-mobile').classList.toggle('hidden')">
               <i class="icon--menu-close bg-white" aria-hidden="true"></i>
