@@ -77,3 +77,15 @@ h2 {
 .card--title {
   @apply text-lg font-bold border-b;
 }
+
+/*
+  Footer
+*/
+
+.footer--item {
+  @apply flex flex-col gap-4 justify-start items-center;
+}
+
+.footer--link {
+  @apply w-full flex justify-center;
+}

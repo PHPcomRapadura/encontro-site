@@ -13,3 +13,7 @@
 .bg--invite-1 {
   background-image: url(/assets/img/invite-1.jpg);
 }
+
+.bg--tailwind {
+  background-image: url(/assets/img/tailwindcss-logotype-white.svg);
+}

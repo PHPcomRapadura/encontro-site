@@ -96,3 +96,13 @@ i {
   mask-image: url("/assets/svg/world-www.svg");
   -webkit-mask-image: url("/assets/svg/world-www.svg");
 }
+
+.icon--x {
+  mask-image: url("/assets/svg/brand-x.svg");
+  -webkit-mask-image: url("/assets/svg/brand-x.svg");
+}
+
+.icon--instagram {
+  mask-image: url("/assets/svg/brand-instagram.svg");
+  -webkit-mask-image: url("/assets/svg/brand-instagram.svg");
+}
