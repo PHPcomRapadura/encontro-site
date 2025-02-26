@@ -23,4 +23,4 @@ mv tailwindcss-linux-x64 tailwindcss
 ### Adicionar novos icones
 
 - Faça download do svg e salve em `assets/svg`
-- Edite o arquivo `assets/css/icons.css` e adicione uma classe seguindo o padrão já utilizado `.icon--<nome>` 
+- Edite o arquivo `assets/css/icons.css` e adicione uma classe seguindo o padrão já utilizado `.icon--<nome>`
