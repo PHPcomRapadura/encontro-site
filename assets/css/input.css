@@ -1,1 +1,14 @@
 @import "tailwindcss";
+@reference "tailwindcss";
+
+.video--overlay {
+  @apply absolute top-0 left-0 -z-1 bg-neutral-900 opacity-40 w-full h-screen;
+}
+
+.background--full-screen {
+  @apply absolute top-0 left-0 bottom-0 right-0 -z-2  w-full h-screen max-h-screen bg-cover bg-center;
+}
+
+.card--wrapper {
+  @apply bg-white border border-stone-100 flex flex-col gap-3 p-6;
+}
