@@ -1,19 +1,19 @@
 .bg--banner {
-  background-image: url(/assets/img/banner-site.png);
+  background-image: url('../img/banner-site.png');
 }
 
 .bg--speakers-2 {
-  background-image: url(/assets/img/speakers-2.jpg);
+  background-image: url('../img/speakers-2.jpg');
 }
 
 .bg--questions-1 {
-  background-image: url(/assets/img/questions-1.jpg);
+  background-image: url('../img/questions-1.jpg');
 }
 
 .bg--invite-1 {
-  background-image: url(/assets/img/invite-1.jpg);
+  background-image: url('../img/invite-1.jpg');
 }
 
 .bg--tailwind {
-  background-image: url(/assets/img/tailwindcss-logotype-white.svg);
+  background-image: url('../img/tailwindcss-logotype-white.svg');
 }

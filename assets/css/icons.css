@@ -18,91 +18,91 @@ i {
 }
 
 .icon--menu {
-  mask-image: url("/assets/svg/menu.svg");
-  -webkit-mask-image: url("/assets/svg/menu.svg");
+  mask-image: url("../svg/menu.svg");
+  -webkit-mask-image: url("../svg/menu.svg");
 }
 
 .icon--menu-close {
-  mask-image: url("/assets/svg/arrow-bar-left.svg");
-  -webkit-mask-image: url("/assets/svg/arrow-bar-left.svg");
+  mask-image: url("../svg/arrow-bar-left.svg");
+  -webkit-mask-image: url("../svg/arrow-bar-left.svg");
 }
 
 .icon--home {
-  mask-image: url("/assets/svg/home.svg");
-  -webkit-mask-image: url("/assets/svg/home.svg");
+  mask-image: url("../svg/home.svg");
+  -webkit-mask-image: url("../svg/home.svg");
 }
 
 .icon--php-file {
-  mask-image: url("/assets/svg/file-type-php.svg");
-  -webkit-mask-image: url("/assets/svg/file-type-php.svg");
+  mask-image: url("../svg/file-type-php.svg");
+  -webkit-mask-image: url("../svg/file-type-php.svg");
 }
 
 .icon--message-user {
-  mask-image: url("/assets/svg/message-user.svg");
-  -webkit-mask-image: url("/assets/svg/message-user.svg");
+  mask-image: url("../svg/message-user.svg");
+  -webkit-mask-image: url("../svg/message-user.svg");
 }
 
 .icon--map-route {
-  mask-image: url("/assets/svg/map-route.svg");
-  -webkit-mask-image: url("/assets/svg/map-route.svg");
+  mask-image: url("../svg/map-route.svg");
+  -webkit-mask-image: url("../svg/map-route.svg");
 }
 
 .icon--list-details {
-  mask-image: url("/assets/svg/list-details.svg");
-  -webkit-mask-image: url("/assets/svg/list-details.svg");
+  mask-image: url("../svg/list-details.svg");
+  -webkit-mask-image: url("../svg/list-details.svg");
 }
 
 .icon--cash {
-  mask-image: url("/assets/svg/cash.svg");
-  -webkit-mask-image: url("/assets/svg/cash.svg");
+  mask-image: url("../svg/cash.svg");
+  -webkit-mask-image: url("../svg/cash.svg");
 }
 
 .icon--arrow-down {
-  mask-image: url("/assets/svg/circle-arrow-down.svg");
-  -webkit-mask-image: url("/assets/svg/circle-arrow-down.svg");
+  mask-image: url("../svg/circle-arrow-down.svg");
+  -webkit-mask-image: url("../svg/circle-arrow-down.svg");
 }
 
 .icon--speakerphone {
-  mask-image: url("/assets/svg/speakerphone.svg");
-  -webkit-mask-image: url("/assets/svg/speakerphone.svg");
+  mask-image: url("../svg/speakerphone.svg");
+  -webkit-mask-image: url("../svg/speakerphone.svg");
 }
 
 .icon--theater {
-  mask-image: url("/assets/svg/theater.svg");
-  -webkit-mask-image: url("/assets/svg/theater.svg");
+  mask-image: url("../svg/theater.svg");
+  -webkit-mask-image: url("../svg/theater.svg");
 }
 
 .icon--device-projector {
-  mask-image: url("/assets/svg/device-projector.svg");
-  -webkit-mask-image: url("/assets/svg/device-projector.svg");
+  mask-image: url("../svg/device-projector.svg");
+  -webkit-mask-image: url("../svg/device-projector.svg");
 }
 
 .icon--arrow-merge-both {
-  mask-image: url("/assets/svg/arrow-merge-both.svg");
-  -webkit-mask-image: url("/assets/svg/arrow-merge-both.svg");
+  mask-image: url("../svg/arrow-merge-both.svg");
+  -webkit-mask-image: url("../svg/arrow-merge-both.svg");
 }
 
 .icon--circle-plus {
-  mask-image: url("/assets/svg/circle-plus.svg");
-  -webkit-mask-image: url("/assets/svg/circle-plus.svg");
+  mask-image: url("../svg/circle-plus.svg");
+  -webkit-mask-image: url("../svg/circle-plus.svg");
 }
 
 .icon--facebook {
-  mask-image: url("/assets/svg/brand-facebook.svg");
-  -webkit-mask-image: url("/assets/svg/brand-facebook.svg");
+  mask-image: url("../svg/brand-facebook.svg");
+  -webkit-mask-image: url("../svg/brand-facebook.svg");
 }
 
 .icon--www {
-  mask-image: url("/assets/svg/world-www.svg");
-  -webkit-mask-image: url("/assets/svg/world-www.svg");
+  mask-image: url("../svg/world-www.svg");
+  -webkit-mask-image: url("../svg/world-www.svg");
 }
 
 .icon--x {
-  mask-image: url("/assets/svg/brand-x.svg");
-  -webkit-mask-image: url("/assets/svg/brand-x.svg");
+  mask-image: url("../svg/brand-x.svg");
+  -webkit-mask-image: url("../svg/brand-x.svg");
 }
 
 .icon--instagram {
-  mask-image: url("/assets/svg/brand-instagram.svg");
-  -webkit-mask-image: url("/assets/svg/brand-instagram.svg");
+  mask-image: url("../svg/brand-instagram.svg");
+  -webkit-mask-image: url("../svg/brand-instagram.svg");
 }
