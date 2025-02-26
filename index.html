@@ -1,368 +1,272 @@
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="assets/css/windi-min.css" />
-    <link rel="stylesheet" href="assets/css/icons.css" />
-    <link rel="stylesheet" href="assets/css/backgrounds.css" />
-  </head>
-  <body class="bg-warm-gray-200">
-    <header class="fixed top-0 left-0 z-10 w-full bg-dark-700 py-4">
-      <div
-        class="relative w-full lg:flex lg:justify-between lg:items-center lg:align-middle lg:container lg:mx-auto"
-      >
-        <div class="relative flex justify-center">
-          <div class="lg:hidden absolute top-0 left-4 z-{51}">
-            <button
-              id="nav-mobile-button"
-              onclick="document.getElementById('nav-mobile').classList.toggle('hidden')"
-            >
-              <i class="icon--menu bg-white" aria-hidden="true"></i>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="assets/css/output.css" />
+  <link rel="stylesheet" href="assets/css/icons.css" />
+  <link rel="stylesheet" href="assets/css/backgrounds.css" />
+</head>
+
+<body class="bg-stone-200">
+  <header class="fixed top-0 left-0 z-10 w-full bg-zinc-800 py-4">
+    <div class="relative w-full lg:flex lg:justify-between lg:items-center lg:align-middle lg:container lg:mx-auto">
+      <div class="relative flex justify-center">
+        <div class="lg:hidden absolute top-0 left-4 z-{51}">
+          <button id="nav-mobile-button" onclick="document.getElementById('nav-mobile').classList.toggle('hidden')">
+            <i class="icon--menu bg-white" aria-hidden="true"></i>
+          </button>
+        </div>
+
+        <a id="logo-container" href="#home" class="w-8/12 md:w-auto">
+          <img class="responsive-img" src="assets/img/logo-encontro-de-devs-php-white.png" />
+        </a>
+      </div>
+
+      <nav id="nav-mobile"
+        class="fixed lg:relative top-0 left-0 z-50 text-white bg-black lg:bg-transparent bg-opacity-20 w-full hidden lg:flex lg:justify-end lg:items-center lg:gap-6 lg:py-0 lg:px-0">
+        <div
+          class="relative max-w-72 lg:max-w-none bg-gray-800 lg:bg-transparent lg:flex lg:justify-center lg:items-center lg:gap-6 lg:py-0 lg:px-0 lg:rounded-lg">
+          <div class="lg:hidden absolute top-0 right-0 z-{51} p-4 text-white">
+            <button onclick="document.getElementById('nav-mobile').classList.toggle('hidden')">
+              <i class="icon--menu-close bg-white" aria-hidden="true"></i>
             </button>
           </div>
 
-          <a id="logo-container" href="#home" class="w-8/12 md:w-auto">
-            <img
-              class="responsive-img"
-              src="assets/img/logo-encontro-de-devs-php-white.png"
-            />
-          </a>
+          <ul id="nav-mobile-list"
+            class="w-10/12 sm:w-72 lg:w-full flex flex-col lg:flex-row items-start gap-6 pl-8 py-8 lg:py-0 min-h-screen lg:h-auto lg:min-h-0 font-bold">
+            <li>
+              <a href="#home" class="flex items-center gap-3"><i class="lg:hidden icon--home"></i>Início</a>
+            </li>
+            <li>
+              <a href="#about" class="flex items-center gap-3"><i class="lg:hidden icon--php-file"></i>Sobre</a>
+            </li>
+            <li>
+              <a href="#speakers" class="flex items-center gap-3"><i
+                  class="lg:hidden icon--message-user"></i>Palestrantes</a>
+            </li>
+            <li>
+              <a href="#local" class="flex items-center gap-3"><i class="lg:hidden icon--map-route"></i>Local</a>
+            </li>
+            <li>
+              <a href="#schedule" class="flex items-center gap-3"><i
+                  class="lg:hidden icon--list-details"></i>Programação</a>
+            </li>
+            <li>
+              <a href="#sponsors" class="flex items-center gap-3"><i class="lg:hidden icon--cash"></i>Patrocinadores</a>
+            </li>
+          </ul>
         </div>
+      </nav>
+    </div>
+  </header>
 
-        <nav
-          id="nav-mobile"
-          class="fixed lg:relative top-0 left-0 z-50 text-white bg-black lg:bg-transparent bg-opacity-20 w-full hidden lg:flex lg:justify-end lg:items-center lg:gap-6 lg:py-0 lg:px-0"
-        >
-          <div
-            class="relative max-w-72 lg:max-w-none bg-gray-800 lg:bg-transparent lg:flex lg:justify-center lg:items-center lg:gap-6 lg:py-0 lg:px-0 lg:rounded-lg"
-          >
-            <div class="lg:hidden absolute top-0 right-0 z-{51} p-4 text-white">
-              <button
-                onclick="document.getElementById('nav-mobile').classList.toggle('hidden')"
-              >
-                <i class="icon--menu-close bg-white" aria-hidden="true"></i>
-              </button>
-            </div>
-
-            <ul
-              id="nav-mobile-list"
-              class="w-10/12 sm:w-72 lg:w-full flex flex-col lg:flex-row items-start gap-6 pl-8 py-8 lg:py-0 min-h-screen lg:h-auto lg:min-h-0 font-bold"
-            >
-              <li>
-                <a href="#home" class="flex items-center gap-3"
-                  ><i class="lg:hidden icon--home"></i>Início</a
-                >
-              </li>
-              <li>
-                <a href="#about" class="flex items-center gap-3"
-                  ><i class="lg:hidden icon--php-file"></i>Sobre</a
-                >
-              </li>
-              <li>
-                <a href="#speakers" class="flex items-center gap-3"
-                  ><i class="lg:hidden icon--message-user"></i>Palestrantes</a
-                >
-              </li>
-              <li>
-                <a href="#local" class="flex items-center gap-3"
-                  ><i class="lg:hidden icon--map-route"></i>Local</a
-                >
-              </li>
-              <li>
-                <a href="#schedule" class="flex items-center gap-3"
-                  ><i class="lg:hidden icon--list-details"></i>Programação</a
-                >
-              </li>
-              <li>
-                <a href="#sponsors" class="flex items-center gap-3"
-                  ><i class="lg:hidden icon--cash"></i>Patrocinadores</a
-                >
-              </li>
-            </ul>
+  <main>
+    <section id="home" class="relative w-full">
+      <div class="relative overflow-hidden block h-auto">
+        <div class="flex flex-col align-middle justify-center items-center w-full px-10 gap-16 min-h-screen">
+          <div>
+            <img id="img-banner" class="bg-cover bg-center" src="assets/img/logo-rapadura.png" alt="PHP com Rapadura" />
           </div>
-        </nav>
+          <div>
+            <img id="img-banner" class="responsive-img" src="assets/img/logo-encontro-de-devs-php-black.png"
+              alt="Encontro de Dev's PHP com Rapadura" />
+          </div>
+          <div class="text-center">
+            <p class="text-5xl font-bold">05 de Abril de 2025</p>
+            <p class="flex items-center gap-2 mt-5">
+              <i class="icon--map-route bg-black w-8 h-8"></i>
+              <span class="text-2xl font-bold">Unichristus - Campus Dom Luís - Fortaleza/CE.</span>
+            </p>
+          </div>
+          <div class="relative w-14 h-14">
+            <a href="#about">
+              <i class="icon--arrow-down bg-black w-14 h-14"></i>
+              <div class="absolute -z-1 bg-white top-3 left-3 rounded-1 border-transparent w-9 h-9"></div>
+            </a>
+          </div>
+        </div>
       </div>
-    </header>
+      <div
+        class="absolute top-0 left-0 bottom-0 right-0 -z-2 bg--banner w-full h-screen max-h-screen bg-cover bg-center">
+      </div>
+    </section>
 
-    <main>
-      <section id="home" class="relative w-full">
-        <div class="relative overflow-hidden block h-auto">
-          <div
-            class="flex flex-col align-middle justify-center items-center w-full px-10 gap-16 min-h-screen"
-          >
-            <div>
-              <img
-                id="img-banner"
-                class="bg-cover bg-center"
-                src="assets/img/logo-rapadura.png"
-                alt="PHP com Rapadura"
-              />
-            </div>
-            <div>
-              <img
-                id="img-banner"
-                class="responsive-img"
-                src="assets/img/logo-encontro-de-devs-php-black.png"
-                alt="Encontro de Dev's PHP com Rapadura"
-              />
-            </div>
-            <div class="text-center">
-              <p class="text-5xl font-bold">05 de Abril de 2025</p>
-              <p class="flex items-center gap-2 mt-5">
-                <i class="icon--map-route bg-black w-8 h-8"></i>
-                <span class="text-2xl font-bold"
-                  >Unichristus - Campus Dom Luís - Fortaleza/CE.</span
-                >
-              </p>
-            </div>
-            <div class="relative w-14 h-14">
-              <a href="#about">
-                <i class="icon--arrow-down bg-black w-14 h-14"></i>
-                <div
-                  class="absolute -z-1 bg-white top-3 left-3 rounded-1 border-transparent w-9 h-9"
-                ></div>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div
-          class="absolute top-0 left-0 bottom-0 right-0 -z-2 bg--banner w-full h-screen max-h-screen bg-cover bg-center"
-        ></div>
-      </section>
+    <!-- VIDEO -->
+    <section id="section--video" class="relative w-full h-screen">
+      <div class="h-screen w-full flex justify-center align-middle items-center">
+        <p class="w-10/12 text-white text-3xl text-center font-bolder bg-zinc-800 bg-opacity-70 p-7 rounded-lg">
+          Evento que proporciona a reunião de vários desenvolvedores,
+          entusiastas, amantes e estudantes do PHP do estado do Ceará.
+        </p>
+      </div>
 
-      <!-- VIDEO -->
-      <section id="section--video" class="relative w-full h-screen">
-        <div
-          class="h-screen w-full flex justify-center align-middle items-center"
-        >
-          <p
-            class="w-10/12 text-white text-3xl text-center font-bolder bg-dark-800 bg-opacity-70 p-7 rounded-lg"
-          >
-            Evento que proporciona a reunião de vários desenvolvedores,
-            entusiastas, amantes e estudantes do PHP do estado do Ceará.
+      <video id="hoverVideo" class="absolute top-0 left-0 -z-2 w-full h-full object-cover" autoplay loop muted
+        playsinline>
+        <source src="assets/video/phpest2023-480p.webm" type="video/webm" />
+        Seu navegador não suporta vídeos em HTML5.
+      </video>
+      <div class="absolute top-0 left-0 -z-1 bg-black opacity-50 w-full h-screen"></div>
+    </section>
+    <!-- END OF VIDEO -->
+
+    <!-- ABOUT -->
+    <section id="about" class="py-14 flex flex-col align-middle justify-center items-center gap-10 w-full">
+      <img id="img-banner" class="max-w-xl w-10/12" src="assets/img/logo-encontro-de-devs-php-black.png"
+        alt="Encontro de Dev's PHP com Rapadura" />
+      <div class="container px-4 sm:px-2 md:px-0 grid grid-cols-1 sm:grid-cols-2 gap-6">
+        <div class="sm:col-span-2 bg-white border border-light-50 flex flex-col gap-3 p-6">
+          <p class="text-xl font-bold text-center mb-4">
+            Prepare-se para um dia repleto de aprendizado, troca de
+            experiências e muita interação!
+          </p>
+          <p>
+            No
+            <span class="font-bold">Encontro de Devs PHP com Rapadura</span>,
+            reunimos no palco os melhores profissionais do mercado para
+            compartilhar conhecimento prático e inspirador. Se você nunca
+            palestrou em um grande evento, essa é a sua chance – em breve
+            abriremos a submissão de palestras, e você pode ser o próximo a
+            brilhar!
           </p>
         </div>
+        <div class="bg-white border border-light-50 flex flex-col gap-3 p-6">
+          <p class="text-lg font-bold border-b">🚀 Por que participar?</p>
+          <p>
+            Além de se atualizar com as últimas tendências do universo PHP,
+            nossa missão é fortalecer a comunidade através da interação,
+            networking e colaboração – ingredientes essenciais para formar não
+            apenas melhores profissionais, mas também melhores pessoas.
+          </p>
+        </div>
+        <div class="bg-white border border-light-50 flex flex-col gap-3 p-6">
+          <p class="text-lg font-bold border-b">🍬 E a rapadura?</p>
+          <p>
+            Mas é claro, jovem! Não seria PHP com Rapadura se não tivesse
+            rapadura, né? Hehehe. Aqui, o clima é descontraído, acolhedor e
+            cheio de sabor nordestino!
+          </p>
+        </div>
+        <div class="bg-white border border-light-50 flex flex-col gap-3 p-6">
+          <p class="text-lg font-bold border-b">
+            📚 Amplie seus conhecimentos!
+          </p>
+          <p>
+            Aprender novas tecnologias é sempre uma aventura – e com uma
+            comunidade arretada como a nossa, o aprendizado fica ainda mais
+            leve e divertido. Seja você um dev iniciante ou experiente, temos
+            um espaço para você crescer e se conectar com pessoas incríveis.
+          </p>
+        </div>
+        <div class="bg-white border border-light-50 flex flex-col gap-3 p-6">
+          <p class="text-lg font-bold border-b">
+            ☕ Detalhe importante!<br />
+          </p>
+          <p>
+            O valor do ingresso é para garantir um belo e gostoso Coffee Break
+            – porque ninguém merece absorver tanto conhecimento de barriga
+            vazia! Ah, e um agradecimento especial ao Centro Universitário
+            Unichristus, que gentilmente cedeu o espaço para que esse encontro
+            aconteça.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- END OF ABOUT -->
 
-        <video
-          id="hoverVideo"
-          class="absolute top-0 left-0 -z-2 w-full h-full object-cover"
-          autoplay
-          loop
-          muted
-          playsinline
-        >
-          <source src="assets/video/phpest2023-480p.webm" type="video/webm" />
-          Seu navegador não suporta vídeos em HTML5.
-        </video>
-        <div
-          class="absolute top-0 left-0 -z-1 bg-black opacity-50 w-full h-screen"
-        ></div>
-      </section>
-      <!-- END OF VIDEO -->
+    <!-- SPEAKERS -->
+    <section id="speakers" class="relative w-full">
+      <div class="relative overflow-hidden block h-auto"></div>
+      <div class="flex flex-col align-middle justify-center items-center w-full px-10 gap-16 min-h-screen">
+        <div class="container p-4 grid grid-cols-1 gap-6 bg-stone-50 rounded-lg bg-opacity-90">
+          <p class="text-xl font-bold text-center flex justify-center gap-3 items-center">
+            <i class="icon--speakerphone bg-black"></i>Palestrantes<i class="icon--speakerphone bg-black"
+              style="transform: scaleX(-1)"></i>
+          </p>
+          <p class="text-lg text-center">Conheça as autoridades em breve!</p>
+        </div>
+      </div>
+      <div
+        class="bg--speakers-2 absolute top-0 left-0 bottom-0 right-0 w-full h-screen max-h-screen bg-cover bg-center -z-2">
+      </div>
+      <div class="absolute -z-1 top-0 left-0 w-full h-screen max-h-screen bg-cover bg-center bg-zinc-400 bg-opacity-50">
+      </div>
+    </section>
+    <!-- END OF SPEAKER -->
 
-      <!-- ABOUT -->
-      <section
-        id="about"
-        class="py-14 flex flex-col align-middle justify-center items-center gap-10 w-full"
-      >
-        <img
-          id="img-banner"
-          class="max-w-xl w-10/12"
-          src="assets/img/logo-encontro-de-devs-php-black.png"
-          alt="Encontro de Dev's PHP com Rapadura"
-        />
-        <div
-          class="container px-4 sm:px-2 md:px-0 grid grid-cols-1 sm:grid-cols-2 gap-6"
-        >
-          <div
-            class="sm:col-span-2 bg-white border border-light-50 flex flex-col gap-3 p-6"
-          >
-            <p class="text-xl font-bold text-center mb-4">
-              Prepare-se para um dia repleto de aprendizado, troca de
-              experiências e muita interação!
-            </p>
-            <p>
-              No
-              <span class="font-bold">Encontro de Devs PHP com Rapadura</span>,
-              reunimos no palco os melhores profissionais do mercado para
-              compartilhar conhecimento prático e inspirador. Se você nunca
-              palestrou em um grande evento, essa é a sua chance – em breve
-              abriremos a submissão de palestras, e você pode ser o próximo a
-              brilhar!
-            </p>
-          </div>
-          <div class="bg-white border border-light-50 flex flex-col gap-3 p-6">
-            <p class="text-lg font-bold border-b">🚀 Por que participar?</p>
-            <p>
-              Além de se atualizar com as últimas tendências do universo PHP,
-              nossa missão é fortalecer a comunidade através da interação,
-              networking e colaboração – ingredientes essenciais para formar não
-              apenas melhores profissionais, mas também melhores pessoas.
-            </p>
-          </div>
-          <div class="bg-white border border-light-50 flex flex-col gap-3 p-6">
-            <p class="text-lg font-bold border-b">🍬 E a rapadura?</p>
-            <p>
-              Mas é claro, jovem! Não seria PHP com Rapadura se não tivesse
-              rapadura, né? Hehehe. Aqui, o clima é descontraído, acolhedor e
-              cheio de sabor nordestino!
-            </p>
-          </div>
-          <div class="bg-white border border-light-50 flex flex-col gap-3 p-6">
-            <p class="text-lg font-bold border-b">
-              📚 Amplie seus conhecimentos!
-            </p>
-            <p>
-              Aprender novas tecnologias é sempre uma aventura – e com uma
-              comunidade arretada como a nossa, o aprendizado fica ainda mais
-              leve e divertido. Seja você um dev iniciante ou experiente, temos
-              um espaço para você crescer e se conectar com pessoas incríveis.
-            </p>
-          </div>
-          <div class="bg-white border border-light-50 flex flex-col gap-3 p-6">
-            <p class="text-lg font-bold border-b">
-              ☕ Detalhe importante!<br />
-            </p>
-            <p>
-              O valor do ingresso é para garantir um belo e gostoso Coffee Break
-              – porque ninguém merece absorver tanto conhecimento de barriga
-              vazia! Ah, e um agradecimento especial ao Centro Universitário
-              Unichristus, que gentilmente cedeu o espaço para que esse encontro
-              aconteça.
+    <!-- STAGES -->
+    <section id="stages" class="relative w-full">
+      <div class="relative overflow-hidden block h-auto px-4">
+        <div class="flex flex-col align-middle justify-center items-center w-full min-h-screen">
+          <div class="container p-4 grid grid-cols-1 gap-6 bg-black rounded-lg bg-opacity-60 text-white">
+            <p class="text-xl font-bold text-center flex flex-col justify-center gap-3 items-center">
+              <i class="icon--theater bg-light-50 w-24 h-24"></i>Teremos no
+              palco os melhores profissionais do mercado compartilhando
+              conhecimento!
             </p>
           </div>
         </div>
-      </section>
-      <!-- END OF ABOUT -->
+      </div>
+      <div
+        class="bg--questions-1 absolute top-0 left-0 bottom-0 right-0 w-full h-screen max-h-screen bg-cover bg-center -z-2">
+      </div>
+      <div class="absolute -z-1 top-0 left-0 w-full h-screen max-h-screen bg-cover bg-center bg-zinc-900 bg-opacity-70">
+      </div>
+    </section>
+    <!-- END OF TAGES -->
 
-      <!-- SPEAKERS -->
-      <section id="speakers" class="relative w-full">
-        <div class="relative overflow-hidden block h-auto"></div>
-        <div
-          class="flex flex-col align-middle justify-center items-center w-full px-10 gap-16 min-h-screen"
-        >
-          <div
-            class="container p-4 grid grid-cols-1 gap-6 bg-warm-gray-50 rounded-lg bg-opacity-90"
-          >
-            <p
-              class="text-xl font-bold text-center flex justify-center gap-3 items-center"
-            >
-              <i class="icon--speakerphone bg-black"></i>Palestrantes<i
-                class="icon--speakerphone bg-black"
-                style="transform: scaleX(-1)"
-              ></i>
+    <!-- LOCAL - MAPS -->
+    <section id="local" class="flex flex-col align-middle justify-center items-center w-full py-10 gap-6">
+      <h2 class="font-bold text-2xl">Local</h2>
+      <p>Veja em detalhes onde será o evento</p>
+      <div class="section">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.3472453197937!2d-38.49319200000001!3d-3.7342828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c7487da7865e59%3A0xfe7a1ed055e337f1!2sUnichristus%20-%20Campus%20Dom%20Lu%C3%ADs!5e0!3m2!1spt-BR!2sbr!4v1739971024116!5m2!1spt-BR!2sbr"
+          width="100%" height="450" style="border: 0" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div class="grid grid-cols-3 bg-light-50 p-4">
+        <div class="flex justify-center align-middle items-center w-full">
+          <i class="icon--map-route max-h-14 max-w-14 w-10/12 h-10/12 bg-zinc-50"></i>
+        </div>
+        <div class="col-span-2">
+          <p class="font-bold text-xl">Unichristus</p>
+          <p>Centro Universitário Christus</p>
+          <p>Av. Dom Luís, 911 - Meireles, Fortaleza - CE.</p>
+        </div>
+      </div>
+    </section>
+    <!-- END LOCAL - MAPS -->
+
+    <!-- INVITE SPEAKER -->
+    <section id="invite-speaker"
+      class="h-md md:h-lg lg:h-xl flex flex-col justify-center align-middle items-center relative">
+      <div class="relative overflow-hidden block h-auto">
+        <div class="flex flex-col align-middle justify-center items-center w-full px-10 gap-16 min-h-screen px-4">
+          <div class="container p-4 grid grid-cols-1 gap-6 bg-black rounded-lg bg-opacity-60 text-white">
+            <p class="text-xl font-bold text-center flex justify-center gap-3 items-center">
+              Faça parte do evento, nosso objetivo é impulsionar novos
+              palestrantes!
             </p>
-            <p class="text-lg text-center">Conheça as autoridades em breve!</p>
           </div>
         </div>
-        <div
-          class="bg--speakers-2 absolute top-0 left-0 bottom-0 right-0 w-full h-screen max-h-screen bg-cover bg-center -z-2"
-        ></div>
-        <div
-          class="absolute -z-1 top-0 left-0 w-full h-screen max-h-screen bg-cover bg-center bg-dark-400 bg-opacity-50"
-        ></div>
-      </section>
-      <!-- END OF SPEAKER -->
+      </div>
+      <div
+        class="bg--invite-1 absolute top-0 left-0 bottom-0 right-0 w-full h-screen max-h-screen bg-cover bg-right -z-2">
+      </div>
+      <div class="absolute -z-1 top-0 left-0 w-full h-screen max-h-screen bg-cover bg-zinc-900 bg-opacity-70"></div>
+    </section>
+    <!-- END OF INVITE SPEAKER -->
 
-      <!-- STAGES -->
-      <section id="stages" class="relative w-full">
-        <div class="relative overflow-hidden block h-auto px-4">
-          <div
-            class="flex flex-col align-middle justify-center items-center w-full min-h-screen"
-          >
-            <div
-              class="container p-4 grid grid-cols-1 gap-6 bg-black rounded-lg bg-opacity-60 text-white"
-            >
-              <p
-                class="text-xl font-bold text-center flex flex-col justify-center gap-3 items-center"
-              >
-                <i class="icon--theater bg-light-50 w-24 h-24"></i>Teremos no
-                palco os melhores profissionais do mercado compartilhando
-                conhecimento!
-              </p>
-            </div>
-          </div>
-        </div>
-        <div
-          class="bg--questions-1 absolute top-0 left-0 bottom-0 right-0 w-full h-screen max-h-screen bg-cover bg-center -z-2"
-        ></div>
-        <div
-          class="absolute -z-1 top-0 left-0 w-full h-screen max-h-screen bg-cover bg-center bg-dark-900 bg-opacity-70"
-        ></div>
-      </section>
-      <!-- END OF TAGES -->
+    <section id="schedule"></section>
+    <section id="sponsors"></section>
+    <section id="code-condute"></section>
+  </main>
+  <footer></footer>
 
-      <!-- LOCAL - MAPS -->
-      <section
-        id="local"
-        class="flex flex-col align-middle justify-center items-center w-full py-10 gap-6"
-      >
-        <h2 class="font-bold text-2xl">Local</h2>
-        <p>Veja em detalhes onde será o evento</p>
-        <div class="section">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.3472453197937!2d-38.49319200000001!3d-3.7342828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c7487da7865e59%3A0xfe7a1ed055e337f1!2sUnichristus%20-%20Campus%20Dom%20Lu%C3%ADs!5e0!3m2!1spt-BR!2sbr!4v1739971024116!5m2!1spt-BR!2sbr"
-            width="100%"
-            height="450"
-            style="border: 0"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-          ></iframe>
-        </div>
-        <div class="grid grid-cols-3 bg-light-50 p-4">
-          <div class="flex justify-center align-middle items-center w-full">
-            <i
-              class="icon--map-route max-h-14 max-w-14 w-10/12 h-10/12 bg-dark-50"
-            ></i>
-          </div>
-          <div class="col-span-2">
-            <p class="font-bold text-xl">Unichristus</p>
-            <p>Centro Universitário Christus</p>
-            <p>Av. Dom Luís, 911 - Meireles, Fortaleza - CE.</p>
-          </div>
-        </div>
-      </section>
-      <!-- END LOCAL - MAPS -->
+  <script src="assets/js/events.js"></script>
+</body>
 
-      <!-- INVITE SPEAKER -->
-      <section
-        id="invite-speaker"
-        class="h-md md:h-lg lg:h-xl flex flex-col justify-center align-middle items-center relative"
-      >
-        <div class="relative overflow-hidden block h-auto">
-          <div
-            class="flex flex-col align-middle justify-center items-center w-full px-10 gap-16 min-h-screen px-4"
-          >
-            <div
-              class="container p-4 grid grid-cols-1 gap-6 bg-black rounded-lg bg-opacity-60 text-white"
-            >
-              <p
-                class="text-xl font-bold text-center flex justify-center gap-3 items-center"
-              >
-                Faça parte do evento, nosso objetivo é impulsionar novos
-                palestrantes!
-              </p>
-            </div>
-          </div>
-        </div>
-        <div
-          class="bg--invite-1 absolute top-0 left-0 bottom-0 right-0 w-full h-screen max-h-screen bg-cover bg-right -z-2"
-        ></div>
-        <div
-          class="absolute -z-1 top-0 left-0 w-full h-screen max-h-screen bg-cover bg-dark-900 bg-opacity-70"
-        ></div>
-      </section>
-      <!-- END OF INVITE SPEAKER -->
-
-      <section id="schedule"></section>
-      <section id="sponsors"></section>
-      <section id="code-condute"></section>
-    </main>
-    <footer></footer>
-
-    <script src="assets/js/events.js"></script>
-  </body>
 </html>
