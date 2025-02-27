@@ -13,7 +13,7 @@
 
 <body class="bg-stone-200 scroll-smooth">
   <header class="fixed top-0 left-0 z-10 w-full bg-neutral-800 py-4">
-    <div class="relative w-full lg:flex lg:justify-between lg:items-center lg:align-middle lg:container lg:mx-auto">
+    <div class="relative section--container-body lg:flex lg:justify-between lg:items-center lg:align-middle lg:mx-auto">
       <div class="relative flex justify-center">
         <div class="lg:hidden absolute top-0 left-4 z-{51}">
           <button id="nav-mobile-button" onclick="document.getElementById('nav-mobile').classList.toggle('hidden')">
@@ -21,7 +21,7 @@
           </button>
         </div>
 
-        <a id="logo-container" href="#home" class="w-auto">
+        <a id="logo-container" href="#home" class="w-auto max-w-60">
           <img class="" src="assets/img/logo-encontro-de-devs-php-white.png" />
         </a>
       </div>
@@ -63,12 +63,14 @@
         </div>
       </nav>
     </div>
+
+    </div>
   </header>
 
   <main>
-    <section id="home" class="relative w-full mt-10">
+    <section id="home" class="section--full-screen mt-10">
       <div class="relative overflow-hidden block h-auto">
-        <div class="flex flex-col align-middle justify-center items-center w-full px-10 gap-16 min-h-screen">
+        <div class="background--content-wrapper section--container-body px-4">
           <div>
             <img id="img-banner" class="bg-cover bg-center" src="assets/img/logo-rapadura.png" alt="PHP com Rapadura" />
           </div>
@@ -96,12 +98,14 @@
     </section>
 
     <!-- VIDEO -->
-    <section id="section--video" class="relative w-full h-screen">
-      <div class="h-screen w-full flex justify-center align-middle items-center">
-        <p class="w-10/12 text-white text-3xl text-center font-bolder bg-neutral-800/70 p-7 rounded-lg">
-          Evento que proporciona a reunião de vários desenvolvedores,
-          entusiastas, amantes e estudantes do PHP do estado do Ceará.
-        </p>
+    <section id="section--video" class="section--full-screen">
+      <div class="background--content-wrapper">
+        <div class="background--description--dark">
+          <p class="background--description-text">
+            Evento que proporciona a reunião de vários desenvolvedores,
+            entusiastas, amantes e estudantes do PHP do estado do Ceará.
+          </p>
+        </div>
       </div>
 
       <video id="hoverVideo" class="absolute top-0 left-0 -z-2 w-full h-full object-cover" autoplay loop muted
@@ -117,75 +121,77 @@
     <section id="about" class="section--with-content">
       <img id="img-banner" class="max-w-xl w-10/12" src="assets/img/logo-encontro-de-devs-php-black.png"
         alt="Encontro de Dev's PHP com Rapadura" />
-      <div class="card--wrapper">
-        <div class="sm:col-span-2 card--content">
-          <p class="text-xl font-bold text-center mb-4">
-            Prepare-se para um dia repleto de aprendizado, troca de
-            experiências e muita interação!
-          </p>
-          <p>
-            No
-            <span class="font-bold">Encontro de Devs PHP com Rapadura</span>,
-            reunimos no palco os melhores profissionais do mercado para
-            compartilhar conhecimento prático e inspirador. Se você nunca
-            palestrou em um grande evento, essa é a sua chance – em breve
-            abriremos a submissão de palestras, e você pode ser o próximo a
-            brilhar!
-          </p>
-        </div>
-        <div class="card--content">
-          <p class="card--title">🚀 Por que participar?</p>
-          <p>
-            Além de se atualizar com as últimas tendências do universo PHP,
-            nossa missão é fortalecer a comunidade através da interação,
-            networking e colaboração – ingredientes essenciais para formar não
-            apenas melhores profissionais, mas também melhores pessoas.
-          </p>
-        </div>
-        <div class="card--content">
-          <p class="card--title">🍬 E a rapadura?</p>
-          <p>
-            Mas é claro, jovem! Não seria PHP com Rapadura se não tivesse
-            rapadura, né? Hehehe. Aqui, o clima é descontraído, acolhedor e
-            cheio de sabor nordestino!
-          </p>
-        </div>
-        <div class="card--content">
-          <p class="card--title">
-            📚 Amplie seus conhecimentos!
-          </p>
-          <p>
-            Aprender novas tecnologias é sempre uma aventura – e com uma
-            comunidade arretada como a nossa, o aprendizado fica ainda mais
-            leve e divertido. Seja você um dev iniciante ou experiente, temos
-            um espaço para você crescer e se conectar com pessoas incríveis.
-          </p>
-        </div>
-        <div class="card--content">
-          <p class="card--title">
-            ☕ Detalhe importante!<br />
-          </p>
-          <p>
-            O valor do ingresso é para garantir um belo e gostoso Coffee Break
-            – porque ninguém merece absorver tanto conhecimento de barriga
-            vazia! Ah, e um agradecimento especial ao Centro Universitário
-            Unichristus, que gentilmente cedeu o espaço para que esse encontro
-            aconteça.
-          </p>
+      <div class="section--container-body">
+        <div class="card--wrapper">
+          <div class="sm:col-span-2 card--content">
+            <p class="text-xl font-bold text-center mb-4">
+              Prepare-se para um dia repleto de aprendizado, troca de
+              experiências e muita interação!
+            </p>
+            <p>
+              No
+              <span class="font-bold">Encontro de Devs PHP com Rapadura</span>,
+              reunimos no palco os melhores profissionais do mercado para
+              compartilhar conhecimento prático e inspirador. Se você nunca
+              palestrou em um grande evento, essa é a sua chance – em breve
+              abriremos a submissão de palestras, e você pode ser o próximo a
+              brilhar!
+            </p>
+          </div>
+          <div class="card--content">
+            <p class="card--title">🚀 Por que participar?</p>
+            <p>
+              Além de se atualizar com as últimas tendências do universo PHP,
+              nossa missão é fortalecer a comunidade através da interação,
+              networking e colaboração – ingredientes essenciais para formar não
+              apenas melhores profissionais, mas também melhores pessoas.
+            </p>
+          </div>
+          <div class="card--content">
+            <p class="card--title">🍬 E a rapadura?</p>
+            <p>
+              Mas é claro, jovem! Não seria PHP com Rapadura se não tivesse
+              rapadura, né? Hehehe. Aqui, o clima é descontraído, acolhedor e
+              cheio de sabor nordestino!
+            </p>
+          </div>
+          <div class="card--content">
+            <p class="card--title">
+              📚 Amplie seus conhecimentos!
+            </p>
+            <p>
+              Aprender novas tecnologias é sempre uma aventura – e com uma
+              comunidade arretada como a nossa, o aprendizado fica ainda mais
+              leve e divertido. Seja você um dev iniciante ou experiente, temos
+              um espaço para você crescer e se conectar com pessoas incríveis.
+            </p>
+          </div>
+          <div class="card--content">
+            <p class="card--title">
+              ☕ Detalhe importante!<br />
+            </p>
+            <p>
+              O valor do ingresso é para garantir um belo e gostoso Coffee Break
+              – porque ninguém merece absorver tanto conhecimento de barriga
+              vazia! Ah, e um agradecimento especial ao Centro Universitário
+              Unichristus, que gentilmente cedeu o espaço para que esse encontro
+              aconteça.
+            </p>
+          </div>
         </div>
       </div>
     </section>
     <!-- END OF ABOUT -->
 
     <!-- SPEAKERS -->
-    <section id="speakers" class="relative w-full">
+    <section id="speakers" class="section--full-screen">
       <div class="background--content-wrapper">
-        <div class="container background--description--light">
+        <div class="background--description--light">
           <p class="background--description-text">
             <i class="icon--speakerphone !bg-black"></i>Palestrantes<i class="icon--speakerphone !bg-black"
               style="transform: scaleX(-1)"></i>
           </p>
-          <p class="text-lg text-center">Conheça as autoridades em breve!</p>
+          <p class="background--description-text">Conheça as autoridades em breve!</p>
         </div>
       </div>
       <div class="bg--speakers-2 background--full-screen">
@@ -199,8 +205,12 @@
     <section id="stages" class="relative w-full">
       <div class="background--content-wrapper">
         <div class="background--description--dark">
-          <p class="text-xl font-bold text-center flex flex-col justify-center gap-3 items-center">
-            <i class="icon--theater !bg-light-50 !w-12 !h-12"></i>Teremos no
+          <p class="background--description-text">
+            <i class="icon--theater !bg-light-50"></i>
+            Palcos
+            <i class="icon--theater !bg-light-50"></i>
+          </p>
+          <p class="background--description-text">Teremos no
             palco os melhores profissionais do mercado compartilhando
             conhecimento!
           </p>
@@ -258,7 +268,7 @@
           <h2>Programação</h2>
           <p class="font-bold text-center text-2xl ">E o que vai ter de bom?</p>
           <table
-            class="w-full max-w-5xl text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400 table-fixed sm:table-auto">
+            class="section--container-body text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400 table-fixed sm:table-auto">
             <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
               <tr>
                 <th scope="col" class="px-6 py-3">
@@ -366,7 +376,7 @@
 
       <h2>Patrocínios e Apoios</h2>
       <p>Quem torna isso possível?</p>
-      <div class="container">
+      <div class="section--container-body">
         <div class="card--wrapper text-black">
           <div class="card--content col-span-2">
             <p class="card--title">
@@ -433,115 +443,122 @@
     <!-- CODE OF CONDUCT -->
     <section id="code-condute" class="section--with-content">
       <h2>Código de conduta</h2>
-      <div class="card--wrapper">
-        <div class="card--content col-span-2">
-          <p>A Comunidade PHP com Rapadura está comprometida a ser uma comunidade livre de discriminação para todos,
-            independente de gênero, identidade e expressão de gênero, orientação sexual, deficiência, aparência física,
-            raça, idade, origem ou religião. Não será tolerado, sob nenhuma circunstância, o constrangimento de
-            participantes em eventos e canais organizados pela comunidade. Linguagem e/ou exposição de imagens sexuais
-            ou
-            de cunho discriminatório não serão apropriadas no âmbito de nossa comunidade - isto inclui os eventos, as
-            palestras, apresentações, exemplos ou demonstrações, site, emails, chat e quaisquer outro canal da
-            comunidade.
-          </p>
-          <p>
-            Os participantes que violarem estas regras podem ser repreendidos ou expulsos do canal e/ou evento sem
-            direito
-            a reembolso, a critério da organização.</p>
-        </div>
-        <div class="card--content col-span-2">
-          <p>
-            Entendemos como assédio e constrangimento:
-          </p>
-          <ul class="list-disc pl-8">
-            <li>Comentários que reforçam estruturas sociais de dominação, sejam relacionados a gênero, identidade e
-              expressão de gênero, orientação sexual, deficiência, aparência física, raça, idade, origem ou religião;
-            </li>
-            <li>Imagens sexuais em espaços públicos;</li>
-            <li>Comentários de cunho sexual;</li>
-            <li>Intimidação intencional;</li>
-            <li>Perseguição;</li>
-            <li>Obtenção de som ou imagem constrangedores;</li>
-            <li>Interrupção continuada e intencional de palestras e/ou eventos paralelos;</li>
-            <li>Contato físico inapropriado; atenção sexual não solicitada;</li>
-          </ul>
-        </div>
-        <div class="card--content col-span-2">
-          <p>
-            Se você estiver sendo assediado(a) ou se sentir constrangido(a), ou perceber alguém nesta condição, ou se
-            tiver qualquer preocupação a respeito deste tema, não deixe de contatar um dos evangelistas da comunidade
-            imediatamente.
-          </p>
-          <p>
-            As pessoas responsáveis pela organização em eventos serão apresentadas ao início dos eventos
-            e podem ser facilmente identificados por camisetas e/ou crachás. Nos canais oficiais da comunidade procure
-            um dos evangelistas da comunidade.
-          </p>
-          <p>
-            Embora o desejo seja de que isso não venha a ser necessário, caso seja preciso a organização ajudará os
-            participantes no contato com a segurança do local ou com a polícia ou mesmo providenciando escolta. Faremos
-            o possível para que todos sintam-se confortáveis e seguros.
-          </p>
-          <p class="font-bold">
-            Contamos com sua compreensão e participação.
-          </p>
-        </div>
-        <div class="card--content col-span-2">
-          <p>Esperamos que todos os participantes sigam estas recomendações em todos os locais onde a PHP com Rapadura
-            estiver levando um evento.</p>
-          <p class="font-bold">Aproveitem saudavelmente o evento!</p>
-        </div>
-        <div class="card--content col-span-2">
-          <p>Contato para eventos da PHP com Rapadura: contato@phpcomrapadura.org</p>
-          <p>Polícia: 190</p>
-          <p>Central de Atendimento à Mulher: 180</p>
-          <p>SAMU: 192</p>
-        </div>
+      <div class="section--container-body">
+        <div class="card--wrapper">
+          <div class="card--content col-span-2">
+            <p>A Comunidade PHP com Rapadura está comprometida a ser uma comunidade livre de discriminação para todos,
+              independente de gênero, identidade e expressão de gênero, orientação sexual, deficiência, aparência
+              física,
+              raça, idade, origem ou religião. Não será tolerado, sob nenhuma circunstância, o constrangimento de
+              participantes em eventos e canais organizados pela comunidade. Linguagem e/ou exposição de imagens sexuais
+              ou
+              de cunho discriminatório não serão apropriadas no âmbito de nossa comunidade - isto inclui os eventos, as
+              palestras, apresentações, exemplos ou demonstrações, site, emails, chat e quaisquer outro canal da
+              comunidade.
+            </p>
+            <p>
+              Os participantes que violarem estas regras podem ser repreendidos ou expulsos do canal e/ou evento sem
+              direito
+              a reembolso, a critério da organização.</p>
+          </div>
+          <div class="card--content col-span-2">
+            <p>
+              Entendemos como assédio e constrangimento:
+            </p>
+            <ul class="list-disc pl-8">
+              <li>Comentários que reforçam estruturas sociais de dominação, sejam relacionados a gênero, identidade e
+                expressão de gênero, orientação sexual, deficiência, aparência física, raça, idade, origem ou religião;
+              </li>
+              <li>Imagens sexuais em espaços públicos;</li>
+              <li>Comentários de cunho sexual;</li>
+              <li>Intimidação intencional;</li>
+              <li>Perseguição;</li>
+              <li>Obtenção de som ou imagem constrangedores;</li>
+              <li>Interrupção continuada e intencional de palestras e/ou eventos paralelos;</li>
+              <li>Contato físico inapropriado; atenção sexual não solicitada;</li>
+            </ul>
+          </div>
+          <div class="card--content col-span-2">
+            <p>
+              Se você estiver sendo assediado(a) ou se sentir constrangido(a), ou perceber alguém nesta condição, ou se
+              tiver qualquer preocupação a respeito deste tema, não deixe de contatar um dos evangelistas da comunidade
+              imediatamente.
+            </p>
+            <p>
+              As pessoas responsáveis pela organização em eventos serão apresentadas ao início dos eventos
+              e podem ser facilmente identificados por camisetas e/ou crachás. Nos canais oficiais da comunidade procure
+              um dos evangelistas da comunidade.
+            </p>
+            <p>
+              Embora o desejo seja de que isso não venha a ser necessário, caso seja preciso a organização ajudará os
+              participantes no contato com a segurança do local ou com a polícia ou mesmo providenciando escolta.
+              Faremos
+              o possível para que todos sintam-se confortáveis e seguros.
+            </p>
+            <p class="font-bold">
+              Contamos com sua compreensão e participação.
+            </p>
+          </div>
+          <div class="card--content col-span-2">
+            <p>Esperamos que todos os participantes sigam estas recomendações em todos os locais onde a PHP com Rapadura
+              estiver levando um evento.</p>
+            <p class="font-bold">Aproveitem saudavelmente o evento!</p>
+          </div>
+          <div class="card--content col-span-2">
+            <p>Contato para eventos da PHP com Rapadura: contato@phpcomrapadura.org</p>
+            <p>Polícia: 190</p>
+            <p>Central de Atendimento à Mulher: 180</p>
+            <p>SAMU: 192</p>
+          </div>
 
-        <div class="card--content col-span-2">
-          <p class="font-bold">
-            Créditos e fonte original: <a target="_blank" class="text-sky-500"
-              href="https://github.com/PHPSP/docs/blob/master/codigo-de-conduta-eventos.md">PHPSP</a>
-          </p>
+          <div class="card--content col-span-2">
+            <p class="font-bold">
+              Créditos e fonte original: <a target="_blank" class="text-sky-500"
+                href="https://github.com/PHPSP/docs/blob/master/codigo-de-conduta-eventos.md">PHPSP</a>
+            </p>
+          </div>
         </div>
       </div>
     </section>
     <!-- END OF CODE OF CONDUCT -->
   </main>
   <footer class="py-10 bg-neutral-800 w-full text-white flex justify-center">
-    <div class="grid grid-cols-1 md:grid-cols-4 container p-4 gap-8">
-      <div class="footer--item">
-        <p class="text-2xl">Organizado po:</p>
-        <a href="https://phpcomrapadura.org" target="_blank" rel="noopener noreferrer">
-          <img class="max-w-sm w-full" src="assets/img/logo-rapadura-white.png" alt="PHP CE" />
-        </a>
-      </div>
-      <div class="footer--item">
-        <p class="text-2xl">Encontre-nos:</p>
-        <div>
-          <a class="white-text text-darken-4" rel="noopener noreferrer" title="website" target="_blank"
-            href="https://phpcomrapadura.org"><i class="icon--www !w-8 !h-8" aria-hidden="true"></i>
-          </a>&nbsp;&nbsp;
-          <a class="white-text" title="twitter" rel="noopener noreferrer" target="_blank"
-            href="https://x.com/phpcomrapadura"><i class="icon--x !w-8 !h-8" aria-hidden="true"></i>
-          </a>&nbsp;&nbsp;
-          <a class="white-text text-darken-4" title="facebook" rel="noopener noreferrer" target="_blank"
-            href="https://www.facebook.com/rapaduradopoder/"><i class="icon--facebook !w-8 !h-8" aria-hidden="true"></i>
+    <div class="section--container-body">
+      <div class="grid grid-cols-1 md:grid-cols-4 container p-4 gap-8">
+        <div class="footer--item">
+          <p class="text-2xl">Organizado po:</p>
+          <a href="https://phpcomrapadura.org" target="_blank" rel="noopener noreferrer">
+            <img class="max-w-sm w-full" src="assets/img/logo-rapadura-white.png" alt="PHP CE" />
           </a>
         </div>
-      </div>
-      <div class="footer--item">
-        <p class="text-2xl">Feito com:</p>
-        <a href="https://tailwindcss.com/" target="_blank" rel="noopener noreferrer" alt="logo Tailwincss"
-          class="footer--link">
-          <div class="bg--tailwind max-w-1/2 w-full h-10 bg-contain bg-no-repeat"></div>
-        </a>
-      </div>
-      <div class="footer--item">
-        <a href='https://app.umbler.com/u/2j3g7r5k' target="_blank" rel="noopener noreferrer" alt="logo Umbler">
-          <img src='https://static.umbler.com/brand/umbler-badges/umbler-badge-hostedby-dark-bg.png' width='100%'
-            alt='Hosted by Umbler'>
-        </a>
+        <div class="footer--item">
+          <p class="text-2xl">Encontre-nos:</p>
+          <div>
+            <a class="white-text text-darken-4" rel="noopener noreferrer" title="website" target="_blank"
+              href="https://phpcomrapadura.org"><i class="icon--www !w-8 !h-8" aria-hidden="true"></i>
+            </a>&nbsp;&nbsp;
+            <a class="white-text" title="twitter" rel="noopener noreferrer" target="_blank"
+              href="https://x.com/phpcomrapadura"><i class="icon--x !w-8 !h-8" aria-hidden="true"></i>
+            </a>&nbsp;&nbsp;
+            <a class="white-text text-darken-4" title="facebook" rel="noopener noreferrer" target="_blank"
+              href="https://www.facebook.com/rapaduradopoder/"><i class="icon--facebook !w-8 !h-8"
+                aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+        <div class="footer--item">
+          <p class="text-2xl">Feito com:</p>
+          <a href="https://tailwindcss.com/" target="_blank" rel="noopener noreferrer" alt="logo Tailwincss"
+            class="footer--link">
+            <div class="bg--tailwind max-w-1/2 w-full h-10 bg-contain bg-no-repeat"></div>
+          </a>
+        </div>
+        <div class="footer--item">
+          <a href='https://app.umbler.com/u/2j3g7r5k' target="_blank" rel="noopener noreferrer" alt="logo Umbler">
+            <img src='https://static.umbler.com/brand/umbler-badges/umbler-badge-hostedby-dark-bg.png' width='100%'
+              alt='Hosted by Umbler'>
+          </a>
+        </div>
       </div>
     </div>
   </footer>

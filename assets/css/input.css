@@ -9,12 +9,23 @@ h2 {
   @apply absolute top-0 left-0 -z-1 bg-neutral-900 opacity-40 w-full h-screen;
 }
 
-.section--with-content {
-  @apply py-14 flex flex-col align-middle justify-center items-center gap-10 w-full;
-}
-
 .link--button {
   @apply px-4 py-2 bg-slate-700 text-white font-bold w-36 gap-2 text-center flex justify-center items-center;
+}
+
+/*
+ Section
+ */
+.section--full-screen {
+  @apply relative w-full h-screen;
+}
+
+.section--with-content {
+  @apply container py-14 flex flex-col align-middle justify-center items-center gap-10;
+}
+
+.section--container-body {
+  @apply w-full max-w-7xl;
 }
 
 /**
@@ -33,15 +44,15 @@ h2 {
 }
 
 .background--content-wrapper {
-  @apply flex flex-col align-middle justify-center items-center w-full px-10 gap-16 min-h-screen;
+  @apply flex flex-col align-middle justify-center items-center w-full gap-16 min-h-screen;
 }
 
 .background--description--light {
-  @apply container p-4 grid grid-cols-1 gap-6 bg-stone-50/90 rounded-lg;
+  @apply w-full px-4 py-10 grid grid-cols-1 gap-6 bg-stone-50/90 text-black;
 }
 
 .background--description--dark {
-  @apply container p-4 grid grid-cols-1 gap-6 bg-neutral-900/80 rounded-lg text-white;
+  @apply w-full px-4 py-10 grid grid-cols-1 gap-6 bg-neutral-900/80 text-white;
 }
 
 .background--description-text {
