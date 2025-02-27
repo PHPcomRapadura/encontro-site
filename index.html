@@ -22,7 +22,7 @@
         </div>
 
         <a id="logo-container" href="#home" class="w-auto max-w-60">
-          <img class="" src="assets/img/logo-encontro-de-devs-php-white.png" />
+          <img loading="lazy" class="" src="assets/img/logo-encontro-de-devs-php-white.png" />
         </a>
       </div>
 
@@ -70,26 +70,29 @@
   <main>
     <section id="home" class="section--full-screen mt-10">
       <div class="relative overflow-hidden block h-auto">
-        <div class="background--content-wrapper section--container-body px-4">
-          <div>
-            <img id="img-banner" class="bg-cover bg-center" src="assets/img/logo-rapadura.png" alt="PHP com Rapadura" />
-          </div>
-          <div>
-            <img id="img-banner" class="responsive-img" src="assets/img/logo-encontro-de-devs-php-black.png"
-              alt="Encontro de Dev's PHP com Rapadura" />
-          </div>
-          <div class="text-center">
-            <p class="text-5xl font-bold">05 de Abril de 2025</p>
-            <p class="flex items-center gap-2 mt-5">
-              <span class="text-2xl font-bold">Unichristus - Campus Dom Luís - Fortaleza/CE.</span>
-            </p>
-          </div>
+        <div class="background--content-wrapper px-4">
+          <div class="section--container-body flex--col--center gap-16">
+            <div>
+              <img loading="lazy" id="img-banner" class="bg-cover bg-center" src="assets/img/logo-rapadura.png"
+                alt="PHP com Rapadura" />
+            </div>
+            <div>
+              <img loading="lazy" id="img-banner" class="responsive-img"
+                src="assets/img/logo-encontro-de-devs-php-black.png" alt="Encontro de Dev's PHP com Rapadura" />
+            </div>
+            <div class="text-center">
+              <p class="text-5xl font-bold">05 de Abril de 2025</p>
+              <p class="flex items-center gap-2 mt-5">
+                <span class="text-2xl font-bold">Unichristus - Campus Dom Luís - Fortaleza/CE.</span>
+              </p>
+            </div>
 
-          <div class="relative w-14 h-14">
-            <a href="#about">
-              <i class="icon--arrow-down !bg-black !w-14 !h-14"></i>
-              <div class="absolute -z-1 bg-white top-3 left-3 rounded-full border-transparent w-9 h-9"></div>
-            </a>
+            <div class="relative w-14 h-14">
+              <a href="#about">
+                <i class="icon--arrow-down !bg-black !w-14 !h-14"></i>
+                <div class="absolute -z-1 bg-white top-3 left-3 rounded-full border-transparent w-9 h-9"></div>
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -119,7 +122,7 @@
 
     <!-- ABOUT -->
     <section id="about" class="section--with-content">
-      <img id="img-banner" class="max-w-xl w-10/12" src="assets/img/logo-encontro-de-devs-php-black.png"
+      <img loading="lazy" id="img-banner" class="max-w-xl w-10/12" src="assets/img/logo-encontro-de-devs-php-black.png"
         alt="Encontro de Dev's PHP com Rapadura" />
       <div class="section--container-body">
         <div class="card--wrapper">
@@ -422,8 +425,9 @@
                   Apoio Institucional
                 </p>
                 <div class="w-full flex justify-center mt-4 ">
-                  <img class="max-w-sm w-full" id="img-sponsors" src="assets/img/sponsors/logo-unichristus.png"
-                    alt="Unichristus" title="Centro universitário Unichristus.">
+                  <img loading="lazy" class="max-w-sm w-full" id="img-sponsors"
+                    src="assets/img/sponsors/logo-unichristus.png" alt="Unichristus"
+                    title="Centro universitário Unichristus.">
                 </div>
                 <p class="text-center mt-4">
                   <a class="grey-text text-darken-4" title="website" target="_blank"
@@ -528,7 +532,7 @@
         <div class="footer--item">
           <p class="text-2xl">Organizado po:</p>
           <a href="https://phpcomrapadura.org" target="_blank" rel="noopener noreferrer">
-            <img class="max-w-sm w-full" src="assets/img/logo-rapadura-white.png" alt="PHP CE" />
+            <img loading="lazy" class="max-w-sm w-full" src="assets/img/logo-rapadura-white.png" alt="PHP CE" />
           </a>
         </div>
         <div class="footer--item">
@@ -555,15 +559,15 @@
         </div>
         <div class="footer--item">
           <a href='https://app.umbler.com/u/2j3g7r5k' target="_blank" rel="noopener noreferrer" alt="logo Umbler">
-            <img src='https://static.umbler.com/brand/umbler-badges/umbler-badge-hostedby-dark-bg.png' width='100%'
-              alt='Hosted by Umbler'>
+            <img loading="lazy" src='https://static.umbler.com/brand/umbler-badges/umbler-badge-hostedby-dark-bg.png'
+              width='100%' alt='Hosted by Umbler'>
           </a>
         </div>
       </div>
     </div>
   </footer>
 
-  <script src="assets/js/events.js"></script>
+  <script src="assets/js/events.js" defer></script>
 </body>
 
 </html>
