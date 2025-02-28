@@ -1,0 +1,23 @@
+on: 
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+name: 🚀 Deploy website on push
+jobs:
+  web-deploy:
+    name: 🎉 Deploy
+    runs-on: ubuntu-latest
+    steps:
+    - name: 🚚 Get latest code
+      uses: actions/checkout@v4
+    
+    - name: 📂 Sync files
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+      with:
+        server: ${{ secret.FTP_HOST }}
+        username: ${{ secret.FTP_UESR }}
+        password: ${{ secrets.FTP_PASSWORD }}
+        local-dir: "./"
+        server-dir: "./public"
+        log-level: "verbose"
