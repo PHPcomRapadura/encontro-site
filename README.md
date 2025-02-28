@@ -10,6 +10,12 @@ Website do evento
   - Download da CLI: https://github.com/tailwindlabs/tailwindcss/releases/tag/v4.0.9
   - Instalação ambiente linux:
 
+Execute o comando abaixo:
+```sh
+sh twdcss.sh
+```
+
+Ou baixe manualmente
 ```sh
 curl -sLO https://github.com/tailwindlabs/tailwindcss/releases/download/v4.0.9/tailwindcss-linux-x64
 
