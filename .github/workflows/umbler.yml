@@ -3,6 +3,8 @@ on:
     branches:
       - main
   workflow_dispatch:
+env:
+  env_var: "umbler"
 name: 🚀 Deploy website on push
 jobs:
   web-deploy:
@@ -19,7 +21,7 @@ jobs:
       with:
         server: "encontro-phpcomrapadura-org.umbler.net"
         username: "encontro-phpcomrapadura-org"
-        password: ${{ env.UMBLER_PASSWORD }}
+        password: ${{ secrets.FTP_PASSWORD }}
         local-dir: "./"
         server-dir: "./public"
         log-level: "verbose"
