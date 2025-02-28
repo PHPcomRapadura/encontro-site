@@ -25,3 +25,4 @@ jobs:
         local-dir: "./"
         server-dir: "./public/"
         log-level: "verbose"
+        dangerous-clean-slate: true
