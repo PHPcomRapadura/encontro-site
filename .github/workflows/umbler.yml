@@ -17,8 +17,8 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.5
       with:
-        server: ${{ env.UMBLER_HOST }}
-        username: ${{ env.UMBLER_USER }}
+        server: "encontro-phpcomrapadura-org.umbler.net"
+        username: "encontro-phpcomrapadura-org"
         password: ${{ env.UMBLER_PASSWORD }}
         local-dir: "./"
         server-dir: "./public"
