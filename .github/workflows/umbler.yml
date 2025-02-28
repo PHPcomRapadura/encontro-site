@@ -23,5 +23,5 @@ jobs:
         username: "encontro-phpcomrapadura-org"
         password: ${{ secrets.FTP_PASSWORD }}
         local-dir: "./"
-        server-dir: "./public"
+        server-dir: "./public/"
         log-level: "verbose"
