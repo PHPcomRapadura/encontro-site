@@ -17,9 +17,9 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.5
       with:
-        server: ${{ secrets.FTP_HOST }}
-        username: ${{ secrets.FTP_USER }}
-        password: ${{ secrets.FTP_PASSWORD }}
+        server: ${{ env.UMBLER_HOST }}
+        username: ${{ env.UMBLER_USER }}
+        password: ${{ env.UMBLER_PASSWORD }}
         local-dir: "./"
         server-dir: "./public"
         log-level: "verbose"
