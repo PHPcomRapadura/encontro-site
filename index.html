@@ -4,11 +4,26 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta name="description" content="Encontro de Devs 2025 - Um encontro de desenvolvedores, entusiastas e estudantes de PHP no Ceará. Junte-se a nós para um dia de aprendizado, networking e diversão! />
+  <meta property=" og:title" content="Encontro de Devs 2025" />
+  <meta property="og:description" content="Um encontro de desenvolvedores, entusiastas e estudantes de PHP no Ceará. Junte-se a nós para um dia de aprendizado, networking e diversão! />
+  <meta property=" og:image" content="assets/img/logo-rapadura-white.png" />
+  <meta property="og:url" content="http://encontro.phpcomrapadura.org" />
+  <meta property="og:type" content="website" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Encontro de Devs 2025" />
+  <meta name="twitter:description"
+    content="Um encontro de desenvolvedores, entusiastas e estudantes de PHP no Ceará. Junte-se a nós para um dia de aprendizado, networking e diversão!" />
+  <meta name="twitter:image" content="assets/img/logo-rapadura-white.png" />
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
-
-  <title>Encontro de Devs</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Kablammo:MORF@25&family=Mystery+Quest&family=Ubuntu:wght@300;400;700&display=swap"
+    rel="stylesheet">
+  <title>Encontro de Devs 2025</title>
 
   <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
   <link rel="stylesheet" href="assets/css/icons.css" />
@@ -18,16 +33,18 @@
 
 <body class="bg-stone-200 scroll-smooth ubuntu-regular">
   <header class="fixed top-0 left-0 z-10 w-full bg-primary-950 py-4">
-    <div class="relative section--container-body lg:flex lg:justify-between lg:items-center lg:align-middle lg:mx-auto">
-      <div class="relative flex justify-center">
-        <div class="lg:hidden absolute top-0 left-4 z-{51}">
-          <button id="nav-mobile-button" onclick="document.getElementById('nav-mobile').classList.toggle('hidden')">
-            <i class="icon--menu bg-white" aria-hidden="true"></i>
-          </button>
-        </div>
-
-        <a id="logo-container" href="#home" class="w-auto max-w-60">
-          <img loading="lazy" class="" src="assets/img/logo-encontro-de-devs-php-white.png" />
+    <div
+      class="relative section--container-body lg:flex lg:justify-between lg:items-center lg:align-middle lg:mx-auto px-0 lg:px-4">
+      <div class="lg:hidden absolute top-0 left-4 z-{51}">
+        <button id="nav-mobile-button" onclick="document.getElementById('nav-mobile').classList.toggle('hidden')">
+          <i class="icon--menu bg-white" aria-hidden="true"></i>
+        </button>
+      </div>
+      <div class="flex justify-center w-full">
+        <a id="logo-container" href="#home" class="w-full text-center text-white lg:text-left">
+          <p class="text-primary-50 font-bold text-lg text-center mystery-quest-regular">ECONTRO DE DEVS <span
+              class="kablammo-font">2025</span>
+          </p>
         </a>
       </div>
 
@@ -43,6 +60,10 @@
 
           <ul id="nav-mobile-list"
             class="w-10/12 sm:w-72 lg:w-full flex flex-col lg:flex-row items-start gap-6 pl-8 py-8 lg:py-0 min-h-screen lg:h-auto lg:min-h-0 font-bold">
+            <li>
+              <p class=" font-bold text-lg text-center mystery-quest-regular text-primary-50">ECONTRO DE DEVS <span
+                  class="kablammo-font">2025</span>
+            </li>
             <li>
               <a href="#home" class="flex items-center gap-3"><i class="icon--home md:!hidden"></i>Início</a>
             </li>
@@ -73,22 +94,22 @@
   </header>
 
   <main>
-    <section id="home" class="section--full-screen mt-10">
+    <section id="home" class="section--full-screen bg-violet-900 text-primary-50 mt-10">
       <div class="relative overflow-hidden block h-auto">
         <div class="background--content-wrapper px-4">
           <div class="section--container-body flex--col--center gap-16">
             <div>
-              <img loading="lazy" id="img-banner" class="bg-cover bg-center" src="assets/img/logo-rapadura.png"
-                alt="PHP com Rapadura" />
+              <img loading="lazy" id="img-banner" class="bg-cover bg-center shadow"
+                src="assets/img/logo-rapadura-white.png" alt="PHP com Rapadura" />
             </div>
-            <div>
-              <img loading="lazy" id="img-banner" class="responsive-img"
-                src="assets/img/logo-encontro-de-devs-php-black.png" alt="Encontro de Dev's PHP com Rapadura" />
+            <div class="flex flex-col gap-6 justify-center">
+              <p class="text-6xl font-bold text-center mystery-quest-regular">ECONTRO DE DEVS <span
+                  class="kablammo-font">2025</span></p>
             </div>
-            <div class="text-center">
-              <p class="text-5xl font-bold">05 de Abril de 2025</p>
-              <p class="flex items-center gap-2 mt-5">
-                <span class="text-2xl font-bold">Unichristus - Campus Dom Luís - Fortaleza/CE.</span>
+            <div class="text-cente text-center">
+              <p class="text-5xl">05 de Abril de 2025</p>
+              <p class="flex items-center gap-2 mt-5 font-light ">
+                <span class="text-2xl">Unichristus - Campus Dom Luís - Fortaleza/CE.</span>
               </p>
             </div>
 
@@ -101,7 +122,7 @@
           </div>
         </div>
       </div>
-      <div class="bg--banner background--full-screen">
+      <div class="bg--banner">
       </div>
     </section>
 
@@ -127,8 +148,8 @@
 
     <!-- ABOUT -->
     <section id="about" class="section--with-content">
-      <img loading="lazy" id="img-banner" class="max-w-xl w-10/12" src="assets/img/logo-encontro-de-devs-php-black.png"
-        alt="Encontro de Dev's PHP com Rapadura" />
+      <p class="text-6xl font-bold text-center mystery-quest-regular">ECONTRO DE DEVS <span
+          class="kablammo-font">2025</span></p>
       <div class="section--container-body">
         <div class="card--wrapper">
           <div class="sm:col-span-2 card--content">

@@ -15,11 +15,9 @@
   --color-primary-50: var(--color-violet-50);
 }
 
-
 /*
-  Base
+ * Font
 */
-
 .ubuntu-regular {
   font-family: "Ubuntu", sans-serif;
   font-weight: 400;
@@ -32,6 +30,32 @@
   font-style: normal;
 }
 
+.ubuntu-light {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.kablammo-font {
+  font-family: "Kablammo", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "MORF" 10;
+}
+
+.mystery-quest-regular {
+  font-family: "Mystery Quest", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/*
+  Base
+*/
+
 h2 {
   @apply text-4xl font-bold text-center;
 }
@@ -41,7 +65,7 @@ h2 {
 }
 
 .link--button {
-  @apply px-4 py-2 bg-slate-700 text-white font-bold w-36 gap-2 text-center flex justify-center items-center;
+  @apply px-4 py-2 bg-primary-900 text-white font-bold w-36 gap-2 text-center flex justify-center items-center hover:bg-primary-800;
 }
 
 .flex--col--center {
