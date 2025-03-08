@@ -30,3 +30,9 @@ mv tailwindcss-linux-x64 tailwindcss
 
 - Faça download do svg e salve em `assets/svg`
 - Edite o arquivo `assets/css/icons.css` e adicione uma classe seguindo o padrão já utilizado `.icon--<nome>`
+
+### Dados da agenda e dos palestrantes
+
+No arquivo `assets/js/dados.js` contém a variável dos palestranste e da agenda. Alterar o json para que seja atualizada a tabela ou a lista de palestrantes.
+
+> Obs: Palestrante ainda a fazer
