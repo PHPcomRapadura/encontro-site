@@ -4,15 +4,20 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+
+  <title>Encontro de Devs</title>
+
   <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
   <link rel="stylesheet" href="assets/css/icons.css" />
   <link rel="stylesheet" href="assets/css/backgrounds.css" />
   <link rel="stylesheet" href="assets/css/output.css" />
 </head>
 
-<body class="bg-stone-200 scroll-smooth">
-  <header class="fixed top-0 left-0 z-10 w-full bg-neutral-800 py-4">
+<body class="bg-stone-200 scroll-smooth ubuntu-regular">
+  <header class="fixed top-0 left-0 z-10 w-full bg-primary-950 py-4">
     <div class="relative section--container-body lg:flex lg:justify-between lg:items-center lg:align-middle lg:mx-auto">
       <div class="relative flex justify-center">
         <div class="lg:hidden absolute top-0 left-4 z-{51}">
@@ -29,7 +34,7 @@
       <nav id="nav-mobile"
         class="fixed lg:relative top-0 left-0 z-50 text-white bg-neutral-900/80 lg:bg-transparent w-full hidden lg:flex lg:justify-end lg:items-center lg:gap-6 lg:py-0 lg:px-0">
         <div
-          class="relative max-w-72 lg:max-w-none bg-neutral-800 lg:bg-transparent lg:flex lg:justify-center lg:items-center lg:gap-6 lg:py-0 lg:px-0 lg:rounded-lg">
+          class="relative max-w-72 lg:max-w-none bg-primary-900 lg:bg-transparent lg:flex lg:justify-center lg:items-center lg:gap-6 lg:py-0 lg:px-0 lg:rounded-lg">
           <div class="lg:hidden absolute top-0 right-0 z-{51} p-4 text-white">
             <button onclick="document.getElementById('nav-mobile').classList.toggle('hidden')">
               <i class="icon--menu-close bg-white" aria-hidden="true"></i>
@@ -270,9 +275,8 @@
         <div class="container flex flex-col gap-6 justify-center items-center">
           <h2>Programação</h2>
           <p class="font-bold text-center text-2xl ">E o que vai ter de bom?</p>
-          <table
-            class="section--container-body text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400 table-fixed sm:table-auto">
-            <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+          <table class="section--container-body table--element">
+            <thead class="table--head">
               <tr>
                 <th scope="col" class="px-6 py-3">
                   Horário
@@ -526,7 +530,7 @@
     </section>
     <!-- END OF CODE OF CONDUCT -->
   </main>
-  <footer class="py-10 bg-neutral-800 w-full text-white flex justify-center">
+  <footer class="py-10 bg-primary-950 w-full text-white flex justify-center">
     <div class="section--container-body">
       <div class="grid grid-cols-1 md:grid-cols-4 container p-4 gap-8">
         <div class="footer--item">
