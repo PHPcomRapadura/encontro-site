@@ -134,7 +134,7 @@ h2 {
 }
 
 .table--fixed-cell {
-  @apply px-6 py-4 font-medium text-gray-900 whitespace-nowrap;
+  @apply px-6 py-4 text-gray-900 font-bold whitespace-nowrap;
 }
 
 .table--cell {

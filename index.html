@@ -60,7 +60,7 @@
 
           <ul id="nav-mobile-list"
             class="w-10/12 sm:w-72 lg:w-full flex flex-col lg:flex-row items-start gap-6 pl-8 py-8 lg:py-0 min-h-screen lg:h-auto lg:min-h-0 font-bold">
-            <li>
+            <li class="lg:hidden">
               <p class=" font-bold text-lg text-center mystery-quest-regular text-primary-50">ECONTRO DE DEVS <span
                   class="kablammo-font">2025</span>
             </li>
@@ -310,87 +310,7 @@
                 </th>
               </tr>
             </thead>
-            <tbody>
-              <tr class="table--row">
-                <th scope="row" class="table--fixed-cell">
-                  07:30 - 08:00
-                </th>
-                <td class="table--cell">
-                  Credenciamento
-                </td>
-                <td class="table--cell">
-                  Comunidade PHP com Rapadura
-                </td>
-              </tr>
-              <tr class="table--row">
-                <th scope="row" class="table--fixed-cell">08:00 - 08:30</th>
-                <td class="table--cell">Abertura</td>
-                <td class="table--cell">Comunidade PHP com Rapadura e Unichristus</td>
-              </tr>
-              <tr class="table--row">
-                <th scope="row" class="table--fixed-cell">
-                  08:30 - 09:10
-                </th>
-                <td class="table--cell">
-                </td>
-                <td class="table--cell">
-                </td>
-              </tr>
-              <tr class="table--row">
-                <th class="table--fixed-cell">08:30 - 09:10</th>
-                <td class="table--cell"></td>
-                <td class="table--cell"></td>
-              </tr>
-              <tr class="table--row">
-                <th class="table--fixed-cell">09:10 - 09:50</th>
-                <td class="table--cell"></td>
-                <td class="table--cell"></td>
-              </tr>
-              <tr class="table--row">
-                <th class="table--fixed-cell">09:50 - 10:30</th>
-                <td class="table--cell">Coffe break</td>
-                <td class="table--cell">Comunidade PHP com Rapadura</td>
-              </tr>
-              <tr class="table--row">
-                <th class="table--fixed-cell">10:30 - 11:10</th>
-                <td class="table--cell"></td>
-                <td class="table--cell"></td>
-              </tr>
-              <tr class="table--row">
-                <th class="table--fixed-cell">11:10 - 11:55</th>
-                <td class="table--cell"></td>
-                <td class="table--cell"></td>
-              </tr>
-              <tr class="table--row">
-                <th class="table--fixed-cell">11:55 - 13:00</th>
-                <td class="table--cell">Almoço</td>
-                <td class="table--cell">Todo mundo</td>
-              </tr>
-              <tr class="table--row">
-                <th class="table--fixed-cell">13:00 - 13:40</th>
-                <td class="table--cell"></td>
-                <td class="table--cell"></td>
-              </tr>
-              <tr class="table--row">
-                <th class="table--fixed-cell">13:40 - 14:20</th>
-                <td class="table--cell"></td>
-                <td class="table--cell"></td>
-              </tr>
-              <tr class="table--row">
-                <th class="table--fixed-cell">14:20 - 15:00</th>
-                <td class="table--cell"></td>
-                <td class="table--cell"></td>
-              </tr>
-              <tr class="table--row">
-                <th class="table--fixed-cell">15:00 - 15:30</th>
-                <td class="table--cell"></td>
-                <td class="table--cell"></td>
-              </tr>
-              <tr class="table--row">
-                <th class="table--fixed-cell">15:30 - 16:00</th>
-                <td class="table--cell">Encerramento: agradecimentos e sorteio de brindes</td>
-                <td class="table--cell">Comunidade PHP com Rapadura</td>
-              </tr>
+            <tbody id="schedule-table">
             </tbody>
           </table>
         </div>
@@ -593,6 +513,11 @@
   </footer>
 
   <script src="assets/js/events.js" defer></script>
+  <script src="assets/js/dados.js"></script>
+  <script src="assets/js/componentes.js"></script>
+  <script>
+    initScheduleTable(agenda);
+  </script>
 </body>
 
 </html>
