@@ -36,7 +36,7 @@
   <header class="fixed top-0 left-0 z-10 w-full bg-primary-950 py-4">
     <div
       class="relative section--container-body lg:flex lg:justify-between lg:items-center lg:align-middle lg:mx-auto px-0 lg:px-4">
-      <div class="lg:hidden absolute top-0 left-4 z-{51}">
+      <div class="hidden--desktop absolute top-0 left-4 z-{51}">
         <button id="nav-mobile-button" onclick="document.getElementById('nav-mobile').classList.toggle('hidden')">
           <i class="icon--menu bg-white" aria-hidden="true"></i>
         </button>
@@ -53,7 +53,7 @@
         class="fixed lg:relative top-0 left-0 z-50 text-white bg-neutral-900/80 lg:bg-transparent w-full hidden lg:flex lg:justify-end lg:items-center lg:gap-6 lg:py-0 lg:px-0">
         <div
           class="relative max-w-72 lg:max-w-none bg-primary-900 lg:bg-transparent lg:flex lg:justify-center lg:items-center lg:gap-6 lg:py-0 lg:px-0 lg:rounded-lg">
-          <div class="lg:hidden absolute top-0 right-0 z-{51} p-4 text-white">
+          <div class="hidden--desktop absolute top-0 right-0 z-{51} p-4 text-white">
             <button onclick="document.getElementById('nav-mobile').classList.toggle('hidden')">
               <i class="icon--menu-close bg-white" aria-hidden="true"></i>
             </button>
@@ -61,30 +61,38 @@
 
           <ul id="nav-mobile-list"
             class="w-10/12 sm:w-72 lg:w-full flex flex-col lg:flex-row items-start gap-6 pl-8 py-8 lg:py-0 min-h-screen lg:h-auto lg:min-h-0 font-bold">
-            <li class="lg:hidden">
+            <li class="hidden--desktop">
               <p class="text-lg font-bold text-center luckiest-guy-regular">Encontro de Devs <span class="">2025</span>
               </p>
             </li>
             <li>
-              <a href="#home" class="flex items-center gap-3"><i class="icon--home md:!hidden"></i>Início</a>
+              <a href="#home" class="flex items-center gap-3"><i class="icon--home hidden--desktop"></i>Início</a>
             </li>
             <li>
-              <a href="#about" class="flex items-center gap-3"><i class="md:!hidden icon--php-file"></i>Sobre</a>
+              <a href="https://www.sympla.com.br/evento/encontro-de-devs-php-com-rapadura/2862161"
+                class="flex items-center gap-3"><i class="icon--ticket hidden--desktop"></i>Ingressos</a>
+            </li>
+            <li>
+              <a href="#about" class="flex items-center gap-3"><i class="hidden--desktop icon--php-file"></i>Sobre</a>
+            </li>
+            <li class="hidden--desktop">
+              <a href="https://phpcomrapadura.org/encontro-de-devs-php-com-rapadura-2025-envio-de-palestras/"
+                class="flex items-center gap-3"><i class="icon--speakerphone"></i>Envie sua palestra</a>
             </li>
             <li>
               <a href="#speakers" class="flex items-center gap-3"><i
-                  class="md:!hidden icon--message-user"></i>Palestrantes</a>
+                  class="hidden--desktop icon--message-user"></i>Palestrantes</a>
             </li>
             <li>
-              <a href="#local" class="flex items-center gap-3"><i class="md:!hidden icon--map-route"></i>Local</a>
+              <a href="#local" class="flex items-center gap-3"><i class="hidden--desktop icon--map-route"></i>Local</a>
             </li>
             <li>
               <a href="#schedule" class="flex items-center gap-3"><i
-                  class="md:!hidden icon--list-details"></i>Programação</a>
+                  class="hidden--desktop icon--list-details"></i>Programação</a>
             </li>
             <li>
               <a href="#sponsors" class="flex items-center gap-3"><i
-                  class="md:!hidden icon--cash"></i>Patrocinadores</a>
+                  class="hidden--desktop icon--cash"></i>Patrocinadores</a>
             </li>
           </ul>
         </div>
@@ -227,10 +235,16 @@
       <div class="background--content-wrapper">
         <div class="background--description--light">
           <p class="background--description-text">
-            <i class="icon--speakerphone !bg-black"></i>Palestrantes<i class="icon--speakerphone !bg-black"
-              style="transform: scaleX(-1)"></i>
+            <i class="icon--message-user !bg-black" style="transform: scaleX(-1)"></i>Palestrantes <i
+              class="icon--message-user !bg-black"></i>
           </p>
           <p class="background--description-text">Conheça as autoridades em breve!</p>
+          <p class="background--description-text">
+            <a href="https://phpcomrapadura.org/encontro-de-devs-php-com-rapadura-2025-envio-de-palestras/"
+              target="_blank" rel="noopener noreferrer" class="link--button w-full">
+              <i class="icon--speakerphone  !w-8 !h-8"></i>Envie sua palestra
+            </a>
+          </p>
         </div>
       </div>
       <div class="bg--speakers-2 background--full-screen">
@@ -343,7 +357,7 @@
             <p>
               Saiba como a sua empresa pode ajudar-nos a realizar um evento fantástico.
             </p>
-            <a class="link--button" target="_blank"
+            <a class="link--button w-36" target="_blank"
               href="http://encontro.phpcomrapadura.org/assets/files/Sponsor_kit_encontro_2025.pdf">
               <i class="icon--circle-plus !w-4 !h-4"></i>Saiba mais </a>
           </div>
@@ -354,7 +368,7 @@
             <p>
               Saiba como sua empresa pode nos ajudar a realizar um evento arretado.
             </p>
-            <a class="link--button" target="_blank"
+            <a class="link--button w-36" target="_blank"
               href="http://encontro.phpcomrapadura.org/assets/files/Sponsor_kit_encontro_2025.pdf">
               <i class="icon--circle-plus !w-4 !h-4"></i>Saiba mais</a>
           </div>
@@ -365,7 +379,7 @@
             <p>
               Saiba como a sua empresa pode ajudar-nos a realizar um evento jóiado.
             </p>
-            <a class="link--button" target="_blank"
+            <a class="link--button w-36" target="_blank"
               href="http://encontro.phpcomrapadura.org/assets/files/Sponsor_kit_encontro_2025.pdf">
               <i class="icon--circle-plus"></i>Saiba mais</a>
           </div>

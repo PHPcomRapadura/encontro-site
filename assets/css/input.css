@@ -60,7 +60,7 @@ h2 {
 }
 
 .link--button {
-  @apply px-4 py-2 bg-primary-900 text-white font-bold w-36 gap-2 text-center flex justify-center items-center hover:bg-primary-800;
+  @apply px-4 py-2 bg-primary-900 text-white font-bold gap-2 text-center flex justify-center items-center hover:bg-primary-800;
 }
 
 .link--button--light {
@@ -69,6 +69,10 @@ h2 {
 
 .flex--col--center {
   @apply flex flex-col justify-center align-middle items-center;
+}
+
+.hidden--desktop {
+  @apply lg:hidden
 }
 
 /*
