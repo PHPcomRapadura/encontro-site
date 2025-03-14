@@ -106,3 +106,8 @@ i {
   mask-image: url("../svg/brand-instagram.svg");
   -webkit-mask-image: url("../svg/brand-instagram.svg");
 }
+
+.icon--ticket {
+  mask-image: url("../svg/ticket.svg");
+  -webkit-mask-image: url("../svg/ticket.svg");
+}
