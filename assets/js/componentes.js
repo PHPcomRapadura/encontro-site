@@ -47,20 +47,24 @@ const speakersComponent = {
 
         // Create the card content div
         const cardContentDiv = document.createElement('div');
-        cardContentDiv.className = 'card--content';
+        cardContentDiv.className = 'card--content h-[calc(100%-32px)]';
         cardContentDiv.id = `'speaker-${nameId}'`;
 
         // Add the title
+        const titleDiv = document.createElement('div');
         const title = document.createElement('p');
         title.className = 'card--title';
         title.textContent = nome;
-        cardContentDiv.appendChild(title);
+        titleDiv.appendChild(title);
+        cardContentDiv.appendChild(titleDiv);
 
         // Add the image
+        const imageDiv = document.createElement('div');
         const image = document.createElement('img');
         image.src = `assets/img/speakers/${foto}`;
         image.className = isModal ? 'w-fit m-auto' : 'm-auto w-fit max-h-[410px]';
-        cardContentDiv.appendChild(image);
+        imageDiv.appendChild(image);
+        cardContentDiv.appendChild(imageDiv);
 
         // Add the talk description
         const talkDescription = document.createElement('p');

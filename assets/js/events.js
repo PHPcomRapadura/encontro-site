@@ -19,6 +19,7 @@ openModal = (nome) => {
 
     document.getElementById('modal-bio-content').innerHTML = content
     modalElement.classList.remove('hidden')
+    modalElement.classList.add('flex')
 }
 
 closeModal = () => {
@@ -26,5 +27,6 @@ closeModal = () => {
 
     if (!modalElement) return;
 
+    modalElement.classList.remove('flex')
     modalElement.classList.add('hidden')
 }

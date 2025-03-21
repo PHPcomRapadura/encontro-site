@@ -5,46 +5,46 @@
 */
 
 @theme {
-  --font-display: "Ubuntu", sans-serif;
-  --font-body: "Ubuntu", sans-serif;
+    --font-display: "Ubuntu", sans-serif;
+    --font-body: "Ubuntu", sans-serif;
 
-  --color-primary-950: var(--color-violet-950);
-  --color-primary-900: var(--color-violet-900);
-  --color-primary-800: var(--color-violet-800);
-  --color-primary-200: var(--color-violet-200);
-  --color-primary-50: var(--color-violet-50);
+    --color-primary-950: var(--color-violet-950);
+    --color-primary-900: var(--color-violet-900);
+    --color-primary-800: var(--color-violet-800);
+    --color-primary-200: var(--color-violet-200);
+    --color-primary-50: var(--color-violet-50);
 }
 
 /*
  * Font
 */
 .ubuntu-regular {
-  font-family: "Ubuntu", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .ubuntu-bold {
-  font-family: "Ubuntu", sans-serif;
-  font-weight: 700;
-  font-style: normal;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
 .ubuntu-light {
-  font-family: "Ubuntu", sans-serif;
-  font-weight: 300;
-  font-style: normal;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
 
 .font--event,
 .luckiest-guy-regular {
-  font-family: "Luckiest Guy", cursive;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .font--event {
-  @apply font-bold text-center;
+    @apply font-bold text-center;
 }
 
 /*
@@ -52,111 +52,111 @@
 */
 
 h2 {
-  @apply text-4xl font-bold text-center;
+    @apply text-4xl font-bold text-center;
 }
 
 .video--overlay {
-  @apply absolute top-0 left-0 -z-1 bg-neutral-900 opacity-40 w-full h-screen;
+    @apply absolute top-0 left-0 -z-1 bg-neutral-900 opacity-40 w-full h-screen;
 }
 
 .link--button {
-  @apply px-4 py-2 bg-primary-900 text-white font-bold gap-2 text-center flex justify-center items-center hover:bg-primary-800;
+    @apply px-4 py-2 bg-primary-900 text-white font-bold gap-2 text-center flex justify-center items-center hover:bg-primary-800;
 }
 
 .link--button--light {
-  @apply px-4 py-2 bg-white text-primary-800 font-bold w-full gap-2 text-center flex justify-center items-center hover:shadow-lg hover:shadow-primary-50;
+    @apply px-4 py-2 bg-white text-primary-800 font-bold w-full gap-2 text-center flex justify-center items-center hover:shadow-lg hover:shadow-primary-50;
 }
 
 .flex--col--center {
-  @apply flex flex-col justify-center align-middle items-center;
+    @apply flex flex-col justify-center align-middle items-center;
 }
 
 .hidden--desktop {
-  @apply lg:hidden
+    @apply lg:hidden
 }
 
 /*
  Section
  */
 .section--full-screen {
-  @apply relative w-full h-screen;
+    @apply relative w-full h-screen;
 }
 
 .section--with-content {
-  @apply py-14 flex flex-col align-middle justify-center items-center gap-10;
+    @apply py-14 flex flex-col align-middle justify-center items-center gap-10;
 }
 
 .section--container-body {
-  @apply w-full max-w-7xl;
+    @apply w-full max-w-7xl;
 }
 
 /**
 * Background sections
 */
 .background--full-screen {
-  @apply absolute top-0 left-0 bottom-0 right-0 -z-2 w-full h-screen max-h-screen bg-cover bg-center;
+    @apply absolute top-0 left-0 bottom-0 right-0 -z-2 w-full h-screen max-h-screen bg-cover bg-center;
 }
 
 .background--overlay--light {
-  @apply absolute -z-1 top-0 left-0 w-full h-screen max-h-screen bg-cover bg-center bg-neutral-400/50;
+    @apply absolute -z-1 top-0 left-0 w-full h-screen max-h-screen bg-cover bg-center bg-neutral-400/50;
 }
 
 .background--overlay--dark {
-  @apply absolute -z-1 top-0 left-0 w-full h-screen max-h-screen bg-cover bg-center bg-neutral-900/70;
+    @apply absolute -z-1 top-0 left-0 w-full h-screen max-h-screen bg-cover bg-center bg-neutral-900/70;
 }
 
 .background--content-wrapper {
-  @apply flex flex-col align-middle justify-center items-center w-full gap-16 min-h-screen;
+    @apply flex flex-col align-middle justify-center items-center w-full gap-16 min-h-screen;
 }
 
 .background--description--light {
-  @apply w-full px-4 py-10 grid grid-cols-1 gap-6 bg-stone-50/90 text-black;
+    @apply w-full px-4 py-10 grid grid-cols-1 gap-6 bg-stone-50/90 text-black;
 }
 
 .background--description--dark {
-  @apply w-full px-4 py-10 grid grid-cols-1 gap-6 bg-neutral-900/80 text-white;
+    @apply w-full px-4 py-10 grid grid-cols-1 gap-6 bg-neutral-900/80 text-white;
 }
 
 .background--description-text {
-  @apply text-xl font-bold text-center flex justify-center gap-3 items-center;
+    @apply text-xl font-bold text-center flex justify-center gap-3 items-center;
 }
 
 /*
   Table
 */
 .table--element {
-  @apply text-sm text-left rtl:text-right text-gray-500 table-fixed sm:table-auto;
+    @apply text-sm text-left rtl:text-right text-gray-500 table-fixed sm:table-auto;
 }
 
 .table--head {
-  @apply text-xs text-gray-700 uppercase bg-primary-200;
+    @apply text-xs text-gray-700 uppercase bg-primary-200;
 }
 
 .table--row {
-  @apply bg-white border-b border-primary-200 hover:bg-primary-50;
+    @apply bg-white border-b border-primary-200 hover:bg-primary-50;
 }
 
 .table--fixed-cell {
-  @apply px-6 py-4 text-gray-900 font-bold whitespace-nowrap;
+    @apply px-6 py-4 text-gray-900 font-bold whitespace-nowrap;
 }
 
 .table--cell {
-  @apply px-6 py-4;
+    @apply px-6 py-4;
 }
 
 /*
   Card
 */
 .card--content {
-  @apply bg-white border border-stone-100 flex flex-col gap-3 p-6;
+    @apply bg-white border border-stone-100 flex flex-col gap-3 p-6;
 }
 
 .card--wrapper {
-  @apply w-full px-4 sm:px-2 md:px-0 grid grid-cols-1 sm:grid-cols-2 gap-6;
+    @apply w-full px-4 sm:px-2 md:px-0 grid grid-cols-1 sm:grid-cols-2 gap-6;
 }
 
 .card--title {
-  @apply text-lg font-bold border-b;
+    @apply text-lg font-bold border-b;
 }
 
 /*
@@ -164,9 +164,9 @@ h2 {
 */
 
 .footer--item {
-  @apply flex flex-col gap-4 justify-start items-center;
+    @apply flex flex-col gap-4 justify-start items-center;
 }
 
 .footer--link {
-  @apply w-full flex justify-center;
+    @apply w-full flex justify-center;
 }
