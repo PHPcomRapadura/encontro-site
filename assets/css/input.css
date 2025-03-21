@@ -51,6 +51,10 @@
   Base
 */
 
+ul {
+    list-style: inside;
+}
+
 h2 {
     @apply text-4xl font-bold text-center;
 }
