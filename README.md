@@ -12,7 +12,7 @@ Website do evento
 
 Execute o comando abaixo:
 ```sh
-sh twdcss.sh
+bash twdcss.sh
 ```
 
 Ou baixe manualmente
