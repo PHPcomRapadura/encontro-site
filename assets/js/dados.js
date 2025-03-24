@@ -14,7 +14,7 @@ const palestrantes = [
           <li>Gestão de Pessoas (em andamento)</li>
         </ul>
       <p>Nos próximos anos, quero expandir minha atuação na docência e continuar promovendo a inclusão e os direitos sociais. Além disso, venho explorando possibilidades na área da tecnologia, pensando em como meu conhecimento pode contribuir para soluções inovadoras e mais acessíveis. Sempre de olho em novos desafios!</p> ` },
-    { nome: 'Palestrante Indefinido', foto: 'user.avif', miniBio: 'Poderia ser você aqui', titulo: 'Você tem muito a compartilhar', },
+    { nome: 'Gabriel Camurça', foto: 'gabriel-camurca.jpg', miniBio: 'Gabriel Camurça é desenvolvedor Back-end com 3 anos de experiência em projetos web. Formado em Análise e Desenvolvimento de Sistemas e cursando pós-graduação em Arquitetura de Software. Trabalhou em um cartório desenvolvendo soluções personalizadas e, atualmente, na BR Tech, criando plataformas web sob demanda. Fortes habilidades em bancos de dados PHP, JavaScript e SQL. Além disso, é Técnico em Redes e SysAdmin Linux, com expertise em Cloud AWS e Cybersegurança. Amante da literatura, Gabriel encontrou paz na tecnologia em suas palestras.', titulo: 'C4Model para Devs', },
     { nome: 'Palestrante Indefinido', foto: 'user.avif', miniBio: 'Poderia ser você aqui', titulo: 'Você tem muito a compartilhar', },
     // { nome: 'Palestrante Indefinido', foto: 'user.avif', miniBio: 'Poderia ser você aqui', titulo: 'Você tem muito a compartilhar', },
     // { nome: 'Palestrante Indefinido', foto: 'user.avif', miniBio: 'Poderia ser você aqui', titulo: 'Você tem muito a compartilhar', },
