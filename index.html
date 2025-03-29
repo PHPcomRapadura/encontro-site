@@ -2,592 +2,578 @@
 <html lang="en" class="scroll-smooth">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <meta name="description" content="Encontro de Devs 2025 - Um encontro de desenvolvedores, entusiastas e estudantes de PHP no Ceará. Junte-se a nós para um dia de aprendizado, networking e diversão! />
+  <meta name="description" content="Encontro de Devs 2025 - Um encontro de desenvolvedores, entusiastas e estudantes de PHP no Ceará. Junte-se a nós para um dia de aprendizado, networking e diversão! />
   <meta property=" og:title" content="Encontro de Devs 2025" />
-    <meta property="og:description" content="Um encontro de desenvolvedores, entusiastas e estudantes de PHP no Ceará. Junte-se a nós para um dia de aprendizado, networking e diversão! />
+  <meta property="og:description" content="Um encontro de desenvolvedores, entusiastas e estudantes de PHP no Ceará. Junte-se a nós para um dia de aprendizado, networking e diversão! />
   <meta property=" og:image" content="assets/img/logo-rapadura-white.png" />
-    <meta property="og:url" content="http://encontro.phpcomrapadura.org" />
-    <meta property="og:type" content="website" />
+  <meta property="og:url" content="http://encontro.phpcomrapadura.org" />
+  <meta property="og:type" content="website" />
 
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Encontro de Devs 2025" />
-    <meta name="twitter:description"
-        content="Um encontro de desenvolvedores, entusiastas e estudantes de PHP no Ceará. Junte-se a nós para um dia de aprendizado, networking e diversão!" />
-    <meta name="twitter:image" content="assets/img/logo-rapadura-white.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Encontro de Devs 2025" />
+  <meta name="twitter:description"
+    content="Um encontro de desenvolvedores, entusiastas e estudantes de PHP no Ceará. Junte-se a nós para um dia de aprendizado, networking e diversão!" />
+  <meta name="twitter:image" content="assets/img/logo-rapadura-white.png" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap"
-        rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap"
+    rel="stylesheet">
 
-    <title>Encontro de Devs 2025</title>
+  <title>Encontro de Devs 2025</title>
 
-    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="assets/css/icons.css" />
-    <link rel="stylesheet" href="assets/css/backgrounds.css" />
-    <link rel="stylesheet" href="assets/css/output.css" />
+  <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="assets/css/icons.css" />
+  <link rel="stylesheet" href="assets/css/backgrounds.css" />
+  <link rel="stylesheet" href="assets/css/output.css" />
 </head>
 
 <body class="bg-stone-200 scroll-smooth ubuntu-regular">
-    <header class="fixed top-0 left-0 z-10 w-full bg-primary-950 py-4">
+  <header class="fixed top-0 left-0 z-10 w-full bg-primary-950 py-4">
+    <div
+      class="relative section--container-body lg:flex lg:justify-between lg:items-center lg:align-middle lg:mx-auto px-0 lg:px-4">
+      <div class="hidden--desktop absolute top-0 left-4 z-{51}">
+        <button id="nav-mobile-button" onclick="document.getElementById('nav-mobile').classList.toggle('hidden')">
+          <i class="icon--menu bg-white" aria-hidden="true"></i>
+        </button>
+      </div>
+      <div class="flex w-full">
+        <a id="logo-container" href="#home" class="w-full">
+          <p class="text-primary-50 font-bold text-lg text-center lg:text-start lg:text-xl luckiest-guy-regular">
+            Encontro de Devs
+            <span class="">2025</span>
+          </p>
+        </a>
+      </div>
+
+      <nav id="nav-mobile"
+        class="fixed lg:relative top-0 left-0 z-50 text-white bg-neutral-900/80 lg:bg-transparent w-full hidden lg:flex lg:justify-end lg:items-center lg:gap-6 lg:py-0 lg:px-0">
         <div
-            class="relative section--container-body lg:flex lg:justify-between lg:items-center lg:align-middle lg:mx-auto px-0 lg:px-4">
-            <div class="hidden--desktop absolute top-0 left-4 z-{51}">
-                <button id="nav-mobile-button"
-                    onclick="document.getElementById('nav-mobile').classList.toggle('hidden')">
-                    <i class="icon--menu bg-white" aria-hidden="true"></i>
-                </button>
-            </div>
-            <div class="flex w-full">
-                <a id="logo-container" href="#home" class="w-full">
-                    <p
-                        class="text-primary-50 font-bold text-lg text-center lg:text-start lg:text-xl luckiest-guy-regular">
-                        Encontro de Devs
-                        <span class="">2025</span>
-                    </p>
-                </a>
-            </div>
+          class="relative max-w-72 lg:max-w-none bg-primary-900 lg:bg-transparent lg:flex lg:justify-center lg:items-center lg:gap-6 lg:py-0 lg:px-0 lg:rounded-lg">
+          <div class="hidden--desktop absolute top-0 right-0 z-{51} p-4 text-white">
+            <button onclick="document.getElementById('nav-mobile').classList.toggle('hidden')">
+              <i class="icon--menu-close bg-white" aria-hidden="true"></i>
+            </button>
+          </div>
 
-            <nav id="nav-mobile"
-                class="fixed lg:relative top-0 left-0 z-50 text-white bg-neutral-900/80 lg:bg-transparent w-full hidden lg:flex lg:justify-end lg:items-center lg:gap-6 lg:py-0 lg:px-0">
-                <div
-                    class="relative max-w-72 lg:max-w-none bg-primary-900 lg:bg-transparent lg:flex lg:justify-center lg:items-center lg:gap-6 lg:py-0 lg:px-0 lg:rounded-lg">
-                    <div class="hidden--desktop absolute top-0 right-0 z-{51} p-4 text-white">
-                        <button onclick="document.getElementById('nav-mobile').classList.toggle('hidden')">
-                            <i class="icon--menu-close bg-white" aria-hidden="true"></i>
-                        </button>
-                    </div>
-
-                    <ul id="nav-mobile-list "
-                        class="!list-none w-10/12 sm:w-72 lg:w-full flex flex-col lg:flex-row items-start gap-6 pl-8 py-8 lg:py-0 min-h-screen lg:h-auto lg:min-h-0 font-bold">
-                        <li class="hidden--desktop">
-                            <p class="text-lg font-bold text-center luckiest-guy-regular">Encontro de Devs <span
-                                    class="">2025</span>
-                            </p>
-                        </li>
-                        <li>
-                            <a href="#home" class="flex items-center gap-3"><i
-                                    class="icon--home hidden--desktop"></i>Início</a>
-                        </li>
-                        <li>
-                            <a href="https://www.sympla.com.br/evento/encontro-de-devs-php-com-rapadura/2862161"
-                                class="flex items-center gap-3"><i
-                                    class="icon--ticket hidden--desktop"></i>Ingressos</a>
-                        </li>
-                        <li>
-                            <a href="#about" class="flex items-center gap-3"><i
-                                    class="hidden--desktop icon--php-file"></i>Sobre</a>
-                        </li>
-                        <li>
-                            <a href="#speakers" class="flex items-center gap-3"><i
-                                    class="hidden--desktop icon--message-user"></i>Palestrantes</a>
-                        </li>
-                        <li>
-                            <a href="#local" class="flex items-center gap-3"><i
-                                    class="hidden--desktop icon--map-route"></i>Local</a>
-                        </li>
-                        <li>
-                            <a href="#schedule" class="flex items-center gap-3"><i
-                                    class="hidden--desktop icon--list-details"></i>Programação</a>
-                        </li>
-                        <li>
-                            <a href="#sponsors" class="flex items-center gap-3"><i
-                                    class="hidden--desktop icon--cash"></i>Patrocinadores</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
+          <ul id="nav-mobile-list "
+            class="!list-none w-10/12 sm:w-72 lg:w-full flex flex-col lg:flex-row items-start gap-6 pl-8 py-8 lg:py-0 min-h-screen lg:h-auto lg:min-h-0 font-bold">
+            <li class="hidden--desktop">
+              <p class="text-lg font-bold text-center luckiest-guy-regular">Encontro de Devs <span class="">2025</span>
+              </p>
+            </li>
+            <li>
+              <a href="#home" class="flex items-center gap-3"><i class="icon--home hidden--desktop"></i>Início</a>
+            </li>
+            <li>
+              <a href="https://www.sympla.com.br/evento/encontro-de-devs-php-com-rapadura/2862161"
+                class="flex items-center gap-3"><i class="icon--ticket hidden--desktop"></i>Ingressos</a>
+            </li>
+            <li>
+              <a href="#about" class="flex items-center gap-3"><i class="hidden--desktop icon--php-file"></i>Sobre</a>
+            </li>
+            <li>
+              <a href="#speakers" class="flex items-center gap-3"><i
+                  class="hidden--desktop icon--message-user"></i>Palestrantes</a>
+            </li>
+            <li>
+              <a href="#local" class="flex items-center gap-3"><i class="hidden--desktop icon--map-route"></i>Local</a>
+            </li>
+            <li>
+              <a href="#schedule" class="flex items-center gap-3"><i
+                  class="hidden--desktop icon--list-details"></i>Programação</a>
+            </li>
+            <li>
+              <a href="#sponsors" class="flex items-center gap-3"><i
+                  class="hidden--desktop icon--cash"></i>Patrocinadores</a>
+            </li>
+          </ul>
         </div>
-
-        </div>
-    </header>
-
-    <main>
-        <section id="home" class="section--full-screen bg-violet-900 text-primary-50 mt-10">
-            <div class="relative overflow-hidden block h-auto">
-                <div class="background--content-wrapper px-4">
-                    <div class="section--container-body flex--col--center gap-16">
-                        <div>
-                            <img loading="lazy" id="img-banner" class="bg-cover bg-center shadow"
-                                src="assets/img/logo-rapadura-white.png" alt="PHP com Rapadura" />
-                        </div>
-                        <div class="flex flex-col gap-6 justify-center">
-                            <p class="text-6xl font--event">Encontro de Devs <span
-                                    class="font--event--hightlight">2025</span></p>
-                        </div>
-                        <div class="text-center">
-                            <p class="text-5xl">05 de Abril de 2025</p>
-                            <p class="flex items-center gap-2 mt-5 font-light ">
-                                <span class="text-2xl">Unichristus - Campus Dom Luís - Fortaleza/CE.</span>
-                            </p>
-                        </div>
-
-                        <div class="grid grid-cols-1 gap-6">
-                            <a href="https://www.sympla.com.br/evento/encontro-de-devs-php-com-rapadura/2862161"
-                                target="_blank" rel="noopener noreferrer" class="link--button--light">
-                                <i class="icon--ticket !bg-primary-800 !w-8 !h-8"></i>Garanta seu ingresso
-                            </a>
-                        </div>
-
-                        <div class="relative w-14 h-14">
-                            <a href="#about">
-                                <i class="icon--arrow-down !bg-black !w-14 !h-14"></i>
-                                <div
-                                    class="absolute -z-1 bg-white top-3 left-3 rounded-full border-transparent w-9 h-9">
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="bg--banner">
-            </div>
-        </section>
-
-        <!-- VIDEO -->
-        <section id="section--video" class="section--full-screen">
-            <div class="background--content-wrapper">
-                <div class="background--description--dark">
-                    <p class="background--description-text">
-                        Evento que proporciona a reunião de vários desenvolvedores,
-                        entusiastas, amantes e estudantes do PHP do estado do Ceará.
-                    </p>
-                </div>
-            </div>
-
-            <video id="hoverVideo" class="absolute top-0 left-0 -z-2 w-full h-full object-cover" autoplay loop muted
-                playsinline>
-                <source src="assets/video/phpest2023-480p.webm" type="video/webm" />
-                Seu navegador não suporta vídeos em HTML5.
-            </video>
-            <div class="video--overlay"></div>
-        </section>
-        <!-- END OF VIDEO -->
-
-        <!-- ABOUT -->
-        <section id="about" class="section--with-content">
-            <p class="text-6xl font-bold text-center luckiest-guy-regular">Encontro de Devs <span class="">2025</span>
-            </p>
-            <div class="section--container-body">
-                <div class="card--wrapper">
-                    <div class="sm:col-span-2 card--content">
-                        <p class="text-xl font-bold text-center mb-4">
-                            Prepare-se para um dia repleto de aprendizado, troca de
-                            experiências e muita interação!
-                        </p>
-                        <p>
-                            No
-                            <span class="font-bold">Encontro de Devs PHP com Rapadura</span>,
-                            reunimos no palco os melhores profissionais do mercado para
-                            compartilhar conhecimento prático e inspirador. Se você nunca
-                            palestrou em um grande evento, essa é a sua chance – em breve
-                            abriremos a submissão de palestras, e você pode ser o próximo a
-                            brilhar!
-                        </p>
-                    </div>
-                    <div class="card--content">
-                        <p class="card--title">🚀 Por que participar?</p>
-                        <p>
-                            Além de se atualizar com as últimas tendências do universo PHP,
-                            nossa missão é fortalecer a comunidade através da interação,
-                            networking e colaboração – ingredientes essenciais para formar não
-                            apenas melhores profissionais, mas também melhores pessoas.
-                        </p>
-                    </div>
-                    <div class="card--content">
-                        <p class="card--title">🍬 E a rapadura?</p>
-                        <p>
-                            Mas é claro, jovem! Não seria PHP com Rapadura se não tivesse
-                            rapadura, né? Hehehe. Aqui, o clima é descontraído, acolhedor e
-                            cheio de sabor nordestino!
-                        </p>
-                    </div>
-                    <div class="card--content">
-                        <p class="card--title">
-                            📚 Amplie seus conhecimentos!
-                        </p>
-                        <p>
-                            Aprender novas tecnologias é sempre uma aventura – e com uma
-                            comunidade arretada como a nossa, o aprendizado fica ainda mais
-                            leve e divertido. Seja você um dev iniciante ou experiente, temos
-                            um espaço para você crescer e se conectar com pessoas incríveis.
-                        </p>
-                    </div>
-                    <div class="card--content">
-                        <p class="card--title">
-                            ☕ Detalhe importante!<br />
-                        </p>
-                        <p>
-                            O valor do ingresso é para garantir um belo e gostoso Coffee Break
-                            – porque ninguém merece absorver tanto conhecimento de barriga
-                            vazia! Ah, e um agradecimento especial ao Centro Universitário
-                            Unichristus, que gentilmente cedeu o espaço para que esse encontro
-                            aconteça.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- END OF ABOUT -->
-
-        <!-- SPEAKERS -->
-        <section class="section--with-content bg-stone-900" id="speakers">
-            <p class="text-6xl text-white text-center">Palestrantes</p>
-            <div class="section--container-body">
-                <div class="card--wrapper" id="speakers-container">
-                </div>
-            </div>
-        </section>
-        <!-- END OF SPEAKER -->
-
-        <!-- STAGES -->
-        <section id=" stages" class="relative w-full">
-            <div class="background--content-wrapper">
-                <div class="background--description--dark">
-                    <p class="background--description-text">
-                        <i class="icon--theater !bg-light-50"></i>
-                        Palcos
-                        <i class="icon--theater !bg-light-50"></i>
-                    </p>
-                    <p class="background--description-text">Teremos no
-                        palco os melhores profissionais do mercado compartilhando
-                        conhecimento!
-                    </p>
-                </div>
-            </div>
-            <div class="bg--questions-1 background--full-screen">
-            </div>
-            <div class="background--overlay--dark">
-            </div>
-        </section>
-        <!-- END OF TAGES -->
-
-        <!-- LOCAL - MAPS -->
-        <section id="local" class="flex flex-col align-middle justify-center items-center w-full py-10 gap-6">
-            <h2>Local</h2>
-            <p>Veja em detalhes onde será o evento</p>
-            <div class="container px-2 md:px-0">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.3472453197937!2d-38.49319200000001!3d-3.7342828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c7487da7865e59%3A0xfe7a1ed055e337f1!2sUnichristus%20-%20Campus%20Dom%20Lu%C3%ADs!5e0!3m2!1spt-BR!2sbr!4v1739971024116!5m2!1spt-BR!2sbr"
-                    width="100%" height="450" style="border: 0" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-            <div class="w-full flex justify-center align-middle items-center gap-4 bg-neutral-50 py-4">
-                <i class="icon--map-route !w-10 !h-10 !bg-neutral-800"></i>
-                <div>
-                    <p class="font-bold text-xl">Unichristus</p>
-                    <p>Centro Universitário Christus</p>
-                    <p>Av. Dom Luís, 911 - Meireles, Fortaleza - CE.</p>
-                </div>
-            </div>
-        </section>
-        <!-- END LOCAL - MAPS -->
-
-        <!-- INVITE SPEAKER -->
-        <section id="invite-speaker"
-            class="h-md md:h-lg lg:h-xl flex flex-col justify-center align-middle items-center relative">
-            <div class="background--content-wrapper">
-                <div class="background--description--dark">
-                    <p class="background--description-text">
-                        Faça parte do evento, nosso objetivo é impulsionar novos
-                        palestrantes!
-                    </p>
-                </div>
-            </div>
-            <div class="bg--invite-1 background--full-screen">
-            </div>
-            <div class="background--overlay--dark"></div>
-        </section>
-        <!-- END OF INVITE SPEAKER -->
-
-        <!-- SCHEDULE -->
-        <section id="schedule">
-            <div class="flex justify-center w-full align-middle items-center overflow-x-auto sm:rounded-lg py-10">
-                <div class="container flex flex-col gap-6 justify-center items-center">
-                    <h2>Programação</h2>
-                    <p class="font-bold text-center text-2xl ">E o que vai ter de bom?</p>
-                    <table class="section--container-body table--element">
-                        <thead class="table--head">
-                            <tr>
-                                <th scope="col" class="px-6 py-3">
-                                    Horário
-                                </th>
-                                <th scope="col" class="px-6 py-3">
-                                    Atividade
-                                </th>
-                                <th scope="col" class="px-6 py-3">
-                                    Facilitador
-                                </th>
-                            </tr>
-                        </thead>
-                        <tbody id="schedule-table">
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-
-        </section>
-        <!-- END OF SCHEDULE -->
-
-        <!-- SPONSORS -->
-        <section id="sponsors" class="section--with-content bg-stone-900 text-white px-2 md:px-0">
-
-            <h2>Patrocínios e Apoios</h2>
-            <p>Quem torna isso possível?</p>
-            <div class="section--container-body">
-                <div class="card--wrapper text-black">
-                    <div class="card--content sm:col-span-2">
-                        <p class="card--title">
-                            Patrocínio Rapadura Preta
-                        </p>
-                        <p>
-                            Saiba como a sua empresa pode ajudar-nos a realizar um evento fantástico.
-                        </p>
-                        <a class="link--button w-36" target="_blank"
-                            href="http://encontro.phpcomrapadura.org/assets/files/Sponsor_kit_encontro_2025.pdf">
-                            <i class="icon--circle-plus !w-4 !h-4"></i>Saiba mais </a>
-                    </div>
-                    <div class="card--content">
-                        <p class="card--title">
-                            Patrocínio Rapadura Castanha
-                        </p>
-                        <p>
-                            Saiba como sua empresa pode nos ajudar a realizar um evento arretado.
-                        </p>
-                        <a class="link--button w-36" target="_blank"
-                            href="http://encontro.phpcomrapadura.org/assets/files/Sponsor_kit_encontro_2025.pdf">
-                            <i class="icon--circle-plus !w-4 !h-4"></i>Saiba mais</a>
-                    </div>
-                    <div class="card--content">
-                        <p class="card--title">
-                            Patrocínio Rapadura Batida
-                        </p>
-                        <p>
-                            Saiba como a sua empresa pode ajudar-nos a realizar um evento jóiado.
-                        </p>
-                        <a class="link--button w-36" target="_blank"
-                            href="http://encontro.phpcomrapadura.org/assets/files/Sponsor_kit_encontro_2025.pdf">
-                            <i class="icon--circle-plus"></i>Saiba mais</a>
-                    </div>
-
-                    <div class="card--content sm:col-span-2">
-                        <p class="card--title">
-                            APOIO
-                        </p>
-                        <div class="w-full grid grid-cols-1 md:grid-cols-3 gap-4">
-                            <div class="card--content col-span-3">
-                                <p class="card--title">
-                                    Apoio Institucional
-                                </p>
-                                <div class="w-full flex justify-center mt-4 ">
-                                    <img loading="lazy" class="max-w-sm w-full" id="img-sponsors"
-                                        src="assets/img/sponsors/logo-unichristus.png" alt="Unichristus"
-                                        title="Centro universitário Unichristus.">
-                                </div>
-                                <p class="text-center mt-4">
-                                    <a class="grey-text text-darken-4" title="website" target="_blank"
-                                        href="http://www.unichristus.edu.br/"><i
-                                            class="icon--www !bg-black !w-10 !h-10 mr-2"></i></a>
-                                    <a class="grey-text text-darken-4" title="facebook" target="_blank"
-                                        href="https://www.facebook.com/unichristus/"><i
-                                            class="icon--facebook !bg-black !w-10 !h-10 ml-2"></i></a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-        </section>
-        <!-- END OF SPONSORS -->
-
-        <!-- CODE OF CONDUCT -->
-        <section id="code-condute" class="section--with-content">
-            <h2>Código de conduta</h2>
-            <div class="section--container-body">
-                <div class="card--wrapper">
-                    <div class="card--content col-span-2">
-                        <p>A Comunidade PHP com Rapadura está comprometida a ser uma comunidade livre de discriminação
-                            para todos,
-                            independente de gênero, identidade e expressão de gênero, orientação sexual, deficiência,
-                            aparência
-                            física,
-                            raça, idade, origem ou religião. Não será tolerado, sob nenhuma circunstância, o
-                            constrangimento de
-                            participantes em eventos e canais organizados pela comunidade. Linguagem e/ou exposição de
-                            imagens sexuais
-                            ou
-                            de cunho discriminatório não serão apropriadas no âmbito de nossa comunidade - isto inclui
-                            os eventos, as
-                            palestras, apresentações, exemplos ou demonstrações, site, emails, chat e quaisquer outro
-                            canal da
-                            comunidade.
-                        </p>
-                        <p>
-                            Os participantes que violarem estas regras podem ser repreendidos ou expulsos do canal e/ou
-                            evento sem
-                            direito
-                            a reembolso, a critério da organização.</p>
-                    </div>
-                    <div class="card--content col-span-2">
-                        <p>
-                            Entendemos como assédio e constrangimento:
-                        </p>
-                        <ul class="list-disc pl-8">
-                            <li>Comentários que reforçam estruturas sociais de dominação, sejam relacionados a gênero,
-                                identidade e
-                                expressão de gênero, orientação sexual, deficiência, aparência física, raça, idade,
-                                origem ou religião;
-                            </li>
-                            <li>Imagens sexuais em espaços públicos;</li>
-                            <li>Comentários de cunho sexual;</li>
-                            <li>Intimidação intencional;</li>
-                            <li>Perseguição;</li>
-                            <li>Obtenção de som ou imagem constrangedores;</li>
-                            <li>Interrupção continuada e intencional de palestras e/ou eventos paralelos;</li>
-                            <li>Contato físico inapropriado; atenção sexual não solicitada;</li>
-                        </ul>
-                    </div>
-                    <div class="card--content col-span-2">
-                        <p>
-                            Se você estiver sendo assediado(a) ou se sentir constrangido(a), ou perceber alguém nesta
-                            condição, ou se
-                            tiver qualquer preocupação a respeito deste tema, não deixe de contatar um dos evangelistas
-                            da comunidade
-                            imediatamente.
-                        </p>
-                        <p>
-                            As pessoas responsáveis pela organização em eventos serão apresentadas ao início dos eventos
-                            e podem ser facilmente identificados por camisetas e/ou crachás. Nos canais oficiais da
-                            comunidade procure
-                            um dos evangelistas da comunidade.
-                        </p>
-                        <p>
-                            Embora o desejo seja de que isso não venha a ser necessário, caso seja preciso a organização
-                            ajudará os
-                            participantes no contato com a segurança do local ou com a polícia ou mesmo providenciando
-                            escolta.
-                            Faremos
-                            o possível para que todos sintam-se confortáveis e seguros.
-                        </p>
-                        <p class="font-bold">
-                            Contamos com sua compreensão e participação.
-                        </p>
-                    </div>
-                    <div class="card--content col-span-2">
-                        <p>Esperamos que todos os participantes sigam estas recomendações em todos os locais onde a PHP
-                            com Rapadura
-                            estiver levando um evento.</p>
-                        <p class="font-bold">Aproveitem saudavelmente o evento!</p>
-                    </div>
-                    <div class="card--content col-span-2">
-                        <p>Contato para eventos da PHP com Rapadura: contato@phpcomrapadura.org</p>
-                        <p>Polícia: 190</p>
-                        <p>Central de Atendimento à Mulher: 180</p>
-                        <p>SAMU: 192</p>
-                    </div>
-
-                    <div class="card--content col-span-2">
-                        <p class="font-bold">
-                            Créditos e fonte original: <a target="_blank" class="text-sky-500"
-                                href="https://github.com/PHPSP/docs/blob/master/codigo-de-conduta-eventos.md">PHPSP</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- END OF CODE OF CONDUCT -->
-    </main>
-    <footer class="py-10 bg-primary-950 w-full text-white flex justify-center">
-        <div class="section--container-body flex justify-center">
-            <div class="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 container p-4 gap-8">
-                <div class="footer--item">
-                    <p class="text-2xl">Organizado po:</p>
-                    <a href="https://phpcomrapadura.org" target="_blank" rel="noopener noreferrer">
-                        <img loading="lazy" class="max-w-sm w-full" src="assets/img/logo-rapadura-white.png"
-                            alt="PHP CE" />
-                    </a>
-                </div>
-                <div class="footer--item">
-                    <p class="text-2xl">Encontre-nos:</p>
-                    <div>
-                        <a class="white-text text-darken-4" rel="noopener noreferrer" title="website" target="_blank"
-                            href="https://phpcomrapadura.org"><i class="icon--www !w-8 !h-8" aria-hidden="true"></i>
-                        </a>&nbsp;&nbsp;
-                        <a class="white-text" title="twitter" rel="noopener noreferrer" target="_blank"
-                            href="https://x.com/phpcomrapadura"><i class="icon--x !w-8 !h-8" aria-hidden="true"></i>
-                        </a>&nbsp;&nbsp;
-                        <a class="white-text text-darken-4" title="facebook" rel="noopener noreferrer" target="_blank"
-                            href="https://www.facebook.com/rapaduradopoder/"><i class="icon--facebook !w-8 !h-8"
-                                aria-hidden="true"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="footer--item">
-                    <p class="text-2xl">Feito com:</p>
-                    <a href="https://tailwindcss.com/" target="_blank" rel="noopener noreferrer" alt="logo Tailwincss"
-                        class="footer--link">
-                        <div class="bg--tailwind max-w-1/2 w-full h-10 bg-contain bg-no-repeat"></div>
-                    </a>
-                </div>
-                <div class="footer--item">
-                    <a href='https://app.umbler.com/u/2j3g7r5k' target="_blank" rel="noopener noreferrer"
-                        alt="logo Umbler">
-                        <img loading="lazy"
-                            src='https://static.umbler.com/brand/umbler-badges/umbler-badge-hostedby-dark-bg.png'
-                            width='100%' alt='Hosted by Umbler'>
-                    </a>
-                </div>
-            </div>
-        </div>
-
-    </footer>
-
-    <div id="default-modal" tabindex="-1" aria-hidden="true"
-        class="hidden bg-primary-900/80 fixed top-0 right-0 left-0 z-50 justify-center items-center w-full max-h-full">
-        <div class="relative w-full max-w-2xl max-h-[calc(100%-1rem)]">
-            <!-- Modal content -->
-            <div class="relative bg-white rounded-lg shadow-sm max-h-screen h-full overflow-y-auto">
-                <!-- Modal header -->
-                <div
-                    class="top-0 flex items-center justify-between p-4 md:p-5 border-b rounded-t border-gray-200 bg-white z-10">
-                    <h3 class="text-xl font-semibold text-gray-900">
-                        Bio Completa
-                    </h3>
-                    <button type="button"
-                        class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center"
-                        onclick="closeModal()">
-                        <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
-                            viewBox="0 0 14 14">
-                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6" />
-                        </svg>
-                        <span class="sr-only">Close modal</span>
-                    </button>
-                </div>
-                <!-- Modal body -->
-                <div class="p-4 flex flex-col justify-center items-center" id="modal-bio-content">
-                    <!-- Content goes here -->
-                </div>
-                <!-- Modal footer -->
-                <div class="bottom-0 flex items-center p-4 md:p-5 border-t border-gray-200 rounded-b bg-white z-10">
-                    <button onclick="closeModal()" type="button"
-                        class="py-2.5 px-5 ms-3 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100">Fechar</button>
-                </div>
-            </div>
-        </div>
+      </nav>
     </div>
 
-    <script src="assets/js/dados.js"></script>
-    <script src="assets/js/componentes.js"></script>
-    <script>
-        initScheduleTable(agenda);
-        speakersComponent.initSpeaker(palestrantes);
-    </script>
-    <script src="assets/js/events.js"></script>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="section--full-screen bg-violet-900 text-primary-50 mt-10">
+      <div class="relative overflow-hidden block h-auto">
+        <div class="background--content-wrapper px-4">
+          <div class="section--container-body flex--col--center gap-16">
+            <div>
+              <img loading="lazy" id="img-banner" class="bg-cover bg-center shadow"
+                src="assets/img/logo-rapadura-white.png" alt="PHP com Rapadura" />
+            </div>
+            <div class="flex flex-col gap-6 justify-center">
+              <p class="text-6xl font--event">Encontro de Devs <span class="font--event--hightlight">2025</span></p>
+            </div>
+            <div class="text-center">
+              <p class="text-5xl">05 de Abril de 2025</p>
+              <p class="flex items-center gap-2 mt-5 font-light ">
+                <span class="text-2xl">Unichristus - Campus Dom Luís - Fortaleza/CE.</span>
+              </p>
+            </div>
+
+            <div class="grid grid-cols-1 gap-6">
+              <a href="https://www.sympla.com.br/evento/encontro-de-devs-php-com-rapadura/2862161" target="_blank"
+                rel="noopener noreferrer" class="link--button--light">
+                <i class="icon--ticket !bg-primary-800 !w-8 !h-8"></i>Garanta seu ingresso
+              </a>
+            </div>
+
+            <div class="relative w-14 h-14">
+              <a href="#about">
+                <i class="icon--arrow-down !bg-black !w-14 !h-14"></i>
+                <div class="absolute -z-1 bg-white top-3 left-3 rounded-full border-transparent w-9 h-9">
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bg--banner">
+      </div>
+    </section>
+
+    <!-- VIDEO -->
+    <section id="section--video" class="section--full-screen">
+      <div class="background--content-wrapper">
+        <div class="background--description--dark">
+          <p class="background--description-text">
+            Evento que proporciona a reunião de vários desenvolvedores,
+            entusiastas, amantes e estudantes do PHP do estado do Ceará.
+          </p>
+        </div>
+      </div>
+
+      <video id="hoverVideo" class="absolute top-0 left-0 -z-2 w-full h-full object-cover" autoplay loop muted
+        playsinline>
+        <source src="assets/video/phpest2023-480p.webm" type="video/webm" />
+        Seu navegador não suporta vídeos em HTML5.
+      </video>
+      <div class="video--overlay"></div>
+    </section>
+    <!-- END OF VIDEO -->
+
+    <!-- ABOUT -->
+    <section id="about" class="section--with-content">
+      <p class="text-6xl font-bold text-center luckiest-guy-regular">Encontro de Devs <span class="">2025</span>
+      </p>
+      <div class="section--container-body">
+        <div class="card--wrapper">
+          <div class="sm:col-span-2 card--content">
+            <p class="text-xl font-bold text-center mb-4">
+              Prepare-se para um dia repleto de aprendizado, troca de
+              experiências e muita interação!
+            </p>
+            <p>
+              No
+              <span class="font-bold">Encontro de Devs PHP com Rapadura</span>,
+              reunimos no palco os melhores profissionais do mercado para
+              compartilhar conhecimento prático e inspirador. Se você nunca
+              palestrou em um grande evento, essa é a sua chance – em breve
+              abriremos a submissão de palestras, e você pode ser o próximo a
+              brilhar!
+            </p>
+          </div>
+          <div class="card--content">
+            <p class="card--title">🚀 Por que participar?</p>
+            <p>
+              Além de se atualizar com as últimas tendências do universo PHP,
+              nossa missão é fortalecer a comunidade através da interação,
+              networking e colaboração – ingredientes essenciais para formar não
+              apenas melhores profissionais, mas também melhores pessoas.
+            </p>
+          </div>
+          <div class="card--content">
+            <p class="card--title">🍬 E a rapadura?</p>
+            <p>
+              Mas é claro, jovem! Não seria PHP com Rapadura se não tivesse
+              rapadura, né? Hehehe. Aqui, o clima é descontraído, acolhedor e
+              cheio de sabor nordestino!
+            </p>
+          </div>
+          <div class="card--content">
+            <p class="card--title">
+              📚 Amplie seus conhecimentos!
+            </p>
+            <p>
+              Aprender novas tecnologias é sempre uma aventura – e com uma
+              comunidade arretada como a nossa, o aprendizado fica ainda mais
+              leve e divertido. Seja você um dev iniciante ou experiente, temos
+              um espaço para você crescer e se conectar com pessoas incríveis.
+            </p>
+          </div>
+          <div class="card--content">
+            <p class="card--title">
+              ☕ Detalhe importante!<br />
+            </p>
+            <p>
+              O valor do ingresso é para garantir um belo e gostoso Coffee Break
+              – porque ninguém merece absorver tanto conhecimento de barriga
+              vazia! Ah, e um agradecimento especial ao Centro Universitário
+              Unichristus, que gentilmente cedeu o espaço para que esse encontro
+              aconteça.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END OF ABOUT -->
+
+    <!-- SPEAKERS -->
+    <section class="section--with-content bg-stone-900" id="speakers">
+      <p class="text-6xl text-white text-center">Palestrantes</p>
+      <div class="section--container-body">
+        <div class="card--wrapper" id="speakers-container">
+        </div>
+      </div>
+    </section>
+    <!-- END OF SPEAKER -->
+
+    <!-- STAGES -->
+    <section id=" stages" class="relative w-full">
+      <div class="background--content-wrapper">
+        <div class="background--description--dark">
+          <p class="background--description-text">
+            <i class="icon--theater !bg-light-50"></i>
+            Palcos
+            <i class="icon--theater !bg-light-50"></i>
+          </p>
+          <p class="background--description-text">Teremos no
+            palco os melhores profissionais do mercado compartilhando
+            conhecimento!
+          </p>
+        </div>
+      </div>
+      <div class="bg--questions-1 background--full-screen">
+      </div>
+      <div class="background--overlay--dark">
+      </div>
+    </section>
+    <!-- END OF TAGES -->
+
+    <!-- LOCAL - MAPS -->
+    <section id="local" class="flex flex-col align-middle justify-center items-center w-full py-10 gap-6">
+      <h2>Local</h2>
+      <p>Veja em detalhes onde será o evento</p>
+      <div class="container px-2 md:px-0">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.3472453197937!2d-38.49319200000001!3d-3.7342828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c7487da7865e59%3A0xfe7a1ed055e337f1!2sUnichristus%20-%20Campus%20Dom%20Lu%C3%ADs!5e0!3m2!1spt-BR!2sbr!4v1739971024116!5m2!1spt-BR!2sbr"
+          width="100%" height="450" style="border: 0" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div class="w-full flex justify-center align-middle items-center gap-4 bg-neutral-50 py-4">
+        <i class="icon--map-route !w-10 !h-10 !bg-neutral-800"></i>
+        <div>
+          <p class="font-bold text-xl">Unichristus</p>
+          <p>Centro Universitário Christus</p>
+          <p>Av. Dom Luís, 911 - Meireles, Fortaleza - CE.</p>
+        </div>
+      </div>
+    </section>
+    <!-- END LOCAL - MAPS -->
+
+    <!-- INVITE SPEAKER -->
+    <section id="invite-speaker"
+      class="h-md md:h-lg lg:h-xl flex flex-col justify-center align-middle items-center relative">
+      <div class="background--content-wrapper">
+        <div class="background--description--dark">
+          <p class="background--description-text">
+            Faça parte do evento, nosso objetivo é impulsionar novos
+            palestrantes!
+          </p>
+        </div>
+      </div>
+      <div class="bg--invite-1 background--full-screen">
+      </div>
+      <div class="background--overlay--dark"></div>
+    </section>
+    <!-- END OF INVITE SPEAKER -->
+
+    <!-- SCHEDULE -->
+    <section id="schedule">
+      <div class="flex justify-center w-full align-middle items-center overflow-x-auto sm:rounded-lg py-10">
+        <div class="container flex flex-col gap-6 justify-center items-center">
+          <h2>Programação</h2>
+          <p class="font-bold text-center text-2xl ">E o que vai ter de bom?</p>
+          <table class="section--container-body table--element">
+            <thead class="table--head">
+              <tr>
+                <th scope="col" class="px-6 py-3">
+                  Horário
+                </th>
+                <th scope="col" class="px-6 py-3">
+                  Atividade
+                </th>
+                <th scope="col" class="px-6 py-3">
+                  Facilitador
+                </th>
+              </tr>
+            </thead>
+            <tbody id="schedule-table">
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+    </section>
+    <!-- END OF SCHEDULE -->
+
+    <!-- SPONSORS -->
+    <section id="sponsors" class="section--with-content bg-stone-900 text-white px-2 md:px-0">
+
+      <h2>Patrocínios e Apoios</h2>
+      <p>Quem torna isso possível?</p>
+      <div class="section--container-body">
+        <div class="card--wrapper text-black">
+          <div class="card--content sm:col-span-2">
+            <p class="card--title">
+              Patrocínio Rapadura Preta
+            </p>
+            <p>
+              Saiba como a sua empresa pode ajudar-nos a realizar um evento fantástico.
+            </p>
+            <a class="link--button w-36" target="_blank"
+              href="http://encontro.phpcomrapadura.org/assets/files/Sponsor_kit_encontro_2025.pdf">
+              <i class="icon--circle-plus !w-4 !h-4"></i>Saiba mais </a>
+          </div>
+          <div class="card--content">
+            <p class="card--title">
+              Patrocínio Rapadura Castanha
+            </p>
+            <p>
+              Saiba como sua empresa pode nos ajudar a realizar um evento arretado.
+            </p>
+            <a class="link--button w-36" target="_blank"
+              href="http://encontro.phpcomrapadura.org/assets/files/Sponsor_kit_encontro_2025.pdf">
+              <i class="icon--circle-plus !w-4 !h-4"></i>Saiba mais</a>
+          </div>
+          <div class="card--content">
+            <p class="card--title">
+              Patrocínio Rapadura Batida
+            </p>
+            <p>
+              Saiba como a sua empresa pode ajudar-nos a realizar um evento jóiado.
+            </p>
+            <a class="link--button w-36" target="_blank"
+              href="http://encontro.phpcomrapadura.org/assets/files/Sponsor_kit_encontro_2025.pdf">
+              <i class="icon--circle-plus"></i>Saiba mais</a>
+          </div>
+
+          <div class="card--content sm:col-span-2">
+            <p class="card--title">
+              APOIO
+            </p>
+            <div class="w-full grid grid-cols-1 md:grid-cols-3 gap-4">
+              <div class="card--content col-span-3">
+                <p class="card--title">
+                  Apoio Institucional
+                </p>
+                <div class="w-full flex justify-center mt-4 ">
+                  <img loading="lazy" class="max-w-sm w-full" id="img-sponsors"
+                    src="assets/img/sponsors/logo-unichristus.png" alt="Unichristus"
+                    title="Centro universitário Unichristus.">
+                </div>
+                <p class="text-center mt-4">
+                  <a class="grey-text text-darken-4" title="website" target="_blank"
+                    href="http://www.unichristus.edu.br/"><i class="icon--www !bg-black !w-10 !h-10 mr-2"></i></a>
+                  <a class="grey-text text-darken-4" title="facebook" target="_blank"
+                    href="https://www.facebook.com/unichristus/"><i
+                      class="icon--facebook !bg-black !w-10 !h-10 ml-2"></i></a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+    </section>
+    <!-- END OF SPONSORS -->
+
+    <!-- CODE OF CONDUCT -->
+    <section id="code-condute" class="section--with-content">
+      <h2>Código de conduta</h2>
+      <div class="section--container-body">
+        <div class="card--wrapper">
+          <div class="card--content col-span-2">
+            <p>A Comunidade PHP com Rapadura está comprometida a ser uma comunidade livre de discriminação
+              para todos,
+              independente de gênero, identidade e expressão de gênero, orientação sexual, deficiência,
+              aparência
+              física,
+              raça, idade, origem ou religião. Não será tolerado, sob nenhuma circunstância, o
+              constrangimento de
+              participantes em eventos e canais organizados pela comunidade. Linguagem e/ou exposição de
+              imagens sexuais
+              ou
+              de cunho discriminatório não serão apropriadas no âmbito de nossa comunidade - isto inclui
+              os eventos, as
+              palestras, apresentações, exemplos ou demonstrações, site, emails, chat e quaisquer outro
+              canal da
+              comunidade.
+            </p>
+            <p>
+              Os participantes que violarem estas regras podem ser repreendidos ou expulsos do canal e/ou
+              evento sem
+              direito
+              a reembolso, a critério da organização.</p>
+          </div>
+          <div class="card--content col-span-2">
+            <p>
+              Entendemos como assédio e constrangimento:
+            </p>
+            <ul class="list-disc pl-8">
+              <li>Comentários que reforçam estruturas sociais de dominação, sejam relacionados a gênero,
+                identidade e
+                expressão de gênero, orientação sexual, deficiência, aparência física, raça, idade,
+                origem ou religião;
+              </li>
+              <li>Imagens sexuais em espaços públicos;</li>
+              <li>Comentários de cunho sexual;</li>
+              <li>Intimidação intencional;</li>
+              <li>Perseguição;</li>
+              <li>Obtenção de som ou imagem constrangedores;</li>
+              <li>Interrupção continuada e intencional de palestras e/ou eventos paralelos;</li>
+              <li>Contato físico inapropriado; atenção sexual não solicitada;</li>
+            </ul>
+          </div>
+          <div class="card--content col-span-2">
+            <p>
+              Se você estiver sendo assediado(a) ou se sentir constrangido(a), ou perceber alguém nesta
+              condição, ou se
+              tiver qualquer preocupação a respeito deste tema, não deixe de contatar um dos evangelistas
+              da comunidade
+              imediatamente.
+            </p>
+            <p>
+              As pessoas responsáveis pela organização em eventos serão apresentadas ao início dos eventos
+              e podem ser facilmente identificados por camisetas e/ou crachás. Nos canais oficiais da
+              comunidade procure
+              um dos evangelistas da comunidade.
+            </p>
+            <p>
+              Embora o desejo seja de que isso não venha a ser necessário, caso seja preciso a organização
+              ajudará os
+              participantes no contato com a segurança do local ou com a polícia ou mesmo providenciando
+              escolta.
+              Faremos
+              o possível para que todos sintam-se confortáveis e seguros.
+            </p>
+            <p class="font-bold">
+              Contamos com sua compreensão e participação.
+            </p>
+          </div>
+          <div class="card--content col-span-2">
+            <p>Esperamos que todos os participantes sigam estas recomendações em todos os locais onde a PHP
+              com Rapadura
+              estiver levando um evento.</p>
+            <p class="font-bold">Aproveitem saudavelmente o evento!</p>
+          </div>
+          <div class="card--content col-span-2">
+            <p>Contato para eventos da PHP com Rapadura: contato@phpcomrapadura.org</p>
+            <p>Polícia: 190</p>
+            <p>Central de Atendimento à Mulher: 180</p>
+            <p>SAMU: 192</p>
+          </div>
+
+          <div class="card--content col-span-2">
+            <p class="font-bold">
+              Créditos e fonte original: <a target="_blank" class="text-sky-500"
+                href="https://github.com/PHPSP/docs/blob/master/codigo-de-conduta-eventos.md">PHPSP</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END OF CODE OF CONDUCT -->
+  </main>
+  <footer class="py-10 bg-primary-950 w-full text-white flex justify-center">
+    <div class="section--container-body flex justify-center">
+      <div class="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 container p-4 gap-8">
+        <div class="footer--item">
+          <p class="text-2xl">Organizado po:</p>
+          <a href="https://phpcomrapadura.org" target="_blank" rel="noopener noreferrer">
+            <img loading="lazy" class="max-w-sm w-full" src="assets/img/logo-rapadura-white.png" alt="PHP CE" />
+          </a>
+        </div>
+        <div class="footer--item">
+          <p class="text-2xl">Encontre-nos:</p>
+          <div>
+            <a class="white-text text-darken-4" rel="noopener noreferrer" title="website" target="_blank"
+              href="https://phpcomrapadura.org"><i class="icon--www !w-8 !h-8" aria-hidden="true"></i>
+            </a>&nbsp;&nbsp;
+            <a class="white-text" title="twitter" rel="noopener noreferrer" target="_blank"
+              href="https://x.com/phpcomrapadura"><i class="icon--x !w-8 !h-8" aria-hidden="true"></i>
+            </a>&nbsp;&nbsp;
+            <a class="white-text text-darken-4" title="facebook" rel="noopener noreferrer" target="_blank"
+              href="https://www.facebook.com/rapaduradopoder/"><i class="icon--facebook !w-8 !h-8"
+                aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+        <div class="footer--item">
+          <p class="text-2xl">Feito com:</p>
+          <a href="https://tailwindcss.com/" target="_blank" rel="noopener noreferrer" alt="logo Tailwincss"
+            class="footer--link">
+            <div class="bg--tailwind max-w-1/2 w-full h-10 bg-contain bg-no-repeat"></div>
+          </a>
+        </div>
+        <div class="footer--item">
+          <a href='https://app.umbler.com/u/2j3g7r5k' target="_blank" rel="noopener noreferrer" alt="logo Umbler">
+            <img loading="lazy" src='https://static.umbler.com/brand/umbler-badges/umbler-badge-hostedby-dark-bg.png'
+              width='100%' alt='Hosted by Umbler'>
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+  <div id="default-modal" tabindex="-1" aria-hidden="true"
+    class="hidden bg-primary-900/80 fixed top-0 right-0 left-0 z-50 justify-center items-center w-full max-h-full">
+    <div class="relative w-full max-w-2xl max-h-[calc(100%-1rem)]">
+      <!-- Modal content -->
+      <div class="relative bg-white rounded-lg shadow-sm max-h-screen h-full overflow-y-auto">
+        <!-- Modal header -->
+        <div
+          class="top-0 flex items-center justify-between p-4 md:p-5 border-b rounded-t border-gray-200 bg-white z-10">
+          <h3 class="text-xl font-semibold text-gray-900">
+            Bio Completa
+          </h3>
+          <button type="button"
+            class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center"
+            onclick="closeModal()">
+            <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6" />
+            </svg>
+            <span class="sr-only">Close modal</span>
+          </button>
+        </div>
+        <!-- Modal body -->
+        <div class="p-4 flex flex-col justify-center items-center" id="modal-bio-content">
+          <!-- Content goes here -->
+        </div>
+        <!-- Modal footer -->
+        <div class="bottom-0 flex items-center p-4 md:p-5 border-t border-gray-200 rounded-b bg-white z-10">
+          <button onclick="closeModal()" type="button"
+            class="py-2.5 px-5 ms-3 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="assets/js/dados.js"></script>
+  <script src="assets/js/componentes.js"></script>
+  <script>
+    initScheduleTable(agenda);
+    speakersComponent.initSpeaker(palestrantes);
+  </script>
+  <script src="assets/js/events.js"></script>
 </body>
 
 </html>
