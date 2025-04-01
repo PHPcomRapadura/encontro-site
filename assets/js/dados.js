@@ -23,16 +23,16 @@ const palestrantes = [
 ]
 
 const agenda = [
-  { horario: '8:00', atividade: 'Credenciamento e Merenda', facilitador: 'Comunidade Php com Rapadura' },
+  { horario: '8:00', atividade: 'Credenciamento e Merenda', facilitador: 'Comunidade PHP com Rapadura' },
   { horario: '9:00', atividade: 'Fibers e Concorrência no PHP', facilitador: 'Ronny John' },
   { horario: '9:40', atividade: 'C4 Model para Devs', facilitador: 'Gabriel Camurça' },
   { horario: '10:20', atividade: 'WSL: Uma Porta para o Mundo Linux', facilitador: 'José Wesley Gonçalves' },
   { horario: '11:00', atividade: 'O Algoritmo da Desigualdade: Como a Tecnologia Pode Reforçar ou Reduzir Injustiças Sociais.', facilitador: 'Lorena Alencar' },
-  { horario: '11:40', atividade: 'Ao moço', facilitador: 'Todo mundo!' },
+  { horario: '11:40', atividade: 'Ao moço', facilitador: 'Cada um por si!' },
   { horario: '13:30', atividade: 'Observabilidade sem Rodeios com OpenTelemetry', facilitador: 'Pedro Arthur' },
   { horario: '14:10', atividade: 'Trabalhando com microsserviços da melhor forma. Porque tem muita gente que não sabe.', facilitador: 'Erandir Junior' },
-  { horario: '14:50', atividade: 'Merenda	' },
+  { horario: '14:50', atividade: 'Merenda	', facilitador: 'Todo mundo!'  },
   { horario: '15:20', atividade: 'Programação: Só pra programadores? Descubra onde essas habilidades podem te levar!', facilitador: 'Graziela Barros' },
   { horario: '16:00', atividade: 'Mesa Redonda	João Paulo, Erandir Junior, Gabriela Lob', facilitador: 'Alessandro Feitoza' },
-  { horario: '17:00', atividade: 'Encerramento: agradecimentos e sorteior de brindes', facilitador: 'Comunidade Php com Rapadura' },
+  { horario: '17:00', atividade: 'Encerramento: agradecimentos e sorteior de brindes', facilitador: 'Comunidade PHP com Rapadura' },
 ]
