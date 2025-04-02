@@ -33,6 +33,6 @@ const agenda = [
   { horario: '14:10', atividade: 'Trabalhando com microsserviços da melhor forma. Porque tem muita gente que não sabe.', facilitador: 'Erandir Junior' },
   { horario: '14:50', atividade: 'Merenda	', facilitador: 'Todo mundo!'  },
   { horario: '15:20', atividade: 'Programação: Só pra programadores? Descubra onde essas habilidades podem te levar!', facilitador: 'Graziela Barros' },
-  { horario: '16:00', atividade: 'Mesa Redonda	João Paulo, Erandir Junior, Gabriela Lob', facilitador: 'Alessandro Feitoza' },
+  { horario: '16:00', atividade: 'Mesa Redonda	João Paulo, Leandro Nascimento, Gabriela Lobo', facilitador: 'Alessandro Feitoza' },
   { horario: '17:00', atividade: 'Encerramento: agradecimentos e sorteior de brindes', facilitador: 'Comunidade PHP com Rapadura' },
 ]
