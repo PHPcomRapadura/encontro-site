@@ -1,37 +1,40 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html class="scroll-smooth" lang="en">
 
 <head>
     <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 
-    <meta name="description" content="Encontro de Devs 2025 - Um encontro de desenvolvedores, entusiastas e estudantes de PHP no Ceará. Junte-se a nós para um dia de aprendizado, networking e diversão! />
-  <meta property=" og:title
-    " content="Encontro de Devs 2025" />
-    <meta property="og:description" content="Um encontro de desenvolvedores, entusiastas e estudantes de PHP no Ceará. Junte-se a nós para um dia de aprendizado, networking e diversão! />
-  <meta property=" og:image
-    " content="assets/img/logo-rapadura-white.png" />
-    <meta property="og:url" content="http://encontro.phpcomrapadura.org"/>
-    <meta property="og:type" content="website"/>
+    <meta
+        content="Encontro de Devs 2025 - Um encontro de desenvolvedores, entusiastas e estudantes de PHP no Ceará. Junte-se a nós para um dia de aprendizado, networking e diversão!"
+        name="description"/>
+    <meta content="Encontro de Devs 2025" property="og:title"/>
+    <meta
+        content="Um encontro de desenvolvedores, entusiastas e estudantes de PHP no Ceará. Junte-se a nós para um dia de aprendizado, networking e diversão!"
+        property="og:description"/>
+    <meta content="assets/img/logo-rapadura-white.png" property=" og:image "/>
+    <meta content="http://encontro.phpcomrapadura.org" property="og:url"/>
+    <meta content="website" property="og:type"/>
 
-    <meta name="twitter:card" content="summary_large_image"/>
-    <meta name="twitter:title" content="Encontro de Devs 2025"/>
-    <meta name="twitter:description"
-          content="Um encontro de desenvolvedores, entusiastas e estudantes de PHP no Ceará. Junte-se a nós para um dia de aprendizado, networking e diversão!"/>
-    <meta name="twitter:image" content="assets/img/logo-rapadura-white.png"/>
+    <meta content="summary_large_image" name="twitter:card"/>
+    <meta content="Encontro de Devs 2025" name="twitter:title"/>
+    <meta
+        content="Um encontro de desenvolvedores, entusiastas e estudantes de PHP no Ceará. Junte-se a nós para um dia de aprendizado, networking e diversão!"
+        name="twitter:description"/>
+    <meta content="assets/img/logo-rapadura-white.png" name="twitter:image"/>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
     <link
         href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap"
         rel="stylesheet">
 
     <title>Encontro de Devs 2025</title>
 
-    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="assets/css/icons.css"/>
-    <link rel="stylesheet" href="assets/css/backgrounds.css"/>
-    <link rel="stylesheet" href="assets/css/output.css"/>
+    <link href="assets/img/favicon.png" rel="shortcut icon" type="image/x-icon">
+    <link href="assets/css/icons.css" rel="stylesheet"/>
+    <link href="assets/css/backgrounds.css" rel="stylesheet"/>
+    <link href="assets/css/output.css" rel="stylesheet"/>
 </head>
 
 <body class="bg-stone-200 scroll-smooth ubuntu-regular">
@@ -40,11 +43,11 @@
         class="relative section--container-body lg:flex lg:justify-between lg:items-center lg:align-middle lg:mx-auto px-0 lg:px-4">
         <div class="hidden--desktop absolute top-0 left-4 z-{51}">
             <button id="nav-mobile-button" onclick="document.getElementById('nav-mobile').classList.toggle('hidden')">
-                <i class="icon--menu bg-white" aria-hidden="true"></i>
+                <i aria-hidden="true" class="icon--menu bg-white"></i>
             </button>
         </div>
         <div class="flex w-full">
-            <a id="logo-container" href="#home" class="w-full">
+            <a class="w-full" href="#home" id="logo-container">
                 <p class="text-primary-50 font-bold text-lg text-center lg:text-start lg:text-xl luckiest-guy-regular">
                     Encontro de Devs
                     <span class="">2025</span>
@@ -52,45 +55,46 @@
             </a>
         </div>
 
-        <nav id="nav-mobile"
-             class="fixed lg:relative top-0 left-0 z-50 text-white bg-neutral-900/80 lg:bg-transparent w-full hidden lg:flex lg:justify-end lg:items-center lg:gap-6 lg:py-0 lg:px-0">
+        <nav
+            class="fixed lg:relative top-0 left-0 z-50 text-white bg-neutral-900/80 lg:bg-transparent w-full hidden lg:flex lg:justify-end lg:items-center lg:gap-6 lg:py-0 lg:px-0"
+            id="nav-mobile">
             <div
                 class="relative max-w-72 lg:max-w-none bg-primary-900 lg:bg-transparent lg:flex lg:justify-center lg:items-center lg:gap-6 lg:py-0 lg:px-0 lg:rounded-lg">
                 <div class="hidden--desktop absolute top-0 right-0 z-{51} p-4 text-white">
                     <button onclick="document.getElementById('nav-mobile').classList.toggle('hidden')">
-                        <i class="icon--menu-close bg-white" aria-hidden="true"></i>
+                        <i aria-hidden="true" class="icon--menu-close bg-white"></i>
                     </button>
                 </div>
 
-                <ul id="nav-mobile-list "
-                    class="!list-none w-10/12 sm:w-72 lg:w-full flex flex-col lg:flex-row items-start gap-6 pl-8 py-8 lg:py-0 min-h-screen lg:h-auto lg:min-h-0 font-bold">
+                <ul class="!list-none w-10/12 sm:w-72 lg:w-full flex flex-col lg:flex-row items-start gap-6 pl-8 py-8 lg:py-0 min-h-screen lg:h-auto lg:min-h-0 font-bold"
+                    id="nav-mobile-list ">
                     <li class="hidden--desktop">
                         <p class="text-lg font-bold text-center luckiest-guy-regular">Encontro de Devs <span class="">2025</span>
                         </p>
                     </li>
                     <li>
-                        <a href="#home" class="flex items-center gap-3"><i class="icon--home hidden--desktop"></i>Início</a>
+                        <a class="flex items-center gap-3" href="#home"><i class="icon--home hidden--desktop"></i>Início</a>
                     </li>
                     <li>
-                        <a href="#transparencia"
-                           class="flex items-center gap-3"><i class="icon--arrow-merge-both hidden--desktop"></i>Transparência</a>
+                        <a class="flex items-center gap-3"
+                           href="#transparencia"><i class="icon--arrow-merge-both hidden--desktop"></i>Transparência</a>
                     </li>
                     <li>
-                        <a href="#about" class="flex items-center gap-3"><i class="hidden--desktop icon--php-file"></i>Sobre</a>
+                        <a class="flex items-center gap-3" href="#about"><i class="hidden--desktop icon--php-file"></i>Sobre</a>
                     </li>
                     <li>
-                        <a href="#speakers" class="flex items-center gap-3"><i
+                        <a class="flex items-center gap-3" href="#speakers"><i
                             class="hidden--desktop icon--message-user"></i>Palestrantes</a>
                     </li>
                     <li>
-                        <a href="#local" class="flex items-center gap-3"><i class="hidden--desktop icon--map-route"></i>Local</a>
+                        <a class="flex items-center gap-3" href="#local"><i class="hidden--desktop icon--map-route"></i>Local</a>
                     </li>
                     <li>
-                        <a href="#schedule" class="flex items-center gap-3"><i
+                        <a class="flex items-center gap-3" href="#schedule"><i
                             class="hidden--desktop icon--list-details"></i>Programação</a>
                     </li>
                     <li>
-                        <a href="#sponsors" class="flex items-center gap-3"><i
+                        <a class="flex items-center gap-3" href="#sponsors"><i
                             class="hidden--desktop icon--cash"></i>Patrocinadores</a>
                     </li>
                 </ul>
@@ -100,13 +104,13 @@
 </header>
 
 <main>
-    <section id="home" class="section--full-screen bg-violet-900 text-primary-50 mt-10">
+    <section class="section--full-screen bg-violet-900 text-primary-50 mt-10" id="home">
         <div class="relative overflow-hidden block h-auto">
             <div class="background--content-wrapper px-4">
                 <div class="section--container-body flex--col--center gap-16">
                     <div>
-                        <img loading="lazy" id="img-banner" class="bg-cover bg-center shadow"
-                             src="assets/img/logo-rapadura-white.png" alt="PHP com Rapadura"/>
+                        <img alt="PHP com Rapadura" class="bg-cover bg-center shadow" id="img-banner"
+                             loading="lazy" src="assets/img/logo-rapadura-white.png"/>
                     </div>
                     <div class="flex flex-col gap-6 justify-center">
                         <p class="text-6xl font--event">Encontro de Devs <span
@@ -120,8 +124,8 @@
                     </div>
 
                     <div class="grid grid-cols-1 gap-2">
-                        <a href="#transparencia" target="_blank"
-                           rel="noopener noreferrer" class="link--button--light">
+                        <a class="link--button--light" href="#transparencia"
+                           rel="noopener noreferrer" target="_blank">
                             Transparência do Evento
                         </a>
                         <p class="text-xs text-center">Prestação de contas, custos e gastos do evento</p>
@@ -141,7 +145,7 @@
         </div>
     </section>
 
-    <section id="transparencia" class="section--with-content">
+    <section class="section--with-content" id="transparencia">
         <p class="section--title">TRANSPARÊNCIA: Prestação de conta</p>
         <div class="section--container-body">
             <div class="background--content-wrapper">
@@ -191,13 +195,13 @@
                     </div>
                     <div>
                         <table class="section--container-body table--element">
-                           <thead>
-                           <tr>
-                               <th scope="col">Descrição</th>
-                               <th scope="col">Qtd</th>
-                               <th scope="col">Valor Total</th>
-                           </tr>
-                           </thead> 
+                            <thead>
+                            <tr>
+                                <th scope="col">Descrição</th>
+                                <th scope="col">Qtd</th>
+                                <th scope="col">Valor Total</th>
+                            </tr>
+                            </thead>
                             <tbody>
                             <tr>
                                 <td>Banner Comunidade</td>
@@ -259,31 +263,36 @@
                                 <td>1</td>
                                 <td>R$ 822,00</td>
                             </tr>
+                            <tr>
+                                <td>Refrigerantes (todos)</td>
+                                <td>-</td>
+                                <td>R$ 119,08</td>
+                            </tr>
                             </tbody>
                             <tfoot>
-                                <tr class="bg-yellow-400 text-black">
-                                    <th colspan="2">Total de gastos</th>
-                                    <th>R$ 2.289,85</th>
-                                </tr>
-                                <tr class="bg-teal-400 text-black">
-                                    <th colspan="2">Arrecadação com ingressos</th>
-                                    <th>R$ 2.177,50</th>
-                                </tr>
-                                <tr class="bg-red-400 text-black">
-                                    <th colspan="2">Saldo do evento</th>
-                                    <th>R$ -112,35</th>
-                                </tr>
+                            <tr class="bg-yellow-400 text-black">
+                                <th colspan="2">Total de gastos</th>
+                                <th>R$ 2.408,93</th>
+                            </tr>
+                            <tr class="bg-teal-400 text-black">
+                                <th colspan="2">Arrecadação com ingressos</th>
+                                <th>R$ 2.177,50</th>
+                            </tr>
+                            <tr class="bg-red-400 text-black">
+                                <th colspan="2">Saldo do evento</th>
+                                <th>R$ -231,43</th>
+                            </tr>
                             </tfoot>
                         </table>
                     </div>
-                    
+
                 </div>
             </div>
         </div>
     </section>
 
     <!-- VIDEO -->
-    <section id="section--video" class="section--full-screen">
+    <section class="section--full-screen" id="section--video">
         <div class="background--content-wrapper">
             <div class="background--description--dark">
                 <p class="background--description-text">
@@ -293,7 +302,7 @@
             </div>
         </div>
 
-        <video id="hoverVideo" class="absolute top-0 left-0 -z-2 w-full h-full object-cover" autoplay loop muted
+        <video autoplay class="absolute top-0 left-0 -z-2 w-full h-full object-cover" id="hoverVideo" loop muted
                playsinline>
             <source src="assets/video/phpest2023-480p.webm" type="video/webm"/>
             Seu navegador não suporta vídeos em HTML5.
@@ -303,7 +312,7 @@
     <!-- END OF VIDEO -->
 
     <!-- ABOUT -->
-    <section id="about" class="section--with-content">
+    <section class="section--with-content" id="about">
         <p class="section--title">Encontro de Devs <span class="">2025</span>
         </p>
         <div class="section--container-body">
@@ -374,11 +383,12 @@
         <div class="section--container-body">
             <div class="card--wrapper" id="speakers-container">
             </div>
+        </div>
     </section>
     <!-- END OF SPEAKER -->
 
     <!-- STAGES -->
-    <section id=" stages" class="relative w-full">
+    <section class="relative w-full" id=" stages">
         <div class="background--content-wrapper">
             <div class="background--description--dark">
                 <p class="background--description-text">
@@ -400,14 +410,16 @@
     <!-- END OF TAGES -->
 
     <!-- LOCAL - MAPS -->
-    <section id="local" class="flex flex-col align-middle justify-center items-center w-full py-10 gap-6">
+    <section class="flex flex-col align-middle justify-center items-center w-full py-10 gap-6" id="local">
         <h2 class="section--title">Local</h2>
         <p>Veja em detalhes onde será o evento</p>
         <div class="container px-2 md:px-0">
             <iframe
+                allowfullscreen=""
+                height="450" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.3472453197937!2d-38.49319200000001!3d-3.7342828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c7487da7865e59%3A0xfe7a1ed055e337f1!2sUnichristus%20-%20Campus%20Dom%20Lu%C3%ADs!5e0!3m2!1spt-BR!2sbr!4v1739971024116!5m2!1spt-BR!2sbr"
-                width="100%" height="450" style="border: 0" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                style="border: 0"
+                width="100%"></iframe>
         </div>
         <div class="w-full flex justify-center align-middle items-center gap-4 bg-neutral-50 py-4">
             <i class="icon--map-route !w-10 !h-10 !bg-neutral-800"></i>
@@ -421,8 +433,8 @@
     <!-- END LOCAL - MAPS -->
 
     <!-- INVITE SPEAKER -->
-    <section id="invite-speaker"
-             class="h-md md:h-lg lg:h-xl flex flex-col justify-center align-middle items-center relative">
+    <section class="h-md md:h-lg lg:h-xl flex flex-col justify-center align-middle items-center relative"
+             id="invite-speaker">
         <div class="background--content-wrapper">
             <div class="background--description--dark">
                 <p class="background--description-text">
@@ -446,13 +458,13 @@
                 <table class="section--container-body table--element">
                     <thead class="table--head">
                     <tr>
-                        <th scope="col" class="px-6 py-3">
+                        <th class="px-6 py-3" scope="col">
                             Horário
                         </th>
-                        <th scope="col" class="px-6 py-3">
+                        <th class="px-6 py-3" scope="col">
                             Atividade
                         </th>
-                        <th scope="col" class="px-6 py-3">
+                        <th class="px-6 py-3" scope="col">
                             Facilitador
                         </th>
                     </tr>
@@ -467,7 +479,7 @@
     <!-- END OF SCHEDULE -->
 
     <!-- SPONSORS -->
-    <section id="sponsors" class="section--with-content bg-stone-900 text-white px-2 md:px-0">
+    <section class="section--with-content bg-stone-900 text-white px-2 md:px-0" id="sponsors">
         <h2 class="section--title--dark">Patrocínios e Apoios</h2>
         <p>Quem torna isso possível?</p>
         <div class="section--container-body">
@@ -479,8 +491,9 @@
                     <p>
                         Saiba como a sua empresa pode ajudar-nos a realizar um evento fantástico.
                     </p>
-                    <a class="link--button w-36" target="_blank"
-                       href="http://encontro.phpcomrapadura.org/assets/files/Sponsor_kit_encontro_2025.pdf">
+                    <a class="link--button w-36"
+                       href="http://encontro.phpcomrapadura.org/assets/files/Sponsor_kit_encontro_2025.pdf"
+                       target="_blank">
                         <i class="icon--circle-plus !w-4 !h-4"></i>Saiba mais </a>
                 </div>
                 <div class="card--content">
@@ -490,8 +503,9 @@
                     <p>
                         Saiba como sua empresa pode nos ajudar a realizar um evento arretado.
                     </p>
-                    <a class="link--button w-36" target="_blank"
-                       href="http://encontro.phpcomrapadura.org/assets/files/Sponsor_kit_encontro_2025.pdf">
+                    <a class="link--button w-36"
+                       href="http://encontro.phpcomrapadura.org/assets/files/Sponsor_kit_encontro_2025.pdf"
+                       target="_blank">
                         <i class="icon--circle-plus !w-4 !h-4"></i>Saiba mais</a>
                 </div>
                 <div class="card--content">
@@ -501,8 +515,9 @@
                     <p>
                         Saiba como a sua empresa pode ajudar-nos a realizar um evento jóiado.
                     </p>
-                    <a class="link--button w-36" target="_blank"
-                       href="http://encontro.phpcomrapadura.org/assets/files/Sponsor_kit_encontro_2025.pdf">
+                    <a class="link--button w-36"
+                       href="http://encontro.phpcomrapadura.org/assets/files/Sponsor_kit_encontro_2025.pdf"
+                       target="_blank">
                         <i class="icon--circle-plus"></i>Saiba mais</a>
                 </div>
 
@@ -516,28 +531,29 @@
                                 Apoio Institucional
                             </p>
                             <div class="w-full flex justify-center mt-4 ">
-                                <img loading="lazy" class="max-w-sm w-full" id="img-sponsors"
-                                     src="assets/img/sponsors/logo-unichristus.png" alt="Unichristus"
+                                <img alt="Unichristus" class="max-w-sm w-full" id="img-sponsors"
+                                     loading="lazy" src="assets/img/sponsors/logo-unichristus.png"
                                      title="Centro universitário Unichristus.">
                             </div>
                             <p class="text-center mt-4">
-                                <a class="grey-text text-darken-4" title="website" target="_blank"
-                                   href="http://www.unichristus.edu.br/"><i
+                                <a class="grey-text text-darken-4" href="http://www.unichristus.edu.br/" target="_blank"
+                                   title="website"><i
                                     class="icon--www !bg-black !w-10 !h-10 mr-2"></i></a>
-                                <a class="grey-text text-darken-4" title="facebook" target="_blank"
-                                   href="https://www.facebook.com/unichristus/"><i
+                                <a class="grey-text text-darken-4" href="https://www.facebook.com/unichristus/"
+                                   target="_blank"
+                                   title="facebook"><i
                                     class="icon--facebook !bg-black !w-10 !h-10 ml-2"></i></a>
                             </p>
                         </div>
                     </div>
                 </div>
             </div>
-
+        </div>
     </section>
     <!-- END OF SPONSORS -->
 
     <!-- CODE OF CONDUCT -->
-    <section id="code-condute" class="section--with-content">
+    <section class="section--with-content" id="code-condute">
         <h2 class="section--title">Código de conduta</h2>
         <div class="section--container-body">
             <div class="card--wrapper">
@@ -624,8 +640,9 @@
 
                 <div class="card--content col-span-2">
                     <p class="font-bold">
-                        Créditos e fonte original: <a target="_blank" class="text-sky-500"
-                                                      href="https://github.com/PHPSP/docs/blob/master/codigo-de-conduta-eventos.md">PHPSP</a>
+                        Créditos e fonte original: <a class="text-sky-500"
+                                                      href="https://github.com/PHPSP/docs/blob/master/codigo-de-conduta-eventos.md"
+                                                      target="_blank">PHPSP</a>
                     </p>
                 </div>
             </div>
@@ -638,37 +655,42 @@
         <div class="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 container p-4 gap-8">
             <div class="footer--item">
                 <p class="text-2xl">Organizado po:</p>
-                <a href="https://phpcomrapadura.org" target="_blank" rel="noopener noreferrer">
-                    <img loading="lazy" class="max-w-sm w-full" src="assets/img/logo-rapadura-white.png" alt="PHP CE"/>
+                <a href="https://phpcomrapadura.org" rel="noopener noreferrer" target="_blank">
+                    <img alt="PHP CE" class="max-w-sm w-full" loading="lazy" src="assets/img/logo-rapadura-white.png"/>
                 </a>
             </div>
             <div class="footer--item">
                 <p class="text-2xl">Encontre-nos:</p>
                 <div>
-                    <a class="white-text text-darken-4" rel="noopener noreferrer" title="website" target="_blank"
-                       href="https://phpcomrapadura.org"><i class="icon--www !w-8 !h-8" aria-hidden="true"></i>
+                    <a class="white-text text-darken-4" href="https://phpcomrapadura.org" rel="noopener noreferrer"
+                       target="_blank"
+                       title="website"><i aria-hidden="true" class="icon--www !w-8 !h-8"></i>
                     </a>&nbsp;&nbsp;
-                    <a class="white-text" title="twitter" rel="noopener noreferrer" target="_blank"
-                       href="https://x.com/phpcomrapadura"><i class="icon--x !w-8 !h-8" aria-hidden="true"></i>
+                    <a class="white-text" href="https://x.com/phpcomrapadura" rel="noopener noreferrer" target="_blank"
+                       title="twitter"><i aria-hidden="true" class="icon--x !w-8 !h-8"></i>
                     </a>&nbsp;&nbsp;
-                    <a class="white-text text-darken-4" title="facebook" rel="noopener noreferrer" target="_blank"
-                       href="https://www.facebook.com/rapaduradopoder/"><i class="icon--facebook !w-8 !h-8"
-                                                                           aria-hidden="true"></i>
+                    <a class="white-text text-darken-4" href="https://www.facebook.com/rapaduradopoder/"
+                       rel="noopener noreferrer" target="_blank"
+                       title="facebook"><i aria-hidden="true"
+                                           class="icon--facebook !w-8 !h-8"></i>
                     </a>
                 </div>
             </div>
             <div class="footer--item">
                 <p class="text-2xl">Feito com:</p>
-                <a href="https://tailwindcss.com/" target="_blank" rel="noopener noreferrer" alt="logo Tailwincss"
-                   class="footer--link">
+                <a aria-label="logo Tailwincss" class="footer--link" href="https://tailwindcss.com/"
+                   rel="noopener noreferrer"
+                   target="_blank">
                     <div class="bg--tailwind max-w-1/2 w-full h-10 bg-contain bg-no-repeat"></div>
                 </a>
             </div>
             <div class="footer--item">
-                <a href='https://app.umbler.com/u/2j3g7r5k' target="_blank" rel="noopener noreferrer" alt="logo Umbler">
-                    <img loading="lazy"
+                <a aria-label="logo Umbler" href='https://app.umbler.com/u/2j3g7r5k' rel="noopener noreferrer"
+                   target="_blank">
+                    <img alt='Hosted by Umbler'
+                         loading="lazy"
                          src='https://static.umbler.com/brand/umbler-badges/umbler-badge-hostedby-dark-bg.png'
-                         width='100%' alt='Hosted by Umbler'>
+                         width='100%'>
                 </a>
             </div>
         </div>
@@ -676,8 +698,10 @@
 
 </footer>
 
-<div id="default-modal" tabindex="-1" aria-hidden="true"
-     class="hidden bg-primary-900/80 fixed top-0 right-0 left-0 z-50 justify-center items-center w-full max-h-full">
+<div aria-hidden="true"
+     class="hidden bg-primary-900/80 fixed top-0 right-0 left-0 z-50 justify-center items-center w-full max-h-full"
+     id="default-modal"
+     tabindex="-1">
     <div class="relative w-full max-w-2xl max-h-[calc(100%-1rem)]">
         <!-- Modal content -->
         <div class="relative bg-white rounded-lg shadow-sm max-h-screen h-full overflow-y-auto">
@@ -687,13 +711,15 @@
                 <h3 class="text-xl font-semibold text-gray-900">
                     Bio Completa
                 </h3>
-                <button type="button"
-                        class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center"
-                        onclick="closeModal()">
-                    <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
-                         viewBox="0 0 14 14">
-                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                              d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"/>
+                <button
+                    class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center"
+                    onclick="closeModal()"
+                    type="button">
+                    <svg aria-hidden="true" class="w-3 h-3" fill="none" viewBox="0 0 14 14"
+                         xmlns="http://www.w3.org/2000/svg">
+                        <path d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6" stroke="currentColor" stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-width="2"/>
                     </svg>
                     <span class="sr-only">Close modal</span>
                 </button>
@@ -704,8 +730,10 @@
             </div>
             <!-- Modal footer -->
             <div class="bottom-0 flex items-center p-4 md:p-5 border-t border-gray-200 rounded-b bg-white z-10">
-                <button onclick="closeModal()" type="button"
-                        class="py-2.5 px-5 ms-3 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100">
+                <button
+                    class="py-2.5 px-5 ms-3 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100"
+                    onclick="closeModal()"
+                    type="button">
                     Fechar
                 </button>
             </div>
