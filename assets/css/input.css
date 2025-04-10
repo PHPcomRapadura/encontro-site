@@ -24,6 +24,7 @@
     font-style: normal;
 }
 
+.section--title,
 .ubuntu-bold {
     font-family: "Ubuntu", sans-serif;
     font-weight: 700;
@@ -94,6 +95,14 @@ h2 {
     @apply w-full max-w-7xl;
 }
 
+.section--title {
+    @apply text-2xl md:text-4xl lg:text-6xl font-bold text-center;
+}
+
+.section--title--dark {
+    @apply text-6xl font-bold text-center text-white;
+}
+
 /**
 * Background sections
 */
@@ -132,20 +141,28 @@ h2 {
     @apply text-sm text-left rtl:text-right text-gray-500 table-fixed sm:table-auto;
 }
 
+.table--element > thead,
 .table--head {
     @apply text-xs text-gray-700 uppercase bg-primary-200;
 }
 
+.table--element > tfoot > tr > th,
+.table--element > thead > tr > th {
+    @apply px-6 py-3
+}
+
+.table--element > tbody > tr,
 .table--row {
     @apply bg-white border-b border-primary-200 hover:bg-primary-50;
 }
 
-.table--fixed-cell {
-    @apply px-6 py-4 text-gray-900 font-bold whitespace-nowrap;
-}
-
+.table--element > tbody > tr > td,
 .table--cell {
     @apply px-6 py-4;
+}
+
+.table--fixed-cell {
+    @apply px-6 py-4 text-gray-900 font-bold whitespace-nowrap;
 }
 
 /*
